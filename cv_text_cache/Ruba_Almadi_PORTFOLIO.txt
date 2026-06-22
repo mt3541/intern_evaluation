@@ -1,0 +1,110 @@
+
+=== PAGE 1 ===
+PORTO
+RUBA ALMADI
+FOLLIO
+CONTACT INFORMATION
+Phone Number: +90 539 395 72 18
+E-Mail Adress: ruba.almadi5@gmail.com
+LinkedIn: www.linkedin.com/in/ruba-almadi-
+b04352314
+
+=== PAGE 2 ===
+ABOUT ME
+I am a third-year Control and Automation Engineering student at
+Istanbul Technical University, with a strong focus on dynamic systems,
+control design, and electromechanical modeling. My work centers on
+the development of complex engineering systems where control
+theory, simulation, and physical modeling intersect.In parallel, I lead the
+Levitation & Control subteam of HyperBee, where I design and validate
+dynamic models and closed-loop control architectures for
+electromagnetic levitation systems, integrating control theory with
+MATLAB/Simulink and FEM-based electromagnetic simulations.
+Technical Skills
+Ansys Maxwell Electronics MATLAB SIMULINK
+C Programming Python LTSpice
+
+=== PAGE 3 ===
+HYPERBEE
+PROJECT
+TEAM
+HyperBee is a competitive Hyperloop team developing
+electromagnetic levitation and propulsion systems. I
+initially worked as a Levitation & Propulsion Team Member,
+focusing on magnetic circuit design and FEM simulations
+using ANSYS Maxwell Electronics to optimize levitation
+performance and vehicle–track interaction. I am currently
+the Levitation & Control Team Leader, responsible for
+developing dynamic and electromagnetic models using
+MATLAB/Simulink and Simscape, as well as designing and
+validating PID-based closed-loop control architectures to
+ensure stable and reliable levitation.
+
+=== PAGE 4 ===
+COMPETITIONS &
+ACHIEVEMENTS
+European Hyperloop Week (EHW) is an international Hyperloop
+competition that brings together university teams from around the world
+to evaluate levitation, propulsion, and control technologies. As a team, we
+became the first Turkish Hyperloop team to achieve first place in three
+different categories, demonstrating strong system-level performance.
+At Teknofest, our team achieved 2nd place in 2024 and received the Steel
+Levitation Award as the first team to successfully develop and
+demonstrate a steel-based electromagnetic levitation system. In 2025,
+we were further recognized with the Electromagnetic System Innovation
+Award for our electromagnetic levitation system.
+
+=== PAGE 5 ===
+AWARDS
+European Hyperloop Week
+Levitation Subsystem Award (2024)
+Propulsion Subsystem Award (2024)
+Sense & Control Subsystem Award (2024)
+Teknofest
+2nd Place Award (2024)
+Steel Levitation Award(2024)
+Electromagnetic System Innovation Award(2025)
+
+=== PAGE 6 ===
+HYPERBEE
+PROJECT
+TEAM
+
+=== PAGE 7 ===
+OTHER
+PROJECTS
+HYDRAULIC CONVEYOR COMPRESSION
+SYSTEM
+Modeling and simulation of an electromechanical–hydraulic system for bottle
+compression using a DC motor, valve, and hydraulic piston. The system was
+modeled using block diagrams and implemented in MATLAB/Simulink and
+Simscape to analyze dynamic behavior and compare simulation results across
+modeling approaches.
+
+=== PAGE 8 ===
+OTHER
+PROJECTS
+MECHANICAL VENTILATOR CONTROL SYSTEM
+Design and simulation of a mechanical ventilator system as a control problem.
+System dynamics and control logic were implemented in MATLAB/Simulink,
+focusing on control-oriented modeling and algorithmic implementation within a
+medical device context.
+
+=== PAGE 9 ===
+OTHER
+PROJECTS
+Microcontroller Systems – HIL Control
+Experiment
+As part of a hands-on microcontroller systems course, I designed and
+implemented a control system using a Hardware-in-the-Loop (HIL)
+approach. The experiment involved developing embedded software on
+an LPC824 microcontroller to control a continuous-time dynamic plant
+executed on a separate computer. Control inputs and outputs were
+exchanged as analog voltages, and the system was discretized at 1 kHz.
+This work combined low-level embedded programming, peripheral
+interfacing, and control-oriented implementation, focusing on real-time
+execution, stability, and closed-loop system behavior.
+
+=== PAGE 10 ===
+THANK
+YOU

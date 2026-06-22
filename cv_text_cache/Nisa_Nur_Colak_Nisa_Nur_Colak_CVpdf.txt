@@ -1,0 +1,52 @@
+
+=== PAGE 1 ===
+Nisa Nur Çolak
+Control and Automation Engineering Student
+nisanurcolak2002@gmail.com | +90 541 930 12 72 | https://www.linkedin.com/in/nisa-nur-%C3%A7olak-58516b254/
+SUMMARY
+Control and Automation Engineering student at Yıldız Technical University with a strong foundation in
+system dynamics, mathematical modeling, and control system design. Expanding technical capabilities
+through the integration of data-driven methods and artificial intelligence into control-oriented
+engineering approaches. Interested in contributing to advanced control and simulation-based
+engineering solutions for autonomous and defense-related systems within multidisciplinary R&D
+environments.
+EXPERIENCE
+Vehicle Control Unit (VCU) Support Team Member | YTU Racing Nov 2024 - Sep 2025
+Conducted research on signal conditioning and sensor fusion for the Vehicle Control Unit to ensure
+high-fidelity data acquisition and enhance control system reliability.
+Analyzed vehicle dynamics and communication architectures (CAN-bus) to support technical
+reporting and system design workflows.
+Collaborated in a multidisciplinary team environment, contributing to technical reporting and
+system design support
+YTU ASIL (Advanced Systems and Invention Laboratories)
+Selected as an AI Team candidate, undergoing intensive technical training in Supervised and
+Unsupervised Learning, Reinforcement Learning, and Machine Learning architectures.
+PROJECTS
+TÜBİTAK 2209-A Research Project (Ongoing)
+Project: In-Context Learning Based Meta-Filter Design for Autonomous Platooning
+Investigating state estimation challenges and stability criteria in autonomous platooning systems.
+Developing a data-driven meta-filter utilizing Transformer architectures and In-Context Learning to
+address non-linear state estimation challenges in autonomous platooning.
+SKILLS
+CONTROL & MODELING SOFTWARE & TOOLS
+Control System Design C (Algorithmic Logic Design)
+System Dynamics PLC Programming (Omron CX-Programmer, PC Worx)
+Mathematical Modeling MS Office.
+Stability Analysis. AI & DECISION SYSTEMS
+Python (NumPy, Pandas, Scikit-Learn), PyTorch (Basic)
+SIMULATION&SYSTEMS
+MATLAB & Simulink (High-fidelity system Supervised & Unsupervised Learning, Machine
+modeling, control loops, and performance Learning Fundamentals.
+simulations). AREAS OF INTEREST
+Autonomous Systems, Decision Support Systems,
+Sensor Fusion, Data-Driven Control.
+EDUCATION
+B.Sc. in Control and Automation Engineering (English)
+Yıldız Technical University (YTU) — Istanbul, Turkiye
+ADDITIONAL INFORMATION
+Languages: English (C1), Turkish (Native)
+Certifications: Training Certificate in Autonomous Driving Technologies - National Technology
+Academy (2026) , Supervised Machine Learning: Regression and Classification (2026), Google AI
+Essentials (2025), BTK Academy C Programming Language Training Certificate (2025), MathWorks
+MATLAB Onramp Course Completion (2024), McKinsey.org Forward Program (2025), Esmiyor x
+Schneider Electric Ideathon Participation Certificate (2024)

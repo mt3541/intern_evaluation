@@ -1,0 +1,241 @@
+{
+  "_doc": "Manual corrections to scripts/02_parse_candidates.py output. Key = canonical_id (firstname_lastname, deaccented lowercase). Any field set here overrides the auto-extracted value. Leave a field out to keep the auto value. Set a field to null to force clear.",
+
+  "abdellah_bougataya": {
+    "name": "Abdellah Bougataya",
+    "academic_status": "3rd year",
+    "teknofest": "None",
+    "notes": "Strong all-round; ArduPilot SITL + Gazebo + bare-metal firmware; AVIONX team (custom FC). No Teknofest involvement stated."
+  },
+  "abdurakhmon_sobitkhanov": {
+    "name": "Abdurakhmon Sobitkhanov",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "3rd year",
+    "teknofest": "None",
+    "notes": "YTU Kontrol ve Otomasyon Müh, AGNO 3.53. Inner-loop PID + IMU; Simulink modeling."
+  },
+  "ahmet_bugra": {
+    "name": "Ahmet Buğra Kallat",
+    "university": "ITU",
+    "department": "Mechanical Engineering",
+    "academic_status": "4th year",
+    "teknofest": "Podium / finals",
+    "notes": "İTÜ Makine Müh; Teknofest Savaşan İHA 'En İyi Tasarım' + Serbest Görev İHA 3.lük; IMechE UAS Challenge finalist; avionics, autonomous systems, UAV design + control."
+  },
+  "ali_assani": {
+    "name": "Ali Assani",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "Fresh graduate (<1 yr)",
+    "teknofest": "Applied only",
+    "notes": "YTU Control & Automation graduate; MATLAB Mini Drone Competition Stage 1; aircraft control + MATLAB/Simulink exposure."
+  },
+  "baris_agacik": {
+    "name": "Barış Ağacık",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "4th year",
+    "teknofest": "None",
+    "notes": "YTU Kontrol ve Otomasyon Müh (Lisans) 2022-2026, AGNO 3.03. MSC Nastran/Patran (software, not MSc)."
+  },
+  "emirhan_oskay": {
+    "name": "Emirhan Oskay",
+    "university": "Yıldız Teknik",
+    "academic_status": "MSc student",
+    "teknofest": "None",
+    "notes": "YTU. CV shows BSc AGNO 3.41 + ongoing MSc AGNO 3.56. 'Aday Mühendis' role at YTU; advisor at ITU."
+  },
+  "enes_goktug": {
+    "name": "Enes Göktuğ Güneş",
+    "university": "Other",
+    "department": "Software Engineering",
+    "academic_status": "3rd year",
+    "teknofest": "None",
+    "notes": "Fatih Sultan Mehmet Foundation U, Software Eng, 3rd year."
+  },
+  "gonca_sude": {
+    "name": "Gonca Sude Şahbaz",
+    "university": "Eskişehir Osmangazi",
+    "department": "Electrical & Electronics Engineering",
+    "academic_status": "MSc student",
+    "gpa": 2.99,
+    "teknofest": "Participated multiple times",
+    "notes": "BSc EEE Eskişehir Osmangazi 2021-2025 (GPA 2.99), now pursuing Yüksek Lisans. Multiple Teknofest events."
+  },
+  "hacer_mehmet": {
+    "name": "Hacer Mehmet (Hajir Al-Nuaimi)",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "4th year",
+    "teknofest": "Participated once",
+    "notes": "YTU Control Eng senior, expected Dec 2026. Senior thesis: VTOL UAV design & flight control. MATLAB MiniDrone Competition 2024."
+  },
+  "hatixhe_merkaj": {
+    "name": "Hatixhe Merkaj",
+    "university": "ITU",
+    "department": "Electronics Engineering",
+    "academic_status": "3rd year",
+    "teknofest": "None",
+    "notes": "ITU Electronics & Communication 3rd year. ITU Hyperbee team; MBSE work."
+  },
+  "huseyin_kirca": {
+    "name": "Hüseyin Kırca",
+    "university": "Other",
+    "department": "Mechatronics Engineering",
+    "academic_status": "3rd year",
+    "gpa": 3.30,
+    "teknofest": "None",
+    "notes": "Kocaeli Üni Mekatronik 3. sınıf. Computer vision focus. No Teknofest mention."
+  },
+  "kubra_selin": {
+    "name": "Kübra Selin Yılmaz",
+    "academic_status": "4th year",
+    "teknofest": "None",
+    "notes": "4th year, AGNO 3.14. MSC Nastran/Patran (modal analysis) — software, not academic degree."
+  },
+  "mahmut_arpaci": {
+    "name": "Mahmut Arpacı",
+    "university": "Other",
+    "department": "Mechatronics Engineering",
+    "academic_status": "Fresh graduate (<1 yr)",
+    "gpa": 3.03,
+    "teknofest": "Podium / finals",
+    "notes": "Marmara Üni Mekatronik, Gano 3.03. Teknofest 2025 Finalist – Hava Savunma Sistemleri + İnsansız Su Altı."
+  },
+  "melike_demirtas": {
+    "name": "Melike Demirtaş",
+    "university": "Other",
+    "department": "Electronics Engineering",
+    "academic_status": "3rd year",
+    "gpa": 2.94,
+    "teknofest": "Podium / finals",
+    "notes": "GTU EE 3rd year, GNO 2.94. Teknofest Savaşan İHA Aviyonik Lider 2025; 2024 Uluslararası İHA Türkiye Finalist. Portfolio is image-only PDF — review separately."
+  },
+  "momen_aref": {
+    "name": "Momen Aref",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "Fresh graduate (<1 yr)",
+    "teknofest": "Participated once",
+    "notes": "Yildiz Technical, Control & Automation 2021-2026. MPC/PID, embedded control."
+  },
+  "mostafa_mahmoud": {
+    "name": "Mostafa Mahmoud",
+    "university": "Yıldız Teknik",
+    "department": "Mechatronics Engineering",
+    "academic_status": "3rd year",
+    "gpa": 3.35,
+    "teknofest": "Participated multiple times",
+    "notes": "YTU Mechatronics 3rd year, GPA 3.35. Teknofest Air Defence + AI in Aviation competitions. Embedded systems focus, M2lab candidate."
+  },
+  "muhammed_eyup": {
+    "name": "Muhammed Eyüp Rüzgar",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "4th year",
+    "gpa": 2.64,
+    "teknofest": "None",
+    "notes": "YTU Kontrol & Otomasyon, GNO 2.64, started Oct 2021. Robot programming, PLC, HMI. No Teknofest involvement."
+  },
+  "muhammed_kadir": {
+    "name": "Muhammed Kadir Aksoy",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "4th year",
+    "teknofest": "None",
+    "notes": "YTU Kontrol ve Otomasyon, son sınıf. YOLO26x-OBB benchmark work in portfolio."
+  },
+  "nefise_yasar": {
+    "name": "Nefise Yaşar",
+    "university": "Other",
+    "department": "Electronics Engineering",
+    "academic_status": "3rd year",
+    "teknofest": "Participated once",
+    "notes": "Kocaeli Üni Elektronik ve Haberleşme, 3.sınıf. Teknofest 2024 Savaşan İHA. Arduino projects."
+  },
+  "nisa_nur": {
+    "name": "Nisa Nur Çolak",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "4th year",
+    "teknofest": "None",
+    "notes": "YTU Control & Automation; YTU Racing VCU team (Vehicle Control Unit support)."
+  },
+  "onur_can": {
+    "name": "Onur Can Sarı",
+    "university": "Other",
+    "department": "Computer Engineering",
+    "academic_status": "3rd year",
+    "teknofest": "Podium / finals",
+    "notes": "Fırat Üni Bilgisayar Müh 3. sınıf. Markas Teknoloji (ROKETSAN sub) embedded software engineer; Ayyıldız air defense team. Teknofest Roket 'En İyi Takım' award. Very strong real-project record."
+  },
+  "ruba_almadi": {
+    "name": "Ruba Almadi",
+    "university": "ITU",
+    "department": "Control Engineering",
+    "academic_status": "3rd year",
+    "teknofest": "Podium / finals",
+    "notes": "ITU Control & Automation, 3rd year (started Sep 2023). Teknofest 2024 2nd place + Steel award; Hyperloop team (3× 1st place internationally)."
+  },
+  "ruveyda_dilara": {
+    "name": "Rüveyda Dilara Gülbaş",
+    "gpa": 3.25,
+    "teknofest": "Podium / finals",
+    "notes": "GNO 3.25/4. Teknofest 2024 Finalist – Tarımsal İKA (Unmanned Land Vehicle) Yarışması. Computer vision focus (YOLOv8/v10, DETR)."
+  },
+  "samet_atak": {
+    "name": "Samet Atak",
+    "university": "ITU",
+    "department": "Control Engineering",
+    "academic_status": "4th year",
+    "teknofest": "Podium / finals",
+    "notes": "ITU Control & Automation 2022-; Erasmus at U. of Kassel; Yıldız Teknopark Machine ArGe. Finalist Teknofest TIKA Competition."
+  },
+  "sefa_demirturk": {
+    "name": "Sefa Demirtürk",
+    "university": "Other",
+    "department": "Other",
+    "academic_status": "Fresh graduate (<1 yr)",
+    "teknofest": "Participated once",
+    "notes": "Gebze Technical University 2019-2026. ML/CV (OpenCV, YOLOv5, Pandas). Teknofest 2021 Autonomous Marine Cleaning Vehicle."
+  },
+  "servet_haras": {
+    "name": "Servet Haras",
+    "university": "Other",
+    "department": "Electrical & Electronics Engineering",
+    "academic_status": "3rd year",
+    "gpa": 3.91,
+    "teknofest": "Participated once",
+    "notes": "Kadir Has Üni EEE 3. sınıf, GPA 3.91 (full scholarship). Teknofest Otonom Robotaksi BMS / battery design."
+  },
+  "simar_bayramusta": {
+    "name": "Simar Bayramusta",
+    "notes": "PDF appears image-only — text extraction yielded almost nothing. Re-OCR required before scoring. All numeric scores left at default heuristic (1) for now."
+  },
+  "tasneem_mustafa": {
+    "name": "Tasneem Mustafa",
+    "university": "ITU",
+    "department": "Control Engineering",
+    "academic_status": "3rd year",
+    "teknofest": "Podium / finals",
+    "notes": "ITU Control & Automation Sep 2023-present; BAYKAR intern (Autopilot & Intelligent Systems Software, Jun 2026-). XENOS Robotaksi Teknofest Finalist 2024-25; MATLAB MiniDrone Finalist."
+  },
+  "yehya_elnoti": {
+    "name": "Yehya Elnoti",
+    "university": "Other",
+    "department": "Aerospace Engineering",
+    "academic_status": "3rd year",
+    "gpa": 2.61,
+    "teknofest": "Podium / finals",
+    "notes": "Istanbul Aydın Üni Aerospace 3rd year, GPA 2.61. Teknofest Fighter UAV 2025 JETDOSE team lead (9 members) – finals."
+  },
+  "yusuf_han": {
+    "name": "Yusuf Han Kızıltepe",
+    "university": "Other",
+    "department": "Electrical & Electronics Engineering",
+    "academic_status": "4th year",
+    "teknofest": "None",
+    "notes": "Manisa Celal Bayar Üni EEE son sınıf. Altium PCB, STM32 embedded, BMS hardware. Limited GNC/UAV exposure."
+  }
+}

@@ -1,0 +1,54 @@
+
+=== PAGE 1 ===
+TASNEEM MUSTAFA
+Istanbul, Turkey | +90 552 518 74 70| LinkedIn| GitHub |tasneemmustafa0201@gmail.com |
+Education:
+BSc in Control and Automation Engineering Istanbul Technical University Sep. 2023 – present
+Technical Summary:
+Ambitious Control and Automation Engineering student at Istanbul Technical University with a strong focus on autonomous
+systems and intelligent robotics. Experienced in perception, planning, and control through hands-on projects using Python, C,
+ROS, Gazebo, OpenCV, MATLAB/Simulink, and Linux-based systems. Motivated to design reliable autonomous solutions that
+bridge simulation and real-world hardware.
+Professional Experience:
+BAYKAR Stajyer Mühendis – Autopilot and Intelligent Systems Software June 2026- present
+- Selected for a competitive engineering internship focusing on autopilot development and intelligent flight control software
+stacks.
+ZENITH ROBOTAKSI TEKNOFEST TEAM Nov.2025 – present
+- Founded and led a cross-functional team for the Ready Vehicle category, defining the roadmap from simulation to real-
+world autonomy.
+- Designing a ROS-based modular autonomy stack, implementing EKF-based localization and sensor fusion (LiDAR &
+camera) and integrating deep-learning perception with local path planning.
+- Establishing a Gazebo-based validation pipeline to test control logic, safety constraints, and system integration prior to
+hardware deployment.
+XENOS ROBOTAKSI TEKNOFEST FINALIST Oct.2024 – July 2025
+- Worked on the development of an autonomous vehicle system within a simulation-based environment. Contributed to
+perception and control-related components using ROS, applying control theory and kinematic reasoning to support
+navigation and motion behavior.
+- Utilized simulation tools to test and validate system responses, focusing on modular design, real-time decision-making,
+and reliable integration between perception outputs and vehicle motion
+NOVA MATLAB MINIDRONE FINALIST Jan.2025 – May 2025
+- Developed an image-based navigation algorithm for an autonomous minidrone in simulation.
+- Designed a robust line detection and tracking pipeline using computer vision techniques, including edge detection and
+region-based analysis, to generate navigation error signals. Integrated perception outputs with control logic to enable
+stable position correction without yaw adjustments
+Undergraduate Researcher – ITU ROBOTICS LAB Oct.2025 – Jan.2026
+- Conducting research on Deep Reinforcement Learning (DRL) for ongoing humanoid robot project.
+- Trained and deployed RL agents for pick-and-place tasks, optimizing trajectory planning and grasping stability NVIDIA
+Isaac Sim.
+WINGS S_IHA Teknofest team Feb.2025 – June 2025
+- Developed ROS-based mission simulations in Gazebo and contributed to real-time object detection and tracking for
+autonomous UAV tasks.
+FEZA CanSat Competition Team Aug.2024 – jan.2025
+- Built mission-level FSW with state management, real-time telemetry, and sensor fusion on a Teensy-based system.
+Ball Balancing Robot Sep. 2025 – Oct.2025
+- Developed a real-time computer vision pipeline using OpenCV and Python to estimate object position.
+- Designed serial communication between PC and STM32 and implemented PID-controlled servo stabilization.
+- Focused on closed-loop system integration between embedded firmware and vision-based perception.
+TECHNICAL SKILLS
+Programming: Python, C, MATLAB, Embedded Systems: STM32, Teensy, Arduino, Alakart
+Robotics & Simulation: ROS1/ROS2, Gazebo, NVIDIA Isaac Sim, MATLAB/Simulink
+Operating Systems: Linux, Domains: Computer Vision, Image Processing, Localization, Control Theory, Deep Learning / DRL
+Courses:
+SELF DRIVING CAR SPECIALIZATION University of Toronto
+Languages:
+English | Arabic| Turkish | French

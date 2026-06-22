@@ -1,0 +1,87 @@
+
+=== PAGE 1 ===
+MAHMUT ARPACI
+Mekatronik Mühendisliği Öğrencisi – Kontrol, Güdüm ve Otonom Sistemler
+mahmutarpaci19@gmail.com 0551 126 89 68
+İstanbul, Türkiye
+DASAL HAVACILIK TEKNOLOJİLERİ – İŞ YERİ EĞİTİMİ (72 İŞ GÜNÜ / EYLÜL
+2025 – OCAK 2026)
+DASAL HAVACILIK TEKNOLOJİLERİ – İş Yeri Eğitimi
+(72 İş Günü / Eylül 2025 – Ocak 2026)
+• Çoklu İHA Dinamik Modellemesi: Rijit karkas yapıda ortak yük taşıyan dörtlü İHA
+platformunun Simulink/Simscape ortamında yüksek sadakatli fiziksel
+modellemesini ve hiyerarşik kontrolcü tasarımını gerçekleştirdim.
+• Sistem Analizi ve Raporlama: Karmaşık sistem dinamiklerini matematiksel
+modellerle ifade ederek simülasyon sonuçlarını teknik dökümantasyon
+standartlarına uygun şekilde raporladım.
+• Dijital İkiz ve Görselleştirme:: Simulink üzerindeki uçuş verilerinin UDP
+haberleşme protokolü aracılığıyla Unreal Engine ortamına gerçek zamanlı
+aktarımını sağlayan bir "Digital Twin" arayüzü kurguladım.
+• Senkronize Veri Entegrasyonu: Uçuş modelinden üretilen motor ve aktüatör
+verilerini (PWM, moment referansları vb.) simülasyon ortamına aktararak, sistem
+dinamiklerinin 3B uçuş sahneleri üzerinde anlık görselleştirilmesini sağladım.
+DASAL HAVACILIK TEKNOLOJİLERİ – YAZ STAJI (36 İŞ GÜNÜ / TEMMUZ–
+EYLÜL 2025)
+DASAL HAVACILIK TEKNOLOJİLERİ – Zorunlu Yaz Stajı
+(36 İş Günü / Temmuz 2025 – Eylül 2025)
+• Fiziksel Bileşen Modelleme: Gerçek sistem bileşenlerine ait datasheet verilerini
+temel alarak, BLDC motor ve ESC ünitelerinin MATLAB/Simulink (Simscape
+Electrical) ortamında dinamik modellerini oluşturdum.
+• Güç Elektroniği Simülasyonu: ESC devresini üç adet MOSFET tabanlı yarım köprü
+(half-bridge) mimarisiyle tasarlayarak, gerçek sistemin anahtarlama ve sürüş
+karakteristiklerini simüle ettim.
+
+=== PAGE 2 ===
+• Kontrolcü Tasarımı ve Optimizasyon: Parrot Mambo platformu üzerinde
+varsayılan kontrol yapısını Kaskat PID (Cascade PID) mimarisiyle yeniden
+tasarladım; sistemin dinamik yanıtlarını analiz ederek kontrol parametrelerini
+optimize ettim.
+• Doğrulama (Validation): Simülasyon çıktılarını üretici verileriyle karşılaştırarak
+modelin fiziksel sistemle olan tutarlılığını doğruladım.
+TEKNOFEST HAVA SAVUNMA SİSTEMİ – 2025 FİNALİST
+Takım Kaptanı / Kontrol Sorumlusu
+• Gerçek Zamanlı Görev Planlama: ESP32-S2 mikrodenetleyici üzerinde FreeRTOS
+tabanlı çoklu görev (multi-tasking) yapısı kurgulayarak kritik kontrol döngülerini
+önceliklendirdim.
+• Haberleşme ve Kontrol: Python-OpenCV tabanlı hedef tespit verilerini
+UART/RS485 protokolleri üzerinden mikrodenetleyiciye aktararak iki eksenli
+hassas yönelim ve takip algoritmalarını geliştirdim.
+• Sistem Entegrasyonu: Görüntü işleme çıktılarını fiziksel eyleyicilere (step motor)
+aktaran uçtan uca kontrol mimarisini yönettim.
+TEKNOFEST İNSANSIZ SU ALTI ARACI – 2025 FİNALİST
+Kontrol Sorumlusu
+• Sensör Füzyonu ve Stabilizasyon: ESP32-S3 mimarisinde IMU (BNO080) ve basınç
+sensörü (MS5837) verilerini füzyon ederek aracın 6-DoF stabilizasyonunu ve
+derinlik kontrolünü sağlayan PID algoritmalarını kurguladım.
+• Otonom Yönelim: Python tabanlı görüntü işleme sisteminden gelen yön bilgilerini
+seri haberleşme üzerinden otopilot komutlarıyla birleştirerek otonom seyir
+kapasitesi geliştirdim.
+• Donanım-Yazılım Entegrasyonu: Çok eksenli kontrol döngülerini gerçek zamanlı
+kısıtlar altında optimize ettim.
+TEKNOFEST İNSANSIZ TARIMSAL KARA ARACI – 2023 FİNALİST
+Gömülü Sistem Geliştiricisi
+• Telemetri ve Uzaktan İzleme: Arduino Mega ve LoRa haberleşme modülleri
+kullanarak, uzak mesafeden sensör verisi (nem, sıcaklık vb.) aktarımı sağlayan
+düşük güç tüketimli telemetri altyapısı tasarladım.
+
+=== PAGE 3 ===
+• İki Yönlü Haberleşme: Python tabanlı kontrol arayüzü ile araç arasında iki yönlü
+veri akışını kurgulayarak otonom ve manuel kontrol modlarını entegre ettim.
+• Sensör Entegrasyonu: Çevresel verilerin gerçek zamanlı işlenmesi ve kablosuz
+haberleşme protokollerine uygun paketlenmesi süreçlerini yürüttüm.
+GENEL KAZANIMLAR VE TEKNİK BECERİLER
+• Model-Based Design (MBD): MATLAB, Simulink ve Simscape Multibody
+ortamlarında yüksek sadakatli fiziksel modelleme ve hiyerarşik sistem
+entegrasyonu.
+• Kontrol ve Simülasyon: PID, kaskat kontrol mimarileri, kontrol tahsisi (control
+allocation) ve HIL/SIL/MIL altyapı hazırlığı.
+• Haberleşme Protokolleri: UART, RS232, RS485, I2C ve UDP/IP üzerinden gerçek
+zamanlı veri aktarımı ve telemetri altyapısı kurgulama.
+• Gömülü Sistemler: FreeRTOS tabanlı görev planlama, ESP32 ve mikrodenetleyici
+tabanlı otonom sistem programlama.
+• Veri İşleme ve Görselleştirme: Python/OpenCV ile görüntü işleme, sensör füzyonu
+(IMU, Basınç) ve Unreal Engine ile Digital Twin görselleştirme.
+• Sistem Doğrulama ve V&V: Fiziksel bileşenlerin datasheet verileriyle simülasyon
+ortamında doğrulanması ve kararlılık analizleri.
+• Mühendislik Disiplini: Multidisipliner takım koordinasyonu, teknik süreç
+dökümantasyonu ve sistem mimarisi raporlama.

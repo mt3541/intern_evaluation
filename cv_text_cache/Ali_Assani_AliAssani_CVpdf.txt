@@ -1,0 +1,122 @@
+
+=== PAGE 1 ===
+Ali Assani
+Control System Eng.
+aliassani19990@gmail.com 05347014548 istanbul Ali Assani
+Ali Assani Turkish Male
+Profile
+A motivated Control and Automation Engineering graduate from Yildiz Technical University
+with a specialization in control systems and UAV technology. Proficient in MATLAB/ Simulink
+and advanced control algorithms, with hands-on experience in designing and simulating
+quadcopter systems. Passionate about contributing to cutting-edge aerospace and defense
+projects, particularly in UAV development, with a strong commitment to innovation and
+excellence in aircraft control engineering.
+Projects
+Drone Control Design and Modeling 2024
+Programmed control logic using Arduino IDE (C/ C++).
+•
+Designed and fabricated a custom Arduino-compatible PCB shield.
+•
+Integrated gyroscope sensor (MPU6050) for real-time feedback.
+•
+Tuned PID gains manually for optimal flight response.
+•
+Simulated system dynamics and control response in MATLAB.
+•
+Tested and the UAV system in real-time using serial monitor data.
+•
+Tools & Technologies: Arduino, PID Control, Custom PCB, MATLAB, Gyroscopes
+DJI Mavic Pro Drone simulation 2023
+Modeled linear and angular motion equations of a quadcopter mathematically.
+•
+Implemented PID control systems for altitude and attitude stabilization.
+•
+Simulated full flight dynamics in Simulink using continuous-time blocks.
+•
+Analyzed system behavior under various initial conditions and controller gains.
+•
+Visualized UAV response 3D visualization tools in Simulink.
+•
+Quadcopter Simulation 2023
+nonlinear
+Developed a nonlinear quadcopter plant model in Simulink based on full motion equations.
+•
+Defined output states as x,y,z (position/ altitude), pitch, roll, and Yaw
+•
+Modeled input variables as individual motor thrusts (M1, M2, M3, M4).
+•
+Focused on realistic multi-axis dynamics for future control integration.
+•
+Preparing the system for PID or advanced control implementation (currently under
+•
+development).
+
+=== PAGE 2 ===
+Tools & Technologies: MATLAB, Simulink, Multibody Dynamics, Nonlinear System Modeling
+Mini Drone Competition 2025
+Simulated a mini UAV environment with custom control architecture.
+•
+Used Stateflow to model high-level decision-making logic.
+•
+Applied Image Processing Toolbox to detect and respond to visual input data.
+•
+Integrated control and perception layers in a closed-loop simulation.
+•
+Enhanced skills in UAV logic modeling, sensor integration, and mission-level simulation.
+•
+Tools & Technologies: MATLAB, Simulink, Stateflow, Image Processing Toolbox
+Ball Balancing 2022
+Developed a real-time ball balancing system using Arduino.
+•
+Measured ball position with an HC-SR04 ultrasonic sensor.
+•
+Controlled a servo motor using a PID control algorithm.
+•
+Tuned PID parameters for responsive and stable movement.
+•
+Programmed the system in Arduino IDE (C/ C++).
+•
+Physically built and tested the system for performance validation.
+•
+Tools & Technologies: Arduino, HC-SR04, Servo Motor, PID Control, Arduino IDE
+Education Skills
+Yildiz Technical University MATLAB/Simulink
+2020 – 2025 | istanbul, Türkiye
+C programming
+Embedded Systems
+problem-solving
+Professional Experience
+Control and Automation Engineer| Intern 07/2023 – 10/2023 | istanbul, Türkiye
+• Gained hands-on experience in PCB design and chip manufacturing processes. Enhancing
+operational efficiency.
+• Collaborated with the engineering team to support the design and optimization of
+electronic
+Courses Certificates
+Flight Since model,simulate and contol a Drone in
+MIDDLE EAST TECHNICAL UNIVERSITY Matlab and Simulink
+Flight Mechanics Control Design Onramp With Simulink
+MIDDLE EAST TECHNICAL UNIVERSITY
+Simulink Onramp
+design of control Systems
+stateflow onramp
+YILDIZ TECHNICAL UNIVERSITY
+Model Based Design
+System Dynamics, Modeling and Simulation
+YILDIZ TECHNICAL UNIVERSITY
+
+=== PAGE 3 ===
+Signals and Systems, Applications in
+Control Engineering
+YILDIZ TECHNICAL UNIVERSITY
+Real Time Control Systems
+YILDIZ TECHNICAL UNIVERSITY
+Multivariable Control Theory
+Yıldız Tecnichal University
+Languages
+Turkish English
+Arabic
+References
+Mücahit Damlahi, Electronic Engineer,
+Baykar Technology
+mojahed.da202@gmail.com, +90 537 741 03
+24

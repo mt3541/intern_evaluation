@@ -1,0 +1,79 @@
+
+=== PAGE 1 ===
+KÜBRA SELİN YILMAZ
+Adres: İstanbul,Türkiye • Telefon : +90 506 177 5418
+kubra.selin33@gmail.com , selin.yilmaz2@std.yildiz.edu.tr Linkedin: Kübra Selin Yılmaz
+HAKKIMDA
+Yıldız Teknik Üniversitesi Kontrol ve Otomasyon Mühendisliği 4. sınıf öğrencisiyim. İlgi ve çalışma alanlarım; kontrol
+sistemleri, uçuş dinamiği, gömülü sistemler ve savunma sanayii uygulamalarıdır. Bugüne kadar yürüttüğüm projelerde roket
+sistemleri ve itki vektör kontrolü (TVC), esnek İHA kanat yapılarında gust yükü hafifletme (GLA), gimbal kontrol sistemleri
+ve MATLAB/Simulink ortamında benzetim altyapılarının oluşturulması üzerine çalıştım. MPC, SMC, 𝐻 ve PID gibi ileri
+∞
+kontrolcü yöntemlerini hem akademik projelerde hem de endüstriyel staj ortamında tasarım, simülasyon ve doğrulama
+aşamalarında uygulama deneyimine sahibim. Analitik düşünen, takım çalışmasına yatkın ve sorumluluk almaya hazır bir
+mühendis adayı olarak savunma ve havacılık alanında kontrolcü tasarımı ve gömülü sistem entegrasyonu konularında
+uzmanlaşmayı hedefliyorum.
+EĞİTİM
+2021 – Günümüz Yıldız Teknik Üniversitesi, Kontrol ve Otomasyon Mühendisliği (Lisans)
+4. Sınıf Öğrencisi | AGNO: 3.14 / 4.00
+PROJELER
+TÜBİTAK 2209-A Araştırma Projesi – Uzay Araçlarında Dikey Kalkış için İtki Vektör Kontrol Algoritması
+Geliştirilmesi [Proje Yürütücüsü | 2025 - Devam Ediyor]
+• TÜBİTAK destekli bu projede, TVC sistemine yönelik kontrol algoritmaları geliştirerek kanatçıksız roketlerin dikey
+kalkış ve kararlılık sorunlarına çözüm sunmaktayım. MATLAB/Simulink ortamında modelleme ve kontrolcü tasarımı
+gerçekleştirilmekte, PID ve LQR yöntemler karşılaştırmalı olarak uygulanmaktadır. Proje aynı zamanda
+STM32CubeIDE ile gömülü sistem entegrasyonu ve dinamik test çalışmaları içermektedir.
+TUSAŞ LIFT-UP Bitirme Projesi – İnsansız Hava Araçlarında Flap Kontrollü Gust Load Alleviation Sistemi
+Geliştirme (2025 - Devam Ediyor)
+• Esnek kanat yapılarında gust kaynaklı yüklerin azaltılmasına yönelik aktif flap kontrollü Gust Load Alleviation
+sistemi geliştirilmiştir. MSC Nastran/Patran ile modal analizler gerçekleştirilmiş; MATLAB/Simulink ortamında
+PID, 𝐻 ve SMC kontrolcülerinin karşılaştırmalı performans analizi yapılmıştır. SMC, bu bağlamda literatürde daha
+∞
+önce uygulanmamış bir yaklaşım olarak en yüksek titreşim bastırma performansını elde etmiştir. Geliştirilen sistem
+fiziksel prototip üzerinde test edilmiştir.
+Tasarım Projesi - Rüzgâr Yükü Hafifletme Yetenekli Flap Kontrollü Quadcopter Tasarımı
+(2025- 2026)
+• Rüzgârlı dış ortam koşullarında dikey yapıların otonom denetimine yönelik aktif flap kontrollü bir İHA platformu
+tasarlanmıştır. Pervane akımı altında yer alan flaplar ile yanal kuvvet üretimi sağlanarak Zero-Tilt uçuş konsepti
+uygulanmış, 6-DOF Newton–Euler tabanlı dinamik model ve PID tabanlı hiyerarşik kontrol mimarisi
+MATLAB/Simulink ortamında test edilmiştir. Sonuçlar, standart quadcopter yapılara kıyasla konum hatasında
+iyileşme göstermiştir.
+DENEYİM
+Baykar – Kontrol, Güdüm ve Seyrüsefer Teknolojileri İstanbul,Türkiye
+Stajyer |Ağustos 2025 – Eylül 2025
+SANLAB Simülasyon Araştırma Geliştirme Sanayi Ticaret A.Ş. İstanbul,Türkiye
+Kontrol Birim Stajyeri | 23.02.2026-12.06.2026
+• Gimbal kontrol sistemi üzerine MPC, PID, SMC ve dijital filtre tasarımı çalışmaları yürüttüm. Simülasyonlar
+MATLAB/Simulink ortamında ve MATLAB/Simscape kullanılarak gerçekleştirilmektedir.
+
+=== PAGE 2 ===
+GÖNÜLLÜLÜK FAALİYETLERİ
+MAKTEK / Yıldız Roket Takımı
+Kontrol Ekip Lideri ve Aviyonik Birim Üyesi | 2024 – Eylül 2025
+• Kontrol ekibine liderlik ederek roket uçuş dinamiği ve kontrol algoritmalarına yönelik MATLAB/Simulink benzetim
+çalışmaları yürüttüm; aviyonik dahil farklı alt ekiplerle disiplinlerarası koordinasyonu sağladım.
+KVK – ESTIEM (European Students of Industrial Engineering and Management)
+Organizasyon Ekibi Üyesi
+• YTÜ bünyesinde düzenlenen ESTIEM etkinliklerinde organizasyon ekibi üyesi olarak görev aldım;
+uluslararası katılımcılarla iletişim ve koordinasyon süreçlerini yürüttüm.
+BECERİLER & İLGİ ALANLARI
+Teknik Beceriler
+• Kontrol & Algoritmalar: Kontrol Sistemleri, Kontrol Sistem Tasarımı, Sistem Dinamikleri, Sistem Modellemesi,
+PLC Programlama, Gömülü Sistemler, Durum kestirimi (Kalman filtresi, EKF,UKF), Makine öğrenmesi algoritmaları
+• Yazılım & Araçlar: MATLAB/Simulink,MATLAB/Simscape, PLC programlama (Omron, Phoenix Contact,
+Siemens), gömülü C uygulamaları, AutoCAD, Microsoft Office Programları ( Powerpoint, Word, Excel)
+• Programlama Dilleri: Python, C, Gömülü C
+• Yetkinlikler: Takım liderliği, proje yönetimi, problem çözme, iletişim becerileri, uyum sağlama
+• İlgi Alanları: Fotoğrafçılık, tiyatro ve sahne sanatları, sergi ve müze ziyaretleri, seyahat ve yeni kültürler keşfetmek
+Diller:
+• Türkçe : Ana dil
+• İngilizce : B1
+SERTİFİKALAR
+• Otonom Sürüş Teknolojileri Temel Eğitim Sertifikası [Sertifika Linki] (Milli Teknoloji Akademisi | 04.11-07.12.2024)
+• Temel MATLAB Etkinlik Katılım Belgesi [Sertifika Linki]( Kasım 2024 |FİGES- Türk Roket Topluluğu)
+• Simulink ile Roket Uçuş Benzetim Modelleme Etkinlik Katılım Belgesi [Sertifika Linki] (FİGES-Türk Roket Topluluğu|
+Kasım 2024)
+• Havacılık Motorları Okulu [Sertifika Linki] (TEI-TUSAŞ | 01.02.2025- 24.05.2025)
+• Matlab Onramp [Sertifika Linki], Simscape Onramp [Sertifika Linki] , Simulink Onramp [Sertifika Linki] , Control Design
+Onramp [Sertifika Linki], Stateflow Onramp [Sertifika Linki]
+• Proje Yönetimi Eğitimi [Sertifika Linki] (ProjeDEN | Mayıs 2026)

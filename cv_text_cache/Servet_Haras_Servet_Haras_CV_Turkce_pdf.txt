@@ -1,0 +1,51 @@
+
+=== PAGE 1 ===
+SERVET HARAS
+Elektrik-Elektronik Mühendisliği Öğrencisi
+servetharas@gmail.com | +90 536 245 69 19 | linkedin.com/in/servetharas | Istanbul, Türkiye
+PROFESYONEL ÖZET
+Kadir Has Üniversitesi Elektrik-Elektronik Mühendisliği 3. sınıf öğrencisiyim (GPA: 3.91/4.00, Tam Burslu).
+Fizik, matematik ve teknolojiye olan ilgim doğrultusunda devre tasarımı, MATLAB, C++ ve veri analizi
+alanlarında teknik yetkinlik geliştiriyorum. Telekomünikasyon, elektronik sistemler, yapay zeka ve endüstriyel
+uygulamalar gibi alanlarda kendimi sürekli ilerleten, analitik düşünce yapısına sahip bir mühendislik adayıyım.
+Teknofest bünyesindeki otonom araç projesinde edindiğim batarya yönetim sistemleri (BMS) ve takım
+çalışması deneyimiyle, gerçek dünya mühendislik problemlerine çözüm üretme konusunda pratik deneyim
+kazandım.
+EĞITIM
+Elektrik-Elektronik Mühendisliği (İngilizce) Eyl 2023 – Haz 2028
+Kadir Has Üniversitesi — İstanbul | GPA: 3.91 / 4.00 | Tam Burslu
+Temel Dersler: Devre Analizi, Mantıksal Devre Tasarımı, Elektronik, C++ Programlama, MATLAB,
+Programlama Araçları
+Fen Lisesi Eyl 2018 – Haz 2022
+Adıyaman Fen Lisesi
+DENEYIM & PROJE
+Batarya ve BMS Departmanı – Otonom Robotaksi Takımı | Teknofest – MGM Voltaris 2024 – 2025
+- Otonom araçta batarya yönetim sistemi (BMS) tasarımı ve entegrasyonunu yürüttüm; güç elektroniği ve
+devre koruma devrelerinde uygulamalı deneyim kazandım.
+Teknofest Kulüp Temsilcisi | Kadir Has Üniversitesi 2025 – Günümüz
+Aktif Üye – Girişimci İnovatif Liderler Takımı | Kadir Has Üniversitesi 2023 – 2024
+- İnovasyon odaklı proje geliştirme süreçlerine katkı sağladım; fikir üretimi ve sunum becerilerimi
+pekiştirdim.
+GÖNÜLLÜLÜK
+Destek AFAD Timi Gönüllüsü | AFAD – İstanbul Nis 2025 – Günümüz
+- Afet hazırlık tatbikatlarına aktif katılım sağladım; liderlik ve stres yönetimi sertifikalarını tamamladım.
+Organizasyon Gönüllüsü | Teknofest 2025 Istanbul Eyl 2025
+- Türkiye'nin en büyük teknoloji festivalinde operasyonel destek ve koordinasyon görevleri üstlendim.
+SERTIFIKALAR
+- Etkili İletişim Stratejileri — BTK Akademi
+- Proje ve Risk Yönetimi — BTK Akademi
+- Telekomünikasyon Sistemleri Güvenliği — BTK Akademi
+- Yapay Zeka Farkındalığı Eğitimi — Savunma Sanayi Kariyer
+- Liderlik Eğitimi — AFAD
+- Stres Yönetimi Eğitimi — AFAD
+
+=== PAGE 2 ===
+TEKNIK & KIŞISEL BECERILER
+Teknik Beceriler: C++ | MATLAB | SQL | Excel | Circuit Design | PLC Fundamentals | BMS / Power
+Electronics | Automation Systems
+Diller: Türkçe (Anadil) | İngilizce (B2)
+Kişisel Yetkinlikler: Problem Çözme | Analitik Düşünme | Takım Çalışması | Liderlik | Proje Yönetimi |
+Araştırma | Sunum
+REFERANSLAR
+Prof. Dr. A. Nihat Berker – MEF Üniversitesi & MIT (Emeritus)
+berkera@mef.edu.tr / anberker@mit.edu

@@ -1,0 +1,65 @@
+
+=== PAGE 1 ===
++90 535 453 30 23
+Y E H Y A E L N O T I yahyanati740@gmail.com
+Istanbul, Avcilar
+A E R O S P A C E E N G I N E E R I N G
+https://www.linkedin.com/in/yehya-elnoti
+S T U D E N T
+ORCID: 0009-0004-0784-3948
+SUMMARY
+Aerospace engineering student with hands-on experience in autonomous UAV development. Experience in Python,
+C++, ground control station (GCS), and avionics integration. Background includes contributing to fixed-wing, VTOL
+and multirotor projects, with focus on autopilot control systems and mission planning. Experience in developing and
+testing software/hardware in simulation environments SITL/HITL, and preparation of simulation environment.
+PUBLICATION
+MATHEMATICAL MODELING OF QUADROTOR DRONE
+Livre de Lyon · Mar 23, 2025 · Book: AI Applications in Electrical and Electronics Engineering
+In this chapter, we explored the fundamental aspects of quadrotor UAV modeling and control architecture, emphasizing the importance
+of accurate mathematical representations in developing control strategies. By applying classical mechanics principles, particularly the
+Newton-Euler and Lagrange Euler methods, we developed a detailed nonlinear model that captures the complexities of quadrotor
+dynamics, including aerodynamic forces, actuator behavior, and environmental influences. This mathematical foundation is essential
+for designing control systems capable of managing the challenges posed by the quadrotor’s underactuated nature, where six degrees
+of freedom must be controlled with only four inputs. Additionally, we explored the intricate relationship between the quadrotor’s
+translational and rotational subsystems, highlighting the difficulties of maintaining stable flight and precise trajectory tracking.
+SKILLS ENGINEERING PROJECTS
+PX4-Autopilot/Ardupilot AUTONOMOUS SYSTEMS DEVELOPER
+Academic Research Project: Autonomous Solar Inspection UAV
+Python
+Led the avionics integration and autopilot configuration for a
+C++
+quadcopter designed for autonomous solar farm inspection.
+Software/Hardware in the loop (SITL/HITL) Developed and deployed an offboard mission control
+architecture utilizing an Nvidia Jetson companion computer.
+Flight Simulation (Gazebo/Xplane)
+Enabled real-time image processing and autonomous
+Matlab Simulink
+navigation by interfacing the Jetson with the flight controller to
+Blender
+identify obstructed panels for targeted maintenance.
+Solidworks (CSWA Certified)
+TEAM CAPTAIN & FLIGHT SOFTWARE DEVELOPER
+Teknofest Fighter UAV 2025 | JETDOSE Team (9 members)
+EDUCATION Directed a 9-member cross-functional engineering team,
+ISTANBUL AYDIN UNIVERSITY overseeing the integration of avionics, flight software, and
+Aerospace Engineering (3rd year airframe mechanics.
+student) Engineered and validated autonomous Dogfight and Kamikaze
+2023-Present (Current Student)
+mission logic using a custom Gazebo SITL (Software-In-The-
+Expected to be graduated in 2027
+GPA: 2.61/4 Loop) environment
+Executed complex telemetry monitoring and mission
+LANGUAGES commands as the Ground Control Station (GCS) operator,
+successfully advancing the platform to the competition semi-
+Turkish (Working Proficiency)
+finals.
+English (Fluent)
+Arabic (Native) UAV SYSTEMS INTEGRATOR
+Independent Project: 3D-Printed Tailsitter VTOL
+Manufactured and integrated a 3D-printed Tailsitter VTOL
+airframe to gain practical experience with dual-motor platform.
+Configured the avionics and flight control architecture using
+ArduPilot.
+Calibrated and tuned PID parameters and transition logic
+within ArduPilot to achieve stable flight during the hover, and
+transition.

@@ -1,0 +1,47 @@
+
+=== PAGE 1 ===
+Hüseyin KIRCA
+Mekatronik Mühendisliği 3.Sınıf
+huseyin22kirca@gmail.com
+0539 500 9228
+
+=== PAGE 2 ===
+Ball on Plate Simulink
+“Neural network-based PID compensation for nonlinear systems ball-on-plate
+example” makalesinin ders kapsamında proje ödevi olarak simscape ile
+modellenmiştir.Kontrol algoritmaları arasında geçişler için GUI tasarlanmıştır.
+Modelin tasarlanması ve kontrolü simulink üzerinde yapılmıştır.
+3D modelin çizimleri SolidWorks ile yapılıp Matlab ortamına
+aktarılmıştır. Modelin tasarımı makalede verilen paremetrelere uygun
+olarak tasarlanmıştır.
+
+=== PAGE 3 ===
+Yolo, Lucas Kanade Object Detection and Tracking
+Objelerin tespiti ve takip edilmesi için hibrit bir sistem kullanılmıştır. Bu
+sayede Yolo için gerekli olan işlem gücü isteği minimuma indirilmesi
+hedeflenmiştir.
+Yolo ile öncelikle tespit yapılır. Detection box’ın içindeki pikseller ile Lucas
+Kanade beslenir. Bir sonraki frame de ise en son tespit edilen konumun
+yakınlarda uçak aranır. Her 10 frame’de bir Yolo devreye girerek tracking
+hatalarını düzeltir.
+
+=== PAGE 4 ===
+Yamalı
+Takımızın ilk yazılım testlerini yürüttüğü ve pilot eğitim uçağımızdır. Sabit kanat
+ve önden motorludur. Tasarımı ve üretimi tamamen takımımıza aittir.Alaz
+uçağın ön tasarımıdır.
+Teste bağlı olarak kütlesi 2.2kg ile 3.2kg arasında değişmektedir. Çabuk
+kurulabilirliği ve yapım sürecinin hızlı ve ucuz olmasından dolayı takımımızın
+vazgeçilmez bir aracıdır.
+
+=== PAGE 5 ===
+Alaz
+Savaşan İHA Yarışması için tasarladığımız kanattan motorlu elden atmalı otonom
+uçağımızdır. Bu süreçte ben takım kaptanı olarak öncelikli olarak sürecin yönetilmesi
+ve ekipmanların seçilmesinde görev aldım. Şu anda da aktif olarak takım kaptanlığı
+görevini yürütmekteyim.
+
+=== PAGE 6 ===
+İstikbal
+2024 yılı Savaşan İha Yarışması’na katıldığımız uçağımızdır. Tasarımı ve
+üretimi takımımıza ait olan uçağın gövdesi karbon fiberden üretilmiştir.

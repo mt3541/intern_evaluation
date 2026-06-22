@@ -1,0 +1,235 @@
+
+=== PAGE 1 ===
+Kübra Selin Yılmaz · Proje Portföyü
+PR OJE PORTF ÖYÜ
+Kübra Selin Yılmaz
+Kontrol ve Otomasyon Mühendisi Adayı
+Yıldız Teknik Üniversitesi
+Roket Sistemleri · İtki Vektör Kontrolü · Uçuş Dinamiği · Gömülü Sistemler
+İstanbul, Türkiye · 2026
+kubra.selin33@gmail.com · +90 506 177 5418
+Sayfa 1
+
+=== PAGE 2 ===
+Kübra Selin Yılmaz · Proje Portföyü
+İçindekiler
+İçindekiler ................................................................................................................................... 2
+Önsöz ......................................................................................................................................... 3
+01 · İtki Vektör Kontrol Algoritması Geliştirilmesi ......................................................................... 4
+Proje Tanımı ve Amacı ............................................................................................................ 4
+Teknik Yaklaşım ...................................................................................................................... 4
+Katkım ve Sonuçlar ................................................................................................................. 4
+02 · Flap Kontrollü Gust Load Alleviation (GLA) Sistemi ............................................................. 5
+Proje Tanımı ve Amacı ............................................................................................................ 5
+Teknik Yaklaşım ...................................................................................................................... 5
+Sonuçlar .................................................................................................................................. 5
+Katkım ..................................................................................................................................... 5
+03 · Flap Kontrollü Zero-Tilt Quadcopter Tasarımı ...................................................................... 6
+Proje Tanımı ve Amacı ............................................................................................................ 6
+Teknik Yaklaşım ...................................................................................................................... 6
+Sonuçlar .................................................................................................................................. 6
+04 · Gimbal Kontrol Sistemi Tasarımı ......................................................................................... 7
+Proje Tanımı ve Amacı ............................................................................................................ 7
+Teknik Yaklaşım ...................................................................................................................... 7
+Katkım ..................................................................................................................................... 7
+05 · Roket Uçuş Kontrol Sistemleri — Yıldız Roket Takımı ......................................................... 8
+Sorumluluklar .......................................................................................................................... 8
+Teknik Çalışmalar ................................................................................................................... 8
+Proje Özeti .................................................................................................................................. 9
+Sayfa 2
+
+=== PAGE 3 ===
+Kübra Selin Yılmaz · Proje Portföyü
+Önsöz
+Bu portföy, Yıldız Teknik Üniversitesi Kontrol ve Otomasyon Mühendisliği lisans eğitimim boyunca
+yürüttüğüm akademik, araştırma, tasarım ve endüstriyel staj projelerinin detaylı bir derlemesidir.
+Çalışmalarım kontrol sistemleri, uçuş dinamiği, gömülü sistemler ve savunma sanayii
+uygulamaları ekseninde şekillenmiştir.
+Bugüne kadar roket sistemleri ve itki vektör kontrolü (TVC), esnek İHA kanat yapılarında gust
+yükü hafifletme (GLA) ve gimbal kontrol sistemleri üzerine çalıştım. MPC, SMC, H∞ ve PID gibi
+ileri kontrolcü yöntemlerini hem akademik projelerde hem de endüstriyel staj ortamında tasarım,
+simülasyon ve doğrulama aşamalarında uygulama deneyimi edindim.
+Her proje; kapsamı, kullanılan yöntem ve araçlar, üstlendiğim rol, teknik yaklaşım ve elde edilen
+sonuçlar açısından ayrıntılı olarak ele alınmıştır. Amacım, sistem modelleme, kontrolcü tasarımı,
+benzetim ve doğrulama süreçlerindeki uygulamalı deneyimimi bütüncül bir biçimde ortaya
+koymaktır.
+Sayfa 3
+
+=== PAGE 4 ===
+Kübra Selin Yılmaz · Proje Portföyü
+01 · İtki Vektör Kontrol Algoritması Geliştirilmesi
+Uzay Araçlarında Dikey Kalkış için TVC Algoritması
+Program TÜBİTAK 2209-A Üniversite Öğrencileri Araştırma Projesi
+Rol Proje Yürütücüsü
+Tarih 2025 – Devam ediyor
+Alan Roket sistemleri · İtki vektör kontrolü · Gömülü sistem entegrasyonu
+Araçlar MATLAB/Simulink, STM32CubeIDE
+Proje Tanımı ve Amacı
+Bu TÜBİTAK destekli araştırma projesinde, kanatçıksız roketlerin dikey kalkış aşamasında
+karşılaştığı kararlılık problemlerine çözüm getirmek amacıyla itki vektör kontrolü (Thrust Vector
+Control – TVC) sistemine yönelik kontrol algoritmaları geliştiriyorum. Aerodinamik kontrol
+yüzeylerinin (kanatçık) bulunmadığı veya düşük hızlarda yetersiz kaldığı kalkış fazında, aracın
+yönelim kararlılığı doğrudan itki vektörünün açısal kontrolüne bağlıdır.
+Projenin temel hedefi; roketin pitch ve yaw eksenlerindeki yönelimini, nozül/itki vektörünü açısal
+olarak yönlendirerek kararlı biçimde denetleyen bir kontrol mimarisi tasarlamak ve bu mimariyi
+benzetim ortamında doğrulayarak gömülü donanım üzerinde gerçeklemektir.
+Teknik Yaklaşım
+▸ Modelleme: MATLAB/Simulink ortamında roketin dinamik modeli kurularak itki vektörü ile
+yönelim açısı arasındaki ilişki modellenmiştir.
+▸ Kontrolcü Tasarımı: PID ve LQR (Doğrusal Karesel Düzenleyici) kontrol yöntemleri
+tasarlanarak karşılaştırmalı olarak değerlendirilmiştir. Klasik PID yaklaşımı referans takip
+performansı açısından, LQR ise çok değişkenli optimal denetim ve kararlılık açısından
+incelenmiştir.
+▸ Gömülü Entegrasyon: Tasarlanan kontrolcüler STM32CubeIDE ortamında gömülü C
+uygulamasına dönüştürülerek mikrodenetleyici üzerinde gerçeklenmiş, donanım-yazılım
+entegrasyonu sağlanmıştır.
+▸ Dinamik Test: Algoritmaların gerçek koşullardaki davranışını gözlemlemek için dinamik
+test çalışmaları yürütülmektedir.
+Katkım ve Sonuçlar
+Proje yürütücüsü olarak; kontrol mimarisinin kavramsal tasarımından benzetim altyapısının
+kurulmasına, kontrolcü parametrelerinin ayarlanmasından gömülü gerçekleme ve test sürecine
+kadar tüm teknik aşamaları planlıyor ve yürütüyorum. PID ve LQR yöntemlerinin karşılaştırmalı
+analizi, dikey kalkış senaryosunda hangi yaklaşımın daha iyi kararlılık ve toparlanma performansı
+sunduğunu ortaya koymaktadır.
+Sayfa 4
+
+=== PAGE 5 ===
+Kübra Selin Yılmaz · Proje Portföyü
+02 · Flap Kontrollü Gust Load Alleviation (GLA) Sistemi
+İnsansız Hava Araçlarında Esnek Kanat Yapıları için Aktif Yük Hafifletme
+Program TUSAŞ LIFT-UP Bitirme Projesi
+Rol Proje Ekibi Üyesi
+Tarih 2025 – Devam ediyor
+Alan Aeroelastisite · Aktif yapısal kontrol · İHA
+Araçlar MSC Nastran, Patran, MATLAB/Simulink
+Proje Tanımı ve Amacı
+Esnek kanatlı insansız hava araçları, ani rüzgâr darbeleri (gust) altında yapısal yükler ve
+titreşimlerle karşı karşıya kalır. Bu yükler hem yapısal yorulmayı hızlandırır hem de uçuş
+performansını ve konforunu olumsuz etkiler. Proje kapsamında, gust kaynaklı yüklerin aktif flap
+kontrolü ile gerçek zamanlı olarak azaltılmasını sağlayan bir Gust Load Alleviation (GLA) sistemi
+geliştirilmiştir.
+Sistemin amacı; kanat üzerindeki kontrol yüzeylerini (flap) gust algılandığı anda uygun biçimde
+hareket ettirerek aerodinamik yük dağılımını düzenlemek, böylece kanat kök momentini ve
+yapısal titreşimleri bastırmaktır.
+Teknik Yaklaşım
+▸ Modal Analiz: MSC Nastran ve Patran kullanılarak kanat yapısının modal analizleri
+gerçekleştirilmiş, doğal frekanslar ve mod şekilleri belirlenerek aeroelastik davranışın
+temeli oluşturulmuştur.
+▸ Kontrolcü Karşılaştırması: MATLAB/Simulink ortamında PID, H∞ (robust kontrol) ve
+Sliding Mode Control (SMC – kayma kipli kontrol) yapıları tasarlanarak titreşim bastırma
+performansları karşılaştırmalı olarak analiz edilmiştir.
+▸ Özgün Katkı: Bu bağlamda literatürde daha önce uygulanmamış bir yaklaşım olan SMC,
+karşılaştırmalı analizde en yüksek titreşim bastırma performansını elde ederek öne
+çıkmıştır.
+▸ Deneysel Doğrulama: Geliştirilen GLA sistemi fiziksel prototip üzerinde test edilerek
+tasarımın deneysel doğrulaması gerçekleştirilmiştir.
+Sonuçlar
+Karşılaştırmalı performans analizi, PID, H∞ ve SMC yöntemleri arasında en etkin titreşim
+bastırmanın SMC ile sağlandığını ortaya koymuştur. SMC'nin bu uygulama bağlamında
+literatürde daha önce kullanılmamış olması, çalışmaya özgün bir katkı niteliği kazandırmaktadır.
+Sistemin fiziksel prototip üzerinde test edilmesi, benzetim sonuçlarının deneysel olarak da
+doğrulanmasını sağlamıştır.
+Katkım
+Proje ekibi içinde; kontrolcü yapılarının (PID, H∞, SMC) tasarımı ve karşılaştırmalı analizi,
+Simulink benzetim modelinin kurulması, modal analiz çıktılarının kontrol tasarımına entegrasyonu
+ve fiziksel prototip testlerinin yürütülmesi süreçlerinde aktif görev aldım.
+Sayfa 5
+
+=== PAGE 6 ===
+Kübra Selin Yılmaz · Proje Portföyü
+03 · Flap Kontrollü Zero-Tilt Quadcopter Tasarımı
+Rüzgâr Yükü Hafifletme Yetenekli İHA Platformu
+Kapsam Tasarım Projesi
+Tarih 2025 – 2026
+Alan İHA tasarımı · Uçuş dinamiği · Hiyerarşik kontrol
+Araçlar MATLAB/Simulink
+Proje Tanımı ve Amacı
+Standart quadcopterlar konum değiştirmek için gövdelerini eğmek (tilt) zorundadır; bu durum
+rüzgârlı koşullarda ve dikey yapıların otonom denetiminde konum hatalarına ve kararlılık
+sorunlarına yol açar. Bu projede, gövde eğimine ihtiyaç duymadan yanal kuvvet üretebilen, aktif
+flap kontrollü bir Zero-Tilt İHA platformu tasarlanmıştır.
+Teknik Yaklaşım
+▸ Zero-Tilt Konsepti: Pervane akımı altında konumlandırılan flaplar aracılığıyla yanal
+kuvvet üretilerek, aracın gövdesini eğmeden yatay hareket etmesini sağlayan Zero-Tilt
+uçuş konsepti uygulanmıştır.
+▸ Dinamik Modelleme: Aracın hareketini tam olarak tanımlamak için 6 serbestlik dereceli
+(6-DOF) Newton–Euler tabanlı dinamik model oluşturulmuştur.
+▸ Kontrol Mimarisi: Konum ve yönelim denetimini katmanlı biçimde ele alan PID tabanlı
+hiyerarşik bir kontrol mimarisi tasarlanmış ve MATLAB/Simulink ortamında test edilmiştir.
+Sonuçlar
+Benzetim sonuçları, tasarlanan Zero-Tilt flap kontrollü platformun, standart quadcopter yapılarına
+kıyasla konum hatasında belirgin iyileşme sağladığını göstermiştir. Bu sonuç, özellikle rüzgârlı
+dış ortam koşullarında dikey yapıların otonom denetimi için konseptin uygulanabilirliğini ortaya
+koymaktadır.
+Sayfa 6
+
+=== PAGE 7 ===
+Kübra Selin Yılmaz · Proje Portföyü
+04 · Gimbal Kontrol Sistemi Tasarımı
+MPC, PID ve SMC Tabanlı Denetim — Endüstriyel Staj Çalışması
+Kurum SANLAB Simülasyon AR-GE Sanayi ve Ticaret A.Ş.
+Rol Kontrol Birimi Stajyeri
+Tarih 23.02.2026 – 12.06.2026
+Alan Gimbal denetimi · İleri kontrol · Dijital filtre tasarımı
+Araçlar MATLAB/Simulink, MATLAB/Simscape
+Proje Tanımı ve Amacı
+SANLAB bünyesindeki kontrol birimi stajım kapsamında, bir gimbal (yönelim sabitleme)
+sisteminin denetimi üzerine çalıştım. Gimbal sistemleri; kamera, sensör veya yük platformlarının
+hareketli bir taban üzerinde kararlı ve hassas biçimde yönlendirilmesini sağlar. Bu çalışmanın
+amacı, farklı ileri kontrol yöntemlerini gimbal denetimi bağlamında tasarlamak, simüle etmek ve
+performanslarını karşılaştırmaktır.
+Teknik Yaklaşım
+▸ Kontrolcü Tasarımı: Gimbal kontrol sistemi için Model Öngörülü Kontrol (MPC), PID ve
+Sliding Mode Control (SMC) yöntemleri tasarlanarak denetim performansları
+değerlendirilmiştir.
+▸ Dijital Filtreleme: Ölçüm gürültüsünün ve istenmeyen yüksek frekanslı bileşenlerin
+bastırılması amacıyla dijital filtre tasarımı gerçekleştirilmiştir.
+▸ Benzetim Ortamı: Sistem dinamiğinin fiziksel olarak modellenmesi ve denetim
+algoritmalarının doğrulanması için simülasyonlar MATLAB/Simulink ortamında ve
+MATLAB/Simscape çok-gövdeli (multibody) modelleme ile yürütülmüştür.
+Katkım
+Stajım süresince gimbal kontrol sistemine yönelik MPC, PID ve SMC kontrolcülerinin tasarımı,
+dijital filtre geliştirilmesi ve Simulink/Simscape ortamında benzetim çalışmalarının yürütülmesinde
+aktif rol aldım. Bu deneyim, ileri kontrol yöntemlerinin endüstriyel bir AR-GE ortamında
+uygulanması açısından bana doğrudan saha deneyimi kazandırmıştır.
+Sayfa 7
+
+=== PAGE 8 ===
+Kübra Selin Yılmaz · Proje Portföyü
+05 · Roket Uçuş Kontrol Sistemleri — Yıldız Roket Takımı
+Kontrol Ekip Liderliği ve Aviyonik Çalışmaları
+Takım MAKTEK / Yıldız Roket Takımı
+Rol Kontrol Ekip Lideri & Aviyonik Birim Üyesi
+Tarih 2024 – Eylül 2025
+Alan Uçuş kontrol sistemleri · Aviyonik · Disiplinlerarası koordinasyon
+Araçlar MATLAB/Simulink
+Sorumluluklar
+Yıldız Roket Takımı'nda kontrol ekip lideri ve aviyonik birim üyesi olarak, roket uçuş kontrol
+sistemlerinin tasarım, analiz ve doğrulama süreçlerinde liderlik üstlendim. Kontrol ekibinin teknik
+yönlendirmesini sağlamanın yanı sıra, aviyonik başta olmak üzere farklı alt ekiplerle
+disiplinlerarası koordinasyonu yürüttüm.
+Teknik Çalışmalar
+▸ Benzetim: MATLAB/Simulink ortamında roket sistem dinamiği, uçuş kararlılığı ve kontrol
+algoritmalarına yönelik kapsamlı benzetim çalışmaları gerçekleştirdim; sistem
+performansını farklı uçuş koşulları altında değerlendirdim.
+▸ Sistem Geliştirme: Elde edilen teknik çıktılar doğrultusunda kontrol altyapısının
+geliştirilmesi, problem çözümü ve proje süreçlerinin etkin şekilde ilerletilmesinde
+sorumluluk aldım.
+▸ Liderlik: Kontrol ekibinin teknik yönlendirmesi ve alt ekipler arası koordinasyonun
+sağlanmasıyla, projenin bütünleşik biçimde ilerlemesine katkıda bulundum.
+Sayfa 8
+
+=== PAGE 9 ===
+Kübra Selin Yılmaz · Proje Portföyü
+Proje Özeti
+Proje Rol / Program Anahtar Yöntem
+TVC Algoritması (Dikey Kalkış) Yürütücü · TÜBİTAK 2209-A PID, LQR, STM32 gömülü gerçekleme
+GLA Sistemi (Esnek Kanat) Ekip Üyesi · TUSAŞ LIFT-UP Modal analiz, PID/H∞/SMC, prototip testi
+Zero-Tilt Quadcopter Tasarım Projesi 6-DOF Newton–Euler, hiyerarşik PID
+Gimbal Kontrol Sistemi Stajyer · SANLAB MPC, PID, SMC, dijital filtre, Simscape
+Roket Uçuş Kontrol Sistemleri Kontrol Ekip Lideri · Roket Sistem dinamiği & kararlılık benzetimi
+Takımı
+Tüm projelerimde ortak nokta; sistemin matematiksel modellenmesi, uygun kontrolcünün
+tasarlanması, MATLAB/Simulink ortamında benzetimle doğrulanması ve mümkün olduğunda
+gömülü donanım üzerinde gerçeklenmesi şeklindeki uçtan uca mühendislik yaklaşımıdır.
+Sayfa 9

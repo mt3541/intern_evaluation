@@ -1,0 +1,50 @@
+
+=== PAGE 1 ===
+MOMEN AREF
+Istanbul, Turkey | LinkedIn | +90 505 090 15 97 | momenadel164@gmail.com
+ABOUT ME
+Control and Automation Engineering student with hands-on experience in dynamic system
+modelling, control system design, and simulation using MATLAB/Simulink. Experienced in
+developing and evaluating control algorithms including PID and Model Predictive Control (MPC)
+for autonomous systems. Currently expanding my expertise in Model-Based Development
+(MBD), embedded systems, and control software implementation. Interested in automotive
+control systems, electrified powertrains, and embedded control engineering.
+EDUCATION
+Yildiz Technical University B.S. in Control and Automation Engineering | 2021-2026
+• Relevant Coursework: Intelligent Control Systems, Embedded Systems, Model-Based
+Design (Currently Enrolled).
+SKILLS
+• Technical: Control Theory, Advanced Control Strategies (MPC, PID), Embedded
+Systems, Industrial Automation. Currently developing skills in Model-Based
+Development (MBD) using MATLAB/Simulink.
+• Software & Tools: MATLAB/Simulink, C/C++, Python, STM32, Arduino.
+• Soft Skills: Leadership, Problem Solving, Logical Thinking, Adaptability, Teamwork.
+• Languages: Arabic (Native), English (Fluent), Turkish (Conversational).
+PROJECTS
+Two-Wheeled Self-Balancing Robot
+• Designed and constructed a self-balancing robot utilizing an STM32 microcontroller.
+• Utilized Simulink for system modelling and implemented a real-time PID control
+algorithm.
+Path-Following Quadcopter
+• Designed and simulated a path-following quadcopter using Model Predictive Control
+(MPC) in MATLAB.
+Ball Balancing Robot
+• Collaborated with a team to build a ball-balancing robot using a camera and computer
+vision to detect and control the ball's position.
+• Responsible for designing and simulating the robot's control system.
+
+=== PAGE 2 ===
+WORK EXPERIENCE
+NTG Clarity | Software Developer | July 2023 - November 2023
+• Responsible for designing, building, and maintaining customized business applications
+and workflows for clients in various industries.
+EFT | Warehouse Manager | December 2021 - November 2022
+• Managed inventory and logistics for a warehouse, ensuring accurate stock levels and
+timely order fulfilment.
+• Maintained and updated the inventory database system.
+ACTIVITIES
+University Student Union | President
+• Served as President after progressing from Head of the Activities Committee to Vice
+President.
+• Led planning, logistics, and communication efforts to enhance student engagement.
+• Organized and coordinated multiple camps and student activities in Istanbul.

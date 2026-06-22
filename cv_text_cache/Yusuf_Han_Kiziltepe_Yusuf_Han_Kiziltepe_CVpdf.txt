@@ -1,0 +1,53 @@
+
+=== PAGE 1 ===
+YUSUF HAN KIZILTEPE
+Donanım Mühendisi · Elektrik-Elektronik Mühendisliği
+kiziltepeyusuf@icloud.com | +90 534 211 4227 | Bayraklı, İzmir
+linkedin.com/in/yusuf-han-kiziltepe | github.com/Yusufhan2002
+PROFIL
+Son sınıf Elektrik-Elektronik Mühendisliği öğrencisi. Altium Designer ile çok katmanlı, yüksek hızlı PCB tasarımı ve
+STM32 tabanlı gömülü sistemler üzerine odaklı. BGA fanout, empedans kontrolü, sinyal bütünlüğü (SI) ve güç
+dağıtım ağı (PDN) konularında uygulamalı deneyim. Karmaşık donanım problemlerini disiplinli ve detay odaklı bir
+yaklaşımla çözmeye hevesli.
+PROFESYONEL DENEYIM
+Elektrik Mühendisliği Stajyeri Tem 2025 – Ağu 2025 · İzmir
+Güler Elektrik
+‣ Endüstriyel tesislerde kablo tava montajı, topraklama sistemi kurulumu ve yapısal kablolama (CCTV/kamera
+sistemleri) konularında saha deneyimi.
+‣ Gerçek dünya elektrik altyapısı ve saha güvenliği prosedürleri hakkında uygulamalı bilgi edinildi.
+Servis Ekibi · Work & Travel Katılımcısı Haz 2024 – Eki 2024 · Hart, ABD
+McDonald's
+‣ Çok kültürlü ve hızlı tempolu bir ABD iş ortamında profesyonel iletişim ve takım çalışması becerileri geliştirildi;
+İngilizce akıcılığı pekiştirildi.
+ÖNE ÇIKAN PROJELER
+Zynq-7000 SoC · 10 Katmanlı Yüksek Hızlı PCB Kas 2025 – Devam
+İleri Donanım Tasarımı / Yüksek Hızlı Layout
+‣ Xilinx Zynq-7000 SoC ve DDR3 bellek içeren 10 katmanlı referans kartın komple şeması Altium Designer'da
+tamamlandı; BGA fanout ve komponent yerleşimi bitirildi.
+‣ SI ve PDN prensipleri uygulanarak kontrollü empedans yönlendirmesi ve DDR3 uzunluk eşleştirmesi üzerinde
+çalışılıyor.
+BMS · STM32 ⇄ TI BQ76940 Haberleşme Arayüzü Eyl 2025 – Devam
+Gömülü Donanım / Firmware
+‣ TI BQ76940 batarya yönetim entegresi ile STM32 mikrodenetleyici arasında, nesne yönelimli C++ ile yazılmış
+güvenilir bir haberleşme katmanı geliştirildi.
+‣ Resmi TI veri sayfalarına dayalı I²C işlem katmanı ve CRC doğrulaması uygulandı; Nucleo F411RE üzerinde
+katman katman test edildi.
+Compact Switch Board (CSB-R0) · I²C Güç Dağıtım Kartı Tasarım Aşaması
+Otomotiv Donanımı / 4 Katmanlı PCB
+‣ 9–32 V otomotiv beslemesi için, I²C üzerinden kontrol edilen MCU'suz güç dağıtım ve anahtarlama kartı (90×70
+mm); ISO 7637-2 transient koruması ve IPC-2152 güç hattı boyutlandırması.
+YETKINLIKLER EĞITIM
+Donanım & PCB: Altium Designer, Yüksek Hızlı PCB Elektrik-Elektronik Mühendisliği (Lisans)
+Manisa Celal Bayar Üniversitesi · 2021 – Devam
+Layout, Çok Katmanlı Tasarım (10+), BGA Fanout,
+Odak: Sayısal Sistemler, Güç Elektroniği, Mikrodenetleyiciler,
+Sinyal Bütünlüğü (SI), Güç Dağıtım Ağı (PDN), Şematik
+Sinyal İşleme, Gömülü Sistemler.
+Çizim
+Gömülü Sistemler: STM32 (Nucleo F411RE), ARM SERTİFİKALAR
+Cortex-M, STM32CubeIDE, Batarya Yönetim Sistemleri
+High-Speed Design Foundations — The Electronics
+(TI BQ76940), Zynq-7000 SoC mimarisi Ecosystem (Siemens, Keysight)
+Programlama: C, C++ (Nesne Yönelimli), Embedded C Advanced PCB Layout Course — Fedevel Academy
+Diller: Türkçe (Ana dil), İngilizce (Profesyonel çalışma
+seviyesi)

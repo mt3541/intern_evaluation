@@ -1,0 +1,35 @@
+
+=== PAGE 1 ===
+HAJIR MUHAMMED
+Control Systems · UAV Guidance, Navigation & Control
+hajermohomed505@gmail.com | +90 538 079 13 33 | Kayaşehir, Istanbul, Türkiye
+Dear Hiring Manager,
+I am writing to express my interest in joining Skydagger's engineering team in the area of control,
+guidance, and navigation systems. As a final-year Control Engineering student at Yıldız Technical University
+with hands-on UAV development experience, I am especially motivated by Skydagger's rapid emergence
+as a serious force in autonomous fixed-wing platforms and the company's ambition to define the next
+generation of Turkish UAV technology.
+What sets Skydagger apart for me is the directness of its engineering. The TOYCA-05 fixed-wing platform,
+the AVCI interceptor's combination of quadrotor agility with missile-class velocity, and the deep platform
+integration with Baykar's TB-series, Kalkan, and Kızılelma represent exactly the class of systems where
+guidance laws, attitude control, and onboard state estimation determine whether a concept becomes a
+deployable capability. These are the disciplines I have spent my academic career preparing to contribute
+to.
+My senior thesis, Design and Control of a VTOL UAV, took me end-to-end through the work an
+autonomous-flight engineer does in practice. I designed and 3D-printed the airframe, derived a full 6-DOF
+nonlinear model in MATLAB/Simulink, performed system identification on the propulsion and airframe
+response, and designed and tuned cascaded attitude and altitude controllers using PID and state-space
+methods. I implemented a sensor-fusion algorithm to estimate orientation from raw IMU data, and
+deployed the resulting control logic on an STM32 microcontroller with a SpeedyBee flight controller
+running iNAV. I am equally comfortable in the Ardupilot and Mission Planner ecosystem.
+Beyond the thesis, I have completed rigorous laboratory work in DC motor control, magnetic levitation,
+ball-and-beam balancing, and coupled-tank level control, and have competed in the MATLAB Mini Drone
+Competition designing trajectory-tracking flight control for a simulated quadrotor. Together with strong
+coursework in linear and digital control, flight mechanics, signal processing, and embedded systems, this
+background has given me the analytical foundation — and the practical reflexes — to contribute from day
+one.
+I would welcome the opportunity to discuss how my engineering background can support Skydagger's
+work in autonomous flight algorithms and the rapid integration cycles your platforms demand. Thank you
+for your time and consideration.
+Respectfully,
+Hajir Mohammed

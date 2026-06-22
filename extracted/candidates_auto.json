@@ -1,0 +1,1483 @@
+[
+  {
+    "id": "abdellah_bougataya",
+    "source_files": {
+      "cv": [
+        "Abdellah_Bougataya_cvpdf.txt"
+      ],
+      "portfolio": []
+    },
+    "name": "Abdellah Bougataya",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "",
+    "gpa": 3.34,
+    "teknofest": "None",
+    "real_project": 4,
+    "portfolio_score": 2,
+    "coursework": 4,
+    "tools": 5,
+    "rc_uav": 3,
+    "english": 5,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "ardupilot",
+        "ros",
+        "ros2",
+        "sitl",
+        "gazebo",
+        "avl",
+        "solidworks",
+        "c++",
+        "embedded c",
+        "kalman",
+        "lqr",
+        "lqg",
+        "pid",
+        "mavlink"
+      ],
+      "rc_hits": [
+        "quadcopter",
+        "uav"
+      ],
+      "course_hits": [
+        "estimation",
+        "kalman",
+        "dynamics"
+      ],
+      "cv_chars": 3143,
+      "portfolio_chars": 0
+    }
+  },
+  {
+    "id": "abdurakhmon_sobitkhanov",
+    "source_files": {
+      "cv": [
+        "Abdurakhmon_Sobitkhanov_AS_CV_T3_2026Ypdf.txt"
+      ],
+      "portfolio": []
+    },
+    "name": "Abdurakhmon Sobitkhanov AS",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "3rd year",
+    "gpa": 3.53,
+    "teknofest": "None",
+    "real_project": 4,
+    "portfolio_score": 2,
+    "coursework": 2,
+    "tools": 4,
+    "rc_uav": 4,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "c++",
+        "stm32",
+        "kalman",
+        "pid"
+      ],
+      "rc_hits": [],
+      "course_hits": [
+        "kalman"
+      ],
+      "cv_chars": 2606,
+      "portfolio_chars": 0
+    }
+  },
+  {
+    "id": "ahmet_bugra",
+    "source_files": {
+      "cv": [
+        "Ahmet_Bugra_Kallat_Ahmet_buğra_kallat_2026pdf.txt"
+      ],
+      "portfolio": [
+        "Ahmet_Buğra_Kallat_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Ahmet Bugra Kallat",
+    "university": "ITU",
+    "department": "Mechanical Engineering",
+    "academic_status": "Graduated 1–2 yrs ago",
+    "gpa": "",
+    "teknofest": "Podium / finals",
+    "real_project": 4,
+    "portfolio_score": 3,
+    "coursework": 4,
+    "tools": 5,
+    "rc_uav": 4,
+    "english": 4,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "px4",
+        "ros",
+        "ros 2",
+        "sitl",
+        "gazebo",
+        "solidworks",
+        "c++"
+      ],
+      "rc_hits": [
+        "iha"
+      ],
+      "course_hits": [
+        "kontrol sistem",
+        "aerodinamik",
+        "dinamik"
+      ],
+      "cv_chars": 4951,
+      "portfolio_chars": 2598
+    }
+  },
+  {
+    "id": "ali_assani",
+    "source_files": {
+      "cv": [
+        "Ali_Assani_AliAssani_CVpdf.txt"
+      ],
+      "portfolio": [
+        "Ali_Assani_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Ali Assani AliAssani",
+    "university": "METU (ODTÜ)",
+    "department": "Control Engineering",
+    "academic_status": "Fresh graduate (<1 yr)",
+    "gpa": "",
+    "teknofest": "None",
+    "real_project": 5,
+    "portfolio_score": 3,
+    "coursework": 5,
+    "tools": 4,
+    "rc_uav": 5,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "ros",
+        "c++",
+        "pid"
+      ],
+      "rc_hits": [
+        "quadcopter",
+        "quadrotor",
+        "drone",
+        "uav"
+      ],
+      "course_hits": [
+        "flight mechanics",
+        "control systems",
+        "kontrol sistem",
+        "dynamics",
+        "dinamik",
+        "signals and systems",
+        "flight dynamics"
+      ],
+      "cv_chars": 4186,
+      "portfolio_chars": 2172
+    }
+  },
+  {
+    "id": "baris_agacik",
+    "source_files": {
+      "cv": [
+        "Baris_Agacik_Baris_Agacik_CV_TRpdf.txt"
+      ],
+      "portfolio": []
+    },
+    "name": "Baris Agacik Baris",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "4th year",
+    "gpa": 3.03,
+    "teknofest": "None",
+    "real_project": 5,
+    "portfolio_score": 2,
+    "coursework": 4,
+    "tools": 5,
+    "rc_uav": 2,
+    "english": 4,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "solidworks",
+        "stm32",
+        "kalman",
+        "lqr",
+        "pid"
+      ],
+      "rc_hits": [
+        "quadcopter"
+      ],
+      "course_hits": [
+        "kontrol sistem",
+        "aerodinamik",
+        "kalman",
+        "dinamik"
+      ],
+      "cv_chars": 3773,
+      "portfolio_chars": 0
+    }
+  },
+  {
+    "id": "emirhan_oskay",
+    "source_files": {
+      "cv": [
+        "Emirhan_Oskay_EmirhanOskayCV_TRpdf.txt"
+      ],
+      "portfolio": []
+    },
+    "name": "Emirhan Oskay",
+    "university": "ITU",
+    "department": "Control Engineering",
+    "academic_status": "MSc student",
+    "gpa": 3.56,
+    "teknofest": "None",
+    "real_project": 4,
+    "portfolio_score": 2,
+    "coursework": 4,
+    "tools": 5,
+    "rc_uav": 1,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "ros",
+        "openvsp",
+        "kalman"
+      ],
+      "rc_hits": [],
+      "course_hits": [
+        "aerodinamik",
+        "kalman",
+        "dinamik",
+        "uçuş dinamiği"
+      ],
+      "cv_chars": 3061,
+      "portfolio_chars": 0
+    }
+  },
+  {
+    "id": "enes_goktug",
+    "source_files": {
+      "cv": [
+        "Enes_Goktug_GUnes_CVVpdf.txt"
+      ],
+      "portfolio": [
+        "Enes_Göktuğ_Güneş_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Enes Goktug GUnes",
+    "university": "Karadeniz Teknik (KTÜ)",
+    "department": "Software Engineering",
+    "academic_status": "3rd year",
+    "gpa": "",
+    "teknofest": "None",
+    "real_project": 4,
+    "portfolio_score": 4,
+    "coursework": 1,
+    "tools": 3,
+    "rc_uav": 4,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "python",
+        "ros",
+        "c++",
+        "pid"
+      ],
+      "rc_hits": [],
+      "course_hits": [],
+      "cv_chars": 2110,
+      "portfolio_chars": 6407
+    }
+  },
+  {
+    "id": "gonca_sude",
+    "source_files": {
+      "cv": [
+        "Gonca_Sude_Sahbaz_Gonca_Sude_Şahbaz_Mühendis_CV1-1pdf.txt"
+      ],
+      "portfolio": [
+        "Gonca_Sude_Şahbaz_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Gonca Sude Sahbaz",
+    "university": "Gazi",
+    "department": "Electrical & Electronics Engineering",
+    "academic_status": "MSc student",
+    "gpa": "",
+    "teknofest": "Podium / finals",
+    "real_project": 2,
+    "portfolio_score": 4,
+    "coursework": 1,
+    "tools": 4,
+    "rc_uav": 1,
+    "english": 4,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "ros"
+      ],
+      "rc_hits": [],
+      "course_hits": [],
+      "cv_chars": 4193,
+      "portfolio_chars": 5973
+    }
+  },
+  {
+    "id": "hacer_mehmet",
+    "source_files": {
+      "cv": [
+        "Hacer_Mehmet_Hajir_AlNuaimi_CV_Baykar_2pdf.txt"
+      ],
+      "portfolio": [
+        "Hacer_Mehmet_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Hacer Mehmet Hajir",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "Graduated 1–2 yrs ago",
+    "gpa": "",
+    "teknofest": "None",
+    "real_project": 5,
+    "portfolio_score": 3,
+    "coursework": 5,
+    "tools": 5,
+    "rc_uav": 4,
+    "english": 5,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "ardupilot",
+        "embedded c",
+        "stm32",
+        "kalman",
+        "pid",
+        "mission planner"
+      ],
+      "rc_hits": [
+        "quadrotor",
+        "drone",
+        "uav",
+        "fixed-wing",
+        "vtol"
+      ],
+      "course_hits": [
+        "flight mechanics",
+        "control systems",
+        "aerodynamic",
+        "estimation",
+        "kalman",
+        "dynamics",
+        "guidance"
+      ],
+      "cv_chars": 4774,
+      "portfolio_chars": 2618
+    }
+  },
+  {
+    "id": "hatixhe_merkaj",
+    "source_files": {
+      "cv": [
+        "Hatixhe_Merkaj_Hatixhe_Merkaj_1pdf.txt"
+      ],
+      "portfolio": [
+        "Hatixhe_Merkaj_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Hatixhe Merkaj Hatixhe",
+    "university": "ITU",
+    "department": "Other",
+    "academic_status": "3rd year",
+    "gpa": "",
+    "teknofest": "None",
+    "real_project": 3,
+    "portfolio_score": 3,
+    "coursework": 1,
+    "tools": 4,
+    "rc_uav": 4,
+    "english": 5,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "ros",
+        "ansys",
+        "pid"
+      ],
+      "rc_hits": [],
+      "course_hits": [],
+      "cv_chars": 5275,
+      "portfolio_chars": 2680
+    }
+  },
+  {
+    "id": "huseyin_kirca",
+    "source_files": {
+      "cv": [
+        "HUseyin_Kirca_Hüseyin_Kırca_CV_4pdf.txt"
+      ],
+      "portfolio": [
+        "Hüseyin_Kırca_PORTFOLIO.txt"
+      ]
+    },
+    "name": "HUseyin Kirca Hüseyin",
+    "university": "Other",
+    "department": "Mechatronics Engineering",
+    "academic_status": "3rd year",
+    "gpa": 3.3,
+    "teknofest": "Participated once",
+    "real_project": 5,
+    "portfolio_score": 3,
+    "coursework": 2,
+    "tools": 5,
+    "rc_uav": 2,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "ardupilot",
+        "solidworks",
+        "stm32",
+        "pid"
+      ],
+      "rc_hits": [
+        "uav"
+      ],
+      "course_hits": [
+        "linear systems"
+      ],
+      "cv_chars": 2296,
+      "portfolio_chars": 1898
+    }
+  },
+  {
+    "id": "kubra_selin",
+    "source_files": {
+      "cv": [
+        "KUbra_Selin_Yilmaz_CV-Kübra_Selin_Yılmaz-TRpdf.txt"
+      ],
+      "portfolio": [
+        "Kübra_Selin_Yılmaz_PORTFOLIO.txt"
+      ]
+    },
+    "name": "KUbra Selin Yilmaz",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "4th year",
+    "gpa": 3.14,
+    "teknofest": "None",
+    "real_project": 5,
+    "portfolio_score": 5,
+    "coursework": 5,
+    "tools": 5,
+    "rc_uav": 2,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "ros",
+        "stm32",
+        "kalman",
+        "ekf",
+        "lqr",
+        "pid"
+      ],
+      "rc_hits": [
+        "quadcopter"
+      ],
+      "course_hits": [
+        "kontrol sistem",
+        "aerodinamik",
+        "kalman",
+        "dinamik",
+        "uçuş dinamiği"
+      ],
+      "cv_chars": 5437,
+      "portfolio_chars": 14561
+    }
+  },
+  {
+    "id": "mahmut_arpaci",
+    "source_files": {
+      "cv": [
+        "Mahmut_Arpaci_Mahmut_ARPACI_Cvpdf.txt"
+      ],
+      "portfolio": [
+        "Mahmut_Arpacı_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Mahmut Arpaci Mahmut",
+    "university": "Karadeniz Teknik (KTÜ)",
+    "department": "Control Engineering",
+    "academic_status": "Fresh graduate (<1 yr)",
+    "gpa": 3.03,
+    "teknofest": "Podium / finals",
+    "real_project": 5,
+    "portfolio_score": 4,
+    "coursework": 3,
+    "tools": 4,
+    "rc_uav": 3,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "c++",
+        "stm32",
+        "pid"
+      ],
+      "rc_hits": [
+        "drone",
+        "iha"
+      ],
+      "course_hits": [
+        "dinamik",
+        "uçuş dinamiği"
+      ],
+      "cv_chars": 5212,
+      "portfolio_chars": 4864
+    }
+  },
+  {
+    "id": "melike_demirtas",
+    "source_files": {
+      "cv": [
+        "Melike_Demirtas_Melike_Demirtas_cv_sonpdf.txt"
+      ],
+      "portfolio": [
+        "Melike_Demirtaş_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Melike Demirtas Melike",
+    "university": "METU (ODTÜ)",
+    "department": "Electronics Engineering",
+    "academic_status": "3rd year",
+    "gpa": 2.94,
+    "teknofest": "Podium / finals",
+    "real_project": 3,
+    "portfolio_score": 2,
+    "coursework": 1,
+    "tools": 4,
+    "rc_uav": 4,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "avl",
+        "embedded c"
+      ],
+      "rc_hits": [
+        "vtol"
+      ],
+      "course_hits": [],
+      "cv_chars": 2906,
+      "portfolio_chars": 118
+    }
+  },
+  {
+    "id": "momen_aref",
+    "source_files": {
+      "cv": [
+        "Momen_Aref_Resume_2pdf.txt"
+      ],
+      "portfolio": []
+    },
+    "name": "Momen Aref",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "Fresh graduate (<1 yr)",
+    "gpa": "",
+    "teknofest": "None",
+    "real_project": 4,
+    "portfolio_score": 2,
+    "coursework": 2,
+    "tools": 4,
+    "rc_uav": 2,
+    "english": 5,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "c++",
+        "embedded c",
+        "stm32",
+        "pid"
+      ],
+      "rc_hits": [
+        "quadcopter"
+      ],
+      "course_hits": [
+        "control systems"
+      ],
+      "cv_chars": 2592,
+      "portfolio_chars": 0
+    }
+  },
+  {
+    "id": "mostafa_mahmoud",
+    "source_files": {
+      "cv": [
+        "Mostafa_Mahmoud_my_final_resumepdf.txt"
+      ],
+      "portfolio": [
+        "Mostafa_Mahmoud_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Mostafa Mahmoud my",
+    "university": "Other",
+    "department": "Mechatronics Engineering",
+    "academic_status": "3rd year",
+    "gpa": 3.4,
+    "teknofest": "Podium / finals",
+    "real_project": 4,
+    "portfolio_score": 3,
+    "coursework": 3,
+    "tools": 5,
+    "rc_uav": 4,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "python",
+        "avl",
+        "solidworks",
+        "c++",
+        "embedded c",
+        "stm32",
+        "pid",
+        "mavlink"
+      ],
+      "rc_hits": [
+        "drone",
+        "fpv"
+      ],
+      "course_hits": [
+        "estimation",
+        "dynamics"
+      ],
+      "cv_chars": 3074,
+      "portfolio_chars": 3799
+    }
+  },
+  {
+    "id": "muhammed_eyup",
+    "source_files": {
+      "cv": [
+        "Muhammed_EyUp_RUzgar_MEyüp_Rüzgar_CV_2026pdf.txt"
+      ],
+      "portfolio": []
+    },
+    "name": "Muhammed EyUp RUzgar",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "",
+    "gpa": 2.64,
+    "teknofest": "Participated once",
+    "real_project": 2,
+    "portfolio_score": 2,
+    "coursework": 1,
+    "tools": 4,
+    "rc_uav": 1,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "python",
+        "ros",
+        "gazebo"
+      ],
+      "rc_hits": [],
+      "course_hits": [],
+      "cv_chars": 2889,
+      "portfolio_chars": 0
+    }
+  },
+  {
+    "id": "muhammed_kadir",
+    "source_files": {
+      "cv": [
+        "Muhammed_Kadir_Aksoy_kadiraksoycvTRpdf_2pdf_1pdf.txt"
+      ],
+      "portfolio": [
+        "Muhammed_Kadir_Aksoy_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Muhammed Kadir Aksoy",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "4th year",
+    "gpa": "",
+    "teknofest": "None",
+    "real_project": 5,
+    "portfolio_score": 5,
+    "coursework": 4,
+    "tools": 5,
+    "rc_uav": 4,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "ardupilot",
+        "avl",
+        "pid",
+        "mavlink"
+      ],
+      "rc_hits": [
+        "drone",
+        "iha"
+      ],
+      "course_hits": [
+        "kontrol sistem",
+        "aerodinamik",
+        "dinamik"
+      ],
+      "cv_chars": 4055,
+      "portfolio_chars": 9256
+    }
+  },
+  {
+    "id": "nefise_yasar",
+    "source_files": {
+      "cv": [
+        "Nefise_Yasar_nefiseyasarcv_2pdf.txt"
+      ],
+      "portfolio": []
+    },
+    "name": "Nefise Yasar",
+    "university": "Other",
+    "department": "Electronics Engineering",
+    "academic_status": "3rd year",
+    "gpa": "",
+    "teknofest": "Podium / finals",
+    "real_project": 3,
+    "portfolio_score": 2,
+    "coursework": 1,
+    "tools": 4,
+    "rc_uav": 2,
+    "english": 4,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "python",
+        "avl",
+        "mavlink"
+      ],
+      "rc_hits": [
+        "iha"
+      ],
+      "course_hits": [],
+      "cv_chars": 2983,
+      "portfolio_chars": 0
+    }
+  },
+  {
+    "id": "nisa_nur",
+    "source_files": {
+      "cv": [
+        "Nisa_Nur_Colak_Nisa_Nur_Colak_CVpdf.txt"
+      ],
+      "portfolio": []
+    },
+    "name": "Nisa Nur Colak",
+    "university": "Yıldız Teknik",
+    "department": "Control Engineering",
+    "academic_status": "",
+    "gpa": "",
+    "teknofest": "None",
+    "real_project": 2,
+    "portfolio_score": 2,
+    "coursework": 3,
+    "tools": 3,
+    "rc_uav": 1,
+    "english": 5,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python"
+      ],
+      "rc_hits": [],
+      "course_hits": [
+        "estimation",
+        "dynamics"
+      ],
+      "cv_chars": 3005,
+      "portfolio_chars": 0
+    }
+  },
+  {
+    "id": "onur_can",
+    "source_files": {
+      "cv": [
+        "Onur_Can_Sari_Onur_Can_SARI_CVpdf.txt"
+      ],
+      "portfolio": [
+        "Onur_Can_Sarı_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Onur Can Sari",
+    "university": "Karadeniz Teknik (KTÜ)",
+    "department": "Computer Engineering",
+    "academic_status": "3rd year",
+    "gpa": "",
+    "teknofest": "Podium / finals",
+    "real_project": 5,
+    "portfolio_score": 5,
+    "coursework": 5,
+    "tools": 4,
+    "rc_uav": 4,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "openvsp",
+        "c++",
+        "kalman",
+        "pid"
+      ],
+      "rc_hits": [
+        "drone"
+      ],
+      "course_hits": [
+        "kontrol sistem",
+        "aerodinamik",
+        "kalman",
+        "dynamics",
+        "dinamik",
+        "guidance"
+      ],
+      "cv_chars": 7796,
+      "portfolio_chars": 9549
+    }
+  },
+  {
+    "id": "ruba_almadi",
+    "source_files": {
+      "cv": [
+        "Ruba_Almadi_Ruba_Almadi-CVpdf.txt"
+      ],
+      "portfolio": [
+        "Ruba_Almadi_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Ruba Almadi Ruba",
+    "university": "ITU",
+    "department": "Control Engineering",
+    "academic_status": "3rd year",
+    "gpa": "",
+    "teknofest": "Podium / finals",
+    "real_project": 4,
+    "portfolio_score": 3,
+    "coursework": 2,
+    "tools": 4,
+    "rc_uav": 2,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "ros",
+        "ansys",
+        "pid"
+      ],
+      "rc_hits": [
+        "drone"
+      ],
+      "course_hits": [
+        "dynamics"
+      ],
+      "cv_chars": 3884,
+      "portfolio_chars": 3938
+    }
+  },
+  {
+    "id": "ruveyda_dilara",
+    "source_files": {
+      "cv": [
+        "RUveyda_Dilara_GUlbas_ruveydacvpdf.txt"
+      ],
+      "portfolio": [
+        "Rüveyda_Dilara_Gülbaş_PORTFOLIO.txt"
+      ]
+    },
+    "name": "RUveyda Dilara GUlbas",
+    "university": "Atılım",
+    "department": "Computer Engineering",
+    "academic_status": "Fresh graduate (<1 yr)",
+    "gpa": 3.25,
+    "teknofest": "Podium / finals",
+    "real_project": 5,
+    "portfolio_score": 5,
+    "coursework": 3,
+    "tools": 5,
+    "rc_uav": 4,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "python",
+        "ardupilot",
+        "px4",
+        "ros",
+        "ros2",
+        "ros 2",
+        "sitl",
+        "gazebo",
+        "avl",
+        "c++",
+        "embedded c",
+        "ekf",
+        "pid",
+        "mavlink"
+      ],
+      "rc_hits": [
+        "drone",
+        "uav",
+        "iha",
+        "model uçak"
+      ],
+      "course_hits": [
+        "kontrol sistem",
+        "dinamik"
+      ],
+      "cv_chars": 5509,
+      "portfolio_chars": 8657
+    }
+  },
+  {
+    "id": "samet_atak",
+    "source_files": {
+      "cv": [
+        "Samet_Atak_Samet_Atak_CV_2pdf.txt"
+      ],
+      "portfolio": [
+        "Samet_Atak_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Samet Atak Samet",
+    "university": "ITU",
+    "department": "Control Engineering",
+    "academic_status": "Graduated 2–3 yrs ago",
+    "gpa": "",
+    "teknofest": "Podium / finals",
+    "real_project": 3,
+    "portfolio_score": 2,
+    "coursework": 1,
+    "tools": 4,
+    "rc_uav": 1,
+    "english": 5,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "python",
+        "ros",
+        "ros2",
+        "gazebo",
+        "c++"
+      ],
+      "rc_hits": [],
+      "course_hits": [],
+      "cv_chars": 2917,
+      "portfolio_chars": 50
+    }
+  },
+  {
+    "id": "sefa_demirturk",
+    "source_files": {
+      "cv": [
+        "Sefa_DemirtUrk_001sefa_demirturk_df_cvpdf.txt"
+      ],
+      "portfolio": []
+    },
+    "name": "Sefa DemirtUrk 001sefa",
+    "university": "Other",
+    "department": "Electronics Engineering",
+    "academic_status": "Fresh graduate (<1 yr)",
+    "gpa": "",
+    "teknofest": "Participated once",
+    "real_project": 2,
+    "portfolio_score": 2,
+    "coursework": 1,
+    "tools": 3,
+    "rc_uav": 4,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "python",
+        "c++"
+      ],
+      "rc_hits": [],
+      "course_hits": [],
+      "cv_chars": 3378,
+      "portfolio_chars": 0
+    }
+  },
+  {
+    "id": "servet_haras",
+    "source_files": {
+      "cv": [
+        "Servet_Haras_Servet_Haras_CV_Turkce_pdf.txt"
+      ],
+      "portfolio": [
+        "Servet_Haras_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Servet Haras Servet",
+    "university": "Atılım",
+    "department": "Electrical & Electronics Engineering",
+    "academic_status": "3rd year",
+    "gpa": 3.91,
+    "teknofest": "Participated once",
+    "real_project": 3,
+    "portfolio_score": 4,
+    "coursework": 3,
+    "tools": 4,
+    "rc_uav": 2,
+    "english": 4,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "ros",
+        "c++"
+      ],
+      "rc_hits": [
+        "iha"
+      ],
+      "course_hits": [
+        "kontrol sistem",
+        "dinamik"
+      ],
+      "cv_chars": 2709,
+      "portfolio_chars": 5832
+    }
+  },
+  {
+    "id": "simar_bayramusta",
+    "source_files": {
+      "cv": [
+        "Simar_Bayramusta_CV_türkçe_en_güncel_Versiyonpdf.txt"
+      ],
+      "portfolio": []
+    },
+    "name": "Simar Bayramusta",
+    "university": "Other",
+    "department": "Other",
+    "academic_status": "",
+    "gpa": "",
+    "teknofest": "None",
+    "real_project": 1,
+    "portfolio_score": 2,
+    "coursework": 1,
+    "tools": 1,
+    "rc_uav": 1,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [],
+      "rc_hits": [],
+      "course_hits": [],
+      "cv_chars": 16,
+      "portfolio_chars": 0
+    }
+  },
+  {
+    "id": "tasneem_mustafa",
+    "source_files": {
+      "cv": [
+        "Tasneem_Mustafa_tasneem_cvlpdf.txt"
+      ],
+      "portfolio": []
+    },
+    "name": "Tasneem Mustafa tasneem",
+    "university": "ITU",
+    "department": "Control Engineering",
+    "academic_status": "Fresh graduate (<1 yr)",
+    "gpa": "",
+    "teknofest": "Podium / finals",
+    "real_project": 5,
+    "portfolio_score": 2,
+    "coursework": 1,
+    "tools": 5,
+    "rc_uav": 4,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "ros",
+        "ros2",
+        "gazebo",
+        "stm32",
+        "ekf",
+        "pid"
+      ],
+      "rc_hits": [
+        "drone",
+        "uav",
+        "iha"
+      ],
+      "course_hits": [],
+      "cv_chars": 3743,
+      "portfolio_chars": 0
+    }
+  },
+  {
+    "id": "yehya_elnoti",
+    "source_files": {
+      "cv": [
+        "Yehya_Elnoti_Yehya_Elnoti_CVpdf.txt"
+      ],
+      "portfolio": [
+        "Yehya_Elnotı_PORTFOLIO.txt"
+      ]
+    },
+    "name": "Yehya Elnoti Yehya",
+    "university": "Other",
+    "department": "Electrical & Electronics Engineering",
+    "academic_status": "3rd year",
+    "gpa": 2.61,
+    "teknofest": "Podium / finals",
+    "real_project": 5,
+    "portfolio_score": 4,
+    "coursework": 4,
+    "tools": 5,
+    "rc_uav": 5,
+    "english": 5,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "matlab",
+        "simulink",
+        "python",
+        "ardupilot",
+        "px4",
+        "ros",
+        "sitl",
+        "gazebo",
+        "solidworks",
+        "c++",
+        "pid"
+      ],
+      "rc_hits": [
+        "quadcopter",
+        "quadrotor",
+        "drone",
+        "uav",
+        "fixed-wing",
+        "vtol",
+        "multirotor"
+      ],
+      "course_hits": [
+        "control systems",
+        "aerodynamic",
+        "dynamics"
+      ],
+      "cv_chars": 3581,
+      "portfolio_chars": 4365
+    }
+  },
+  {
+    "id": "yusuf_han",
+    "source_files": {
+      "cv": [
+        "Yusuf_Han_Kiziltepe_Yusuf_Han_Kiziltepe_CVpdf.txt"
+      ],
+      "portfolio": []
+    },
+    "name": "Yusuf Han Kiziltepe",
+    "university": "Atılım",
+    "department": "Electrical & Electronics Engineering",
+    "academic_status": "4th year",
+    "gpa": "",
+    "teknofest": "None",
+    "real_project": 2,
+    "portfolio_score": 2,
+    "coursework": 1,
+    "tools": 3,
+    "rc_uav": 1,
+    "english": 3,
+    "hr_feedback": "",
+    "controls_gnc": "",
+    "math_physics": "",
+    "coding": "",
+    "debugging": "",
+    "communication": "",
+    "disqualified": "N",
+    "notes": "",
+    "_signals": {
+      "tools_found": [
+        "ros",
+        "c++",
+        "embedded c",
+        "stm32"
+      ],
+      "rc_hits": [],
+      "course_hits": [],
+      "cv_chars": 2984,
+      "portfolio_chars": 0
+    }
+  }
+]

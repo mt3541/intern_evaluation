@@ -1,0 +1,90 @@
+
+=== PAGE 1 ===
+Hatixhe Merkaj
+ID:98515073794 | Date of birth:09/02/2005 | Place of birth:Vlore, Albania |
+Nationality:Albanian | Phone:(+90) 5016702005 (Mobile) | Email address:
+hatixhemerkaj05@gmail.com | Address: Türkiye (Home)
+ABOUT MYSELF
+As a 3rd-year Electronics and Communication Engineering student at Istanbul Technical University, I have had
+the opportunity to learn from leading professors in the field. This experience has allowed me to build a strong
+theoretical foundation while also applying my classroom knowledge under professional supervision. My work
+at the ITU Electro-Optical Devices Laboratory has been especially valuable, giving me hands-on experience with
+the applied aspects of electronics and deepening my understanding of engineering research and practical
+design. Also joining ITU Hyperbee project team has expanded my technical understanding and also has given
+me great opportunities to meet people who are professionals in the engineering and research field.Outside
+academics, I have worked as an English to Albanian and German to Albanian translator, and have also assisted
+in business and accounting tasks, which strengthened my communication, organization, and teamwork skills.
+WORK EXPERIENCE
+18/08/2025 - 06/09/2025 - ISTANBUL, TÜRKIYE
+ELECTRONICS AND OPTICAL ENGINEERING INTERN PROF. DR. ONUR FERHANOGLU, ITU
+ELECTRO-OPTICAL DEVICES LABORATORY
+-Optical Simulation
+-Programming in C
+-Researching
+09/10/2025 - CURRENT - ISTANBUL, TÜRKIYE
+CONTROL AND LEVITATION ENGINEER ITU HYPERBEE PROJECT TEAM
+To be able to implement the control system a wide range of literature about
+Hybrid-Electromagnetic-Suspension Systems was covered. this gave me the oportunity to come out with a new
+control strategy which merged two methods: cascaded control and gain-schedulling. To succsessfuly utilize
+that I:
+Designed and stabilized a cascaded control architecture(Inner PI Current Loop, Outer Scheduled PD
+Position Loop) to levitate a 30kg unstable non-linear magnetic system.
+Implemented Model-Based Systems Engineering (MBSE)by mathematically deriving local linearizations
+from high-resolution ANSYS 2D Force/Flux information tables and implementing the final non-linear model into
+Simulink.
+Applied advanced linear control theory, utilizing Root Locus, Bode, and Nyquist criteria to guarantee
+stability, while strictly enforcing a 10x bandwidth separation rule to prevent subsystem interference.
+Developed dynamic gain-scheduling algorithms(1D/2D Lookup Tables) with feedforward voltage and
+current compensation to handle massive exponential shifts in gravitational and magnetic forces.
+Engineered for real-world hardware limits, utilizing Anti-Windup Clamping and retuning system bandwidths
+to successfully catch the pod without exceeding a strict 50V power supply saturation limit.
+01/07/2024 - 01/09/2024 - VLORE, ALBANIA
+ENGLISH TO ALBANIAN AND GERMAN TO ALBANIAN TRANSLATOR FOR LEGAL AND BUSINESS
+MATTERSFAMILY BUSINESS
+
+=== PAGE 2 ===
+-Translating
+LANGUAGE SKILLS
+Mother tongue(s):ALBANIAN
+UNDERSTANDING SPEAKING WRITING
+Listening Reading Spoken production Spoken interaction
+ENGLISH C2 C2 C2 C2 C2
+GERMAN B1 B1 A2 A2 B1
+TURKISH B2 B2 B1 B2 B1
+FRENCH A2 A2 A2 A2 A2
+CERTIFICATIONS
+17/03/2025 Udemy
+Introduction to Optical Eye Modeling with Zemax
+Project Based -
+Linkshttps://www.udemy.com/course/introduction-to-optical-eye-modeling-with-zemax/ |
+https://udemy-certificate.s3.amazonaws.com/pdf/UC-f6cb5f22-f7c9-4f6b-9275-2f006502752b.pdf
+26/12/2025 Mathworks Academy
+Simulink fundamentals Mathworks course
+Work based -
+Linkhttps://matlabacademy.mathworks.com/details/simulink-fundamentals/slbe
+03/03/2025 Udemy
+Zemax Sequential Basics: How to Build Lens Systems
+Project Based -
+Linkhttps://udemy-certificate.s3.amazonaws.com/pdf/UC-ad5b8708-878d-49b5-b495-e92ba98c48c3.pdf
+PROJECTS
+10/10/2025 - CURRENT
+ITU HyperbeeMAthematically modelling the levitation system and designing the PID controller
+18/08/2025 - CURRENT
+Laser filter simulationDesigning, simulating and optimizing a laser system to achieve the nedded parameters
+in order for the beam to be later used in eye surgical procedures
+09/02/2026 - 09/04/2026
+Designed and simulated a Wideband Intermediate Frequency (IF) receiver chain for a superheterodyne
+architecture using the AWR Design Environment.In my recent term project, I successfully completed the
+system-oriented design and verification of a Wideband Intermediate Frequency (IF) receiver chain using the
+AWR Design Environment. Tasked with targeting a 70 MHz center frequency, I designed a complete RF-to-IF
+translation system that included a mixer, local oscillator, two-stage IF amplifier, and a custom-calculated N=3
+Butterworth LC band-pass filter. By running rigorous S-parameter and Harmonic Balance simulations, I was
+
+=== PAGE 3 ===
+able to verify the system's ability to isolate a 5 MHz channel while maintaining approximately 31 dB of total
+gain. This project required me to move beyond ideal behavioral models to test true system performance, giving
+me practical experience in diagnosing signal leakage and troubleshooting impedance loading
+HOBBIES AND INTERESTS
+Literature Classic literature centering authors like Dostoyevski, Stephan Zweig, Reiner Maria Rilke, reading
+and discussing with my book club
+Horse Riding

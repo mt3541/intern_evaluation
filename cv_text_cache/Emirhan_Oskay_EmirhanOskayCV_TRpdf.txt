@@ -1,0 +1,91 @@
+
+=== PAGE 1 ===
+Emirhan Oskay
+emirhanoskyy @gmail.com +90 542 246 5571 Güngören/İstanbul 27/02/2001 B Tipi
+EĞİTİM DENEYİM
+Makine Mühendisliği Baykar Teknoloji - Uçuş Bilimleri
+Yıldız Teknik Üniversitesi - AGNO: 3.56 / 4.00 Aday Mühendis
+2020 – 2021 09/2025 – 12/2025
+İlk boyutlandırma, uçuş dinamiği, stabilite ve kontrol
+Lisans, Kontrol ve Otomasyon Mühendisliği •
+konularında yürütülen çalışmalara katkı sağladım.
+Yıldız Teknik Üniversitesi - AGNO: 3.41 / 4.00
+Uçak hareketlerinin matematiksel modellenmesi ve
+2021 – 2024 | (Kurum İçi Yatay Geçiş) •
+sistem davranışlarının analiz edilmesi süreçlerinde yer
+Yüksek Lisans, Kontrol ve Otomasyon Mühendisliği aldım.
+İstanbul Teknik Üniversitesi Farklı uçuş koşullarının simülasyon ortamında
+•
+değerlendirilmesi ve sonuçlarının yorumlanmasına
+2026 – Devam Ediyor
+katkı sağladım.
+Trim koşullarının sağlanmasına yönelik kontrol
+TEKNİK YETENEK •
+algoritmalarının geliştirilmesinde görev aldım.
+MATLAB/Simulink Makel Elektrik - Donanım Tasarım & Otomasyon
+Sistemleri
+Python
+Stajyer
+Otomasyon Programları 07/2024 – 09/2024
+LTspice Elektrik şematik tasarımı, devre elemanı seçimi ve
+•
+temel devre analizleri gerçekleştirdim.
+Proteus Design Suite
+Donanım tasarım sürecinde test, revizyon ve teknik
+•
+AutoCAD dokümantasyon adımlarına destek verdim.
+Endüstriyel otomasyon sistemlerinin çalışma
+Fusion 360 •
+prensiplerini saha uygulamaları üzerinden
+Altium Designer gözlemledim.
+OpenVSP Andasis Elektronik - Donanım Tasarım
+Stajyer
+MS Office
+08/2023 – 09/2023
+Elektronik donanım tasarım süreçlerinde görev aldım.
+SERTİFİKA •
+Şematik tasarım, bileşen yerleşimi ve temel PCB
+•
+tasarım çalışmalarında yer aldım.
+IEEE TNKU Computer Society CSPRIME
+Donanım odaklı mühendislik uygulamaları ve teknik
+•
+AeroSphere'21 dokümantasyon standartlarına aşinalık kazandım.
+Matlab Kursları PROJE
+Matlab Onramp
+•
+Simulink Onramp Mobil Robot üzerinde SLAM Uygulamaları
+•
+Control Design Onramp with Simulink Bitirme Projesi
+•
+Image Processing with Matlab LiDAR ve odometri verileri kullanılarak çevre haritası
+• •
+oluşturuldu ve robotun konumu kestirildi.
+DİL Diferansiyel sürüş yapısı için hareket ve dönüş kontrolü
+•
+gerçekleştirildi.
+İngilizce
+İki Tekerlekli Bisiklet ile Denge Kontrolü
+Sistemin matematiksel ve dinamik modeli
+REFERANS •
+oluşturularak geri beslemeli kontrol yapıları üzerine
+çalışıldı.
+Prof. Dr. Şeref Naci Engin, Bölüm Başkanı,
+IMU sensörlerinden elde edilen veriler kullanılarak
+Yıldız Teknik Üniversitesi •
+denge kontrolü sağlandı.
+nengin@yildiz.edu.tr, +90 212 383 5943
+Gerçek zamanlı kontrol kısıtları ve sensör
+•
+Onur Akbatı, Dr. Öğr. Üyesi, İstanbul Teknik Üniversitesi gürültüsünün etkileri dikkate alındı.
+oakbati@itu.edu.tr, +90 536 364 5211
+DC Motorun Dinamik Modeli ve Durum Tahmini
+Melek Mendi, Aerodinamik Mühendisi, Baykar Teknoloji DC motor için matematiksel ve dinamik bir sistem
+•
+melekmendi01@gmail.com, +90 544 506 3792 modeli geliştirildi.
+Ölçüm gürültülerine karşı dayanıklı durum kestirimi
+•
+amacıyla Kalman filtresi tasarlandı.
+MATLAB ortamında sistem cevabı ve kestirim
+•
+performansı analiz edildi.

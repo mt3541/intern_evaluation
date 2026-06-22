@@ -1,0 +1,45 @@
+
+=== PAGE 1 ===
+Portfolio
+Kontrol ve Otomasyon Mühendisiyim. İnsansız hava araçları
+(İHA) sistemleri ve kontrol teorisi alanlarına ilgi duyuyorum. Bu
+portföyde, eğitim sürecimde geliştirdiğim projeleri ve
+edindiğim teknik deneyimleri özetledim. Amacım, mühendislik
+bilgilerimi gerçek dünya uygulamalarına aktararak yenilikçi
+sistemler geliştirmektir.
+
+=== PAGE 2 ===
+MATLAB Mini Drone Yarışması – 1. Aşama
+Bu projede, insansız hava aracının belirli görev senaryolarını simüle etmek amacıyla
+MATLAB/Simulink ve Stateflow kullanıldı. Görüntüye dayalı algılayıcı girdileri ve karar verme
+mantıkları entegre edilerek temel sensör füzyonu ve yönlendirme algoritmaları geliştirildi.
+Görev başarı oranı ve sistemin tepkisi simülasyon ortamında test edildi.
+
+=== PAGE 3 ===
+Quadcopter Uçuş Kontrol Sistemi
+Bu proje kapsamında, dört pervaneli bir insansız hava aracının (quadrotor) dengeli uçuşu için gerçek zamanlı
+bir PID kontrol sistemi geliştirildi. MATLAB/Simulink ortamında uçuş dinamikleri modellenmiş, ardından özel
+tasarlanmış bir Arduino shield üzerinde jiroskop verileriyle gerçek donanım testi gerçekleştirilmiştir.
+
+=== PAGE 4 ===
+DJI Mavic Pro Uçuş Simülasyonu
+Bu projede, MATLAB & Simulink kullanarakbir quadcopter'inuçuş
+dinamiklerini modelledim ve temelseviye PID kontrolsistemitasarladım.
+Eğitimsürecinde, dronundoğrusalve açısal hareketlerinimatematiksel
+olarak ifadeedip Simulinortamında simüle ettim. Böylece, İHA'ların
+mühendislik prensiplerine dayalı k nasıl çalıştığını daha iyi anlama fırsatı
+buldum.
+
+=== PAGE 5 ===
+Quadcopter Simülasyonu
+Bu projede, quadcopter'in doğrusal olmayan hareket denklemlerine dayanarak Simulink
+ortamında basit bir plant (sistem) modeli oluşturmaya başladım. Modelde; x, y, z (h) ve ψ
+değişkenleri çıkış olarak tanımlanırken, motor kuvvetleri (M1, M2, M3, M4) giriş olarak
+kullanılmaktadır. Kontrol algoritması henüz tamamlanmadı, çalışmalar hâlen devam
+etmektedir.
+
+=== PAGE 6 ===
+Top Dengeleme
+Arduino ile çalışan bir top dengeleme sistemi geliştirildi. HC-SR04 sensör ile topun konumu
+ölçülüp, PID algoritması kullanılarak servo motor kontrol edildi. Sistem Arduino IDE
+üzerinden programlandı ve fiziksel olarak test edildi.

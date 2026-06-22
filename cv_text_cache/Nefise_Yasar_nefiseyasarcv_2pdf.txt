@@ -1,0 +1,66 @@
+
+=== PAGE 1 ===
+NEFİSE YAŞAR
++90 545 313 1932
+yasarnefise4@gmail.com
+EĞİTİM
+HAKKIMDA
+Kocaeli Üniversitesi Kocaeli Üniversitesi Elektronik ve Haberleşme Mühendisliği 3.sınıf
+öğrencisiyim. Eğitimim boyunca C, Python, Verilog ve gibi diller ve Jetson,
+Elektronik ve Haberleşme Mühendisliği
+Raspberry, Arduino, Basys gibi geliştirme kartları ile çalışarak hem yazılım
+2023-Halen hem donanım alanında deneyim kazandım.Üniversitemizin İnsansız Hava
+Aracı (İHA) takımında yer alarak TEKNOFEST 2024 Savaşan İHA
+Final Akademi Anadolu Lisesi
+Yarışması’na katıldım. Bu süreçte MAVLink protokolü ile yer istasyonu–İHA
+2017-2021 haberleşmesini yapılandırdım, RTSP tabanlı video aktarımını tasarladım ve
+uçuş kontrol kartına entegre edilen PCB tasarımında görev aldım.Bunların
+yanında Python kullanarak veri analizi ve görselleştirme uygulamaları
+geliştirdim. Bu çalışmalarım, hem gömülü sistemler hem de yazılım
+YETENEKLER geliştirme alanında disiplinli ve çözüm odaklı bir yaklaşım kazanmamı
+sağladı. Takım çalışmasına yatkın, iletişim becerileri güçlü, analitik
+düşünebilen ve öğrenmeye açık bir mühendis adayı olarak, edindiğim bilgi
+C
+ve deneyimleri yenilikçi projelerde kullanmayı hedefliyorum.
+Python
+PROJELER
+Verilog/VHDL
+MAVLink İHA Canlı Görüntü Aktarımı
+İHA üzerindeki kamera sistemleri için RTSP ve MediaMTX kullanarak gerçek
+CISCO
+zamanlı video aktarımı entegre ettim.
+Gömülü Sistemler UDP/TCP Tabanlı Veri İletimi ve Optimizasyonu
+UDP/TCP tabanlı bağlantı testleri ile telemetri veri aktarımında paket kaybı ve
+Altium
+gecikmeleri ölçerek hata kontrol mekanizmalarıyla haberleşme güvenilirliğini
+MATLAB artırdım.
+MAVLink Protokolü
+Arduino
+İHA ile yer istasyonu arasındaki iletişim için MAVLink protokolünü
+yapılandırdım.
+Python ile Soket Programlama
+DİLLER
+Python ile temel soket programlama uygulaması geliştirerek UDP üzerinden iki
+cihaz arasında veri aktarımı gerçekleştirdim.
+İngilizce (B2) Python ile Veri Analizi
+Python’da NumPy ve Pandas kütüphanelerini kullanarak veri setleri üzerinde
+istatistiksel analiz gerçekleştirdim ve Matplotlib ile görselleştirdim.
+MSP430 ile Mesafe Ölçüm Sistemi
+SERTİFİKALAR
+MSP430 mikrodenetleyici ve Bluetooth modülü kullanarak RSSI tabanlı mesafe
+ölçüm sistemi geliştirdim.
+FPGA Dijital Mantık Devresi
+-TEKNOFEST Savaşan İHA
+Basys3 FPGA kartı üzerinde Verilog kullanarak gerçek zamanlı sensör verilerini
+Yarışması 2024 Finalist
+işleyen düşük gecikmeli dijital mantık devresi tasarlayıp doğruladım.
+FPGA ile Dijital Kronometre
+-NOKİA TAP Eğitimi
+FPGA üzerinde sayıcı ve zamanlayıcı modülleri kullanarak dijital bir kronometre
+devresi geliştirdim.
+-YetGen 21.Yüzyıl Yetkinlikler Arduino Tabanlı Sıcaklık ve Nem Ölçüm Sistemi
+Sertifikası Arduino tabanlı sıcaklık ve nem ölçüm sistemi geliştirerek verileri LCD ekranda
+görüntüledim ve eşik değerine göre uyarı mekanizması tasarladım.
+-BTK Akademi C Sertifikası Arduino ile Akıllı Aydınlatma Sistemi
+Arduino tabanlı akıllı aydınlatma sistemi geliştirerek ortam ışığına göre otomatik
+kontrol sağladım.

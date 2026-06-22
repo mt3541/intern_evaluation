@@ -1,0 +1,56 @@
+
+=== PAGE 1 ===
+Samet Atak
+Kadıköy, İstanbul, Turkiye
++905318327915
+sametatakwork@gmail.com
+linkedin.com/in/samet-atak-506980250
+EDUCATION
+Istanbul Technical University, Control and Automation Engineering 2022–
+University of Kassel ,Germany, Erasmus Exchange Program 04.2025-09.2025
+Hüseyin Avni Sözen Anadolu Lisesi, İstanbul 2017-2022
+EXPERINCE
+Robotics Intern (Hybrid)
+Aware Robotics (Nov 2025 – Jan 2026)
+• Working on TÜBİTAK-supported R&D projects for legged robotic systems. • Developing and validating legged
+robot control algorithms in ROS2 simulation environments. • Working on elevation mapping and terrain
+representation for navigation over uneven terrain.
+Machine Learning Researcher
+University of Kassel /Germany (May 2025 – September 2025)
+• Conducted research on ensemble regression models focusing on diversity–accuracy trade-offs. • Designed and tuned
+machine learning models using automated hyperparameter optimization techniques. • Ran large-scale computational
+experiments on high-performance servers. • Contributed to an academic paper and technical report based on
+research findings.
+Autonomous Robot Developer
+Machine Arge, Yıldız Teknopark (June 2024 – March 2025)
+• TÜBİTAK-approved R&D project focused on autonomous ground vehicle development. • Developed ROS-based
+autonomous navigation systems including SLAM, path planning, and obstacle avoidance for a ground vehicle
+platform., Implemented sensor fusion using Intel RealSense cameras, GPS, and IMU to achieve robust and precise
+localization in outdoor environments. • Enabled fully autonomous waypoint navigation to GPS coordinates under real-
+world conditions. • Took primary responsibility for overall system architecture, integration, and performance
+optimization, improving real-time decision-making capabilities.
+ROS Developer
+ITU Autobee (September 2022 – October 2023)
+• Worked on autonomous marine and robotic systems as part of the ROS team. • Contributed to navigation,
+perception, and control modules for fully autonomous platforms.
+• Achievements:
+o Winner of the 2023 NJORD The Autonomous Ship Challenge.
+o Finalist in the Teknofest TIKA Competition
+AI Intern
+Generion AI (May 2023 – June 2023)
+• Worked on Large Language Models (LLMs) and AI-assisted software tools. • Supported development and
+optimization of AI-powered workflows and applications.
+SKILLS
+• Programming:
+Skilled in Python, C++, and C with solid experience in AI and robotics applications. Proficient in using Python machine
+learning libraries for developing, optimizing, and tuning models efficiently.
+• Robotics & ADAS:
+ROS, SLAM, Path Planning, Sensor Fusion, Computer Vision.
+• Simulation & Modeling:
+Skilled in using Gazebo and Unity for creating detailed simulations and virtual testing environments.
+• Machine Learning:
+Model training, ensemble methods, hyperparameter tuning Languages
+• Languages
+English C1, German A2
+Portfolio
+Sametatak.github.io

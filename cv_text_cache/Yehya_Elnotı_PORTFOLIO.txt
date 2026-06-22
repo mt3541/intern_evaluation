@@ -1,0 +1,95 @@
+
+=== PAGE 1 ===
+Y E H Y A E L N O T I yahyanati740@gmail.com
+Istanbul, Avcilar
+A E R O S P A C E E N G I N E E R I N G S T U D E N T
+https://www.linkedin.com/in/yehya-elnoti
+Portfolio
+ORCID: 0009-0004-0784-3948
+Projects:
+Autonomous Fixed-Wing UAV – Teknofest Fighter UAV
+Competition 2025: As part of JETDOSE, I worked on
+avionics integration, control systems, and real-time data
+handling for our autonomous fixed-wing UAV. Using Python
+and MAVSDK, I developed control functions, optimized
+communication protocols, and managed the Ground
+Control Station during flights. I also coordinated team
+efforts across subsystems, gaining experience in
+autonomous operations, mission logic, and UAV
+communication networks.
+LIFELINE VTOL – Innovation & Invention Conference 3
+(2025) - 2nd place
+Our team developed a modular VTOL drone with vertical
+takeoff and efficient fixed-wing cruise, designed using 3D-
+printed structures and carbon-tube framing for scalability
+and field repair. The project achieved 2nd place overall and
+was ranked #1 in the UAV & Aerospace category,
+recognized as the top aerospace innovation at the
+competition. Applications include humanitarian aid,
+medical delivery, agriculture, and inspection.
+Dogfight mission developed in Python: I
+developed a vision-based autonomous dogfight
+mission for a fixed-wing UAV. I used YOLOv8
+together with sky segmentation to track targets
+from a simulated GStreamer video stream. By
+calculating tracking errors, I controlled the UAV’s
+roll and pitch rates via MAVSDK Offboard mode.
+Real-time object detection and UAV control were
+executed using asyncio and multithreading. I
+simulated the mission control in the Gazebo
+environment.
+Kamikaze mission developed in Python: I
+coded the kamikaze mission for the Teknofest
+Fighter UAV, primarily using MAVSDK and CV2.
+I then simulated the mission in the Gazebo
+environment.
+
+=== PAGE 2 ===
+Academic Research Project: I am currently contributing
+to an academic research project focused on developing a
+quadcopter capable of autonomously navigating solar
+farms. The UAV captures images of solar panels, analyzes
+them in real time, and identifies panels that are dirty or
+obstructed. The resulting data supports targeted
+maintenance and cleaning operations.
+Autonomous Fixed-Wing UAV for Teknofest Fighter UAV
+Competition: I gained hands-on experience in both technical and
+project management domains. I contributed to the design and
+installation of UAV electronic systems as part of the avionics
+integration efforts. Using Python, I worked on UAV control systems
+and data processing tasks. To optimize performance and validate
+our control logic, I conducted flight simulations.
+In addition to my technical responsibilities, I took on the role of
+team organizer, ensuring effective collaboration and task
+distribution among team members. I also developed control
+functions, managed communication protocols, and operated the
+Ground Control Station (GCS) to monitor and control UAV
+operations in real time.
+As first-year Aerospace Engineering students, our 8-member team,
+ÜRK İHA, advanced to the semi-finals of Teknofest.
+Autonomous Quadcopter for Teknofest Competition: I
+built a fully autonomous and stable quadcopter drone with
+8 kg of thrust using the Pixhawk 4 Autopilot. This project
+was developed for the Teknofest Technology for Humanity
+Competition in 2019.
+Autonomous Fixed-Wing Prototype for Teknofest
+Fighter UAV Competition: This project was developed as
+a prototype of the main system for the Teknofest Fighter
+UAV Competition. The airframe used was the X-UAV Mini
+Snow Goose, featuring a wingspan of 1.8 meters.
+Assisted in Building a 1.5m Wingspan Fixed-Wing
+Aircraft:
+I contributed to the construction of a 1.5-meter wingspan RC
+trainer aircraft as part of my activities with the university’s
+Uzay ve Roket Kulübü (Space and Rocket Club).
+
+=== PAGE 3 ===
+Autonomous Tailsitter VTOL Development: Involved in the
+development of an autonomous tailsitter VTOL UAV. The work
+includes mechanical assembly and electronics integration,
+with a particular emphasis on software development to
+enable aggressive maneuvers such as loops. Computer vision
+is also being integrated to enhance precision and control.
+A330-343 Model Designed in Blender: I modeled the
+Airbus A330-343 aircraft in Blender, accurately capturing
+its characteristic design and structural details.

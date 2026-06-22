@@ -1,0 +1,85 @@
+
+=== PAGE 1 ===
+Rüveyda Dilara Gülbaş
+Candidate Robotics & Software Engineer
+ROS2 • UAV Systems • SLAM • Autonomous Navigation • Computer Vision
+Otonom sistemlerin yazılım mimarilerine ve robotik platformların karar verme mekanizmalarına odaklanmış bir
+Bilgisayar Mühendisi adayıyım. Akademik birikimimi savunma sanayii disipliniyle sahada harmanlarken, aynı zamanda
+SAÜ Yapay Zeka Topluluğu Başkanı olarak teknik topluluk yönetimi ve proje koordinasyonu süreçlerini üstlendim.
+Hedefim, yüksek teknoloji odaklı projelerde sorumluluk alarak, otonom sistemlerin geleceğine ve ülkemizin teknolojik
+vizyonuna liderlik ve mühendislik disiplinimle değer katmaktır.
+Deneyim
+ROS & AI Developer(1 Yıl) DyrobX Robotik Ve Mühendisik A.Ş.(Sakarya Teknokent)
+(Nisan 2024 - Nisan 2025) Eğitim
+URDF/Xacro ile modellenen platformlar Gazebo’ya aktarıldı; TF Tree ile koordinat dönüşümleri ve veri tutarlılığı
+sağlandı.
+LiDAR, IMU, derinlik kamerası ve encoder verileri EKF (robot_localization) ile füzyonlanarak hassas durum kestirim ve Sakarya Üniversitesi
+seyrüsefer sistemleri geliştirildi.
+Donanım verileri ROS-Serial ile entegre edildi; Linux Bash ve PID ile sistem otomasyonu (startup) optimize edildi. Bilgisayar Mühendisliği
+YOLO ve OpenCV modelleri ROS ekosistemine entegre edilerek gerçek zamanlı nesne algılama sistemleri geliştirildi. 2022- 2026
+Stajyer(1 Ay) DASAL Havacılık Teknolojileri(Altınay Savunma İştiraki) GNO:3.25
+(Ağustos 2025-Eylül 2025)
+Google Cartographer ve LiDAR verileri kullanılarak, micro-ROS ve micro XRCE-DDS agent mimarisi üzerinden gerçek
+zamanlı SLAM ve lokalizasyon mimarileri geliştirildi. Yetkinlikler
+Ardupilot ve ROS2 Nav2 entegrasyonuyla İHA’lar için otonom seyrüsefer ve yol planlama (Global/Local) sistemleri
+optimize edildi.
+Sürü İHA platformları için simülasyon ortamlarının kurgulanmasına yönelik çalışmalar yürütüldü.
+Otonom Sistemler & Robotik
+ROS 1/ROS 2 (Nav2), micro-ROS, micro XRCE-
+TÜBİTAK STAR Stajyer Araştırmacı(3 Ay) DDS, SLAM, EKF, Map Merging, Obstacle
+TÜBİTAK
+(Eylül 2025-Ocak 2026) Avoidance, Gazebo, RViz, QGIS
+GPS bağımsız afet senaryoları için çoklu robot tabanlı SLAM ve map merging (harita birleştirme) çözümleri İHA Teknolojileri & Uçuş Kontrol
+geliştirilirken; güncel navigasyon tekniklerinin performans analizleri ve teknik raporlama süreçleri yürütülmüştür. Pixhawk, PX4, Ardupilot, MAVLink, PPM/PWM,
+Transformer tabanlı DETR mimarisi entegre edilerek gerçek zamanlı nesne algılama sistemleri optimize edildi. UART, SPI, I2C, Radar Signal Processing
+(InSAR), DEM Tabanlı Navigasyon
+Aday Mühendis(4 Ay)
+AIROBOS TEKNOLOJİ A.Ş.(Teknopark Ankara)
+(Şubat 2026- Mayıs 2026) Yapay Zekâ & Görüntü İşleme
+YOLOv8/v10, DETR, Small Object Detection,
+Türkiye’nin ilk drone barınağı projesi kapsamında; küçük nesne ve insan tespiti (Small Object Detection) için derin
+OpenCV, Object Tracking
+öğrenme modelleri ve model birleştirme algoritmaları geliştirildi.
+GPS’siz navigasyon için radar verilerinin InSAR yöntemleriyle işlenmesi, DEM (Sayısal Yükseklik Modeli) haritalarının
+oluşturulması ve hedef odaklı seyrüsefer sistemleri tasarlandı. Yazılım Geliştirme & Araçlar
+PX4 tabanlı İHA’larda MAVLink protokolü ile offboard kontrol ve otonom görev planlama mimarileri kurgulandı; C++, Python, C, C#, SQL, Linux (Ubuntu), Bash
+dinamik engelden sakınma (obstacle avoidance) algoritmaları geliştirildi. Scripting, Git, PostgreSQL, SQLite, ASP.NET,
+Sınır güvenliği senaryolarına yönelik; yangın tespiti, hafriyat analizi, usulsuz park ve OpenCV tabanlı nesne takibi HTML/CSS, JavaScript
+(object tracking) sistemleri geliştirildi.
+Geliştirilen algoritmaların doğrulanması amacıyla QGIS ve Gazebo simülasyon ortamlarında testler ve sistem Soft Skills
+validasyonları tamamlandı. Topluluk Başkanlığı, Proje Koordinasyonu, Ekip
+Çalışması, Teknik Raporlama ve
+Projeler Dokümantasyon
+Yapay Zeka Destekli Tarımsal İnsansız Kara Aracı (Teknofest Finalisti) Referanslar
+Teknofest – Ulaşımda Yapay Zeka Yarışması Projesi
+Teknofest – Uluslararası İnsansız Hava Aracı Yarışması Projesi
+Sürü İnsansız Hava Araçları ile Akıllı Gözetleme Sistemi (Bitirme Projesi)
+Coğrafi Veri (DEM) Destekli GPS'siz İrtifa ve Konumlandırma Sistemi
+Prof.Dr.Cemil Öz
+PPM Sinyalleri ile Manuel/Otonom Geçişli İKA Kontrol Sistemi
+SAÜ Bilgisayar Mühendisliği Bölümü
+Gönüllü Çalışmalar
+Bölüm Başkanı
+Ömer Faruk Değirmenci
+SAÜ Yapay Zeka Topluluğu – Topluluk Başkanı (2025 - 2026) / IT & Tanıtım Manager (2023 - 2025)
+2024 Yılı Üniversite Topluluk Ödülleri – Sosyal Medyayı En Aktif Kullanan Topluluk Ödülü CEO - DYROBX
+SAÜRO İHA Takımı – Yazılım Geliştirici (2025) Furkan Ünal
+Teknofest Uluslararası İHA Yarışması için yazılım geliştirme süreçlerinde görev alındı. Altınay Savunma Yapay Zeka Ve Görü
+Sistemleri Mühendisi
+Fikir ile Gelecek Topluluğu – Ar-Ge Üyesi & Sosyal Sorumluluk Birimi Üyesi (2023 - 2024)
+Teknofest TİKA projesi ve çeşitli sosyal farkındalık faaliyetlerinde yer alındı.
+Dil
+2024 Yılı Üniversite Topluluk Ödülleri – En Aktif Topluluk
+SAITEM Topluluğu – Yazılım Ekip Üyesi (2022 - 2023) İngilizce
+Uluslararası Efficiency Challenge Elektrikli Araç Yarışları için araç içi haberleşme sistemleri ve kullanıcı arayüzü
+tasarımı geliştirildi. Konuşma: A2
+Okuma ve Anlama: B1
+Sertifika & Başarılar
+İletişim
+TEKNOFEST 2024 Tarımsal İnsansız Kara Aracı Yarışması – Finalist Sertifikası
+TEKNOFEST 2024 Ulaşımda Yapay Zeka Yarışması – Katılım Sertifikası
+TEKNOFEST 2025Uluslararası İHA Yarışması – Katılım Sertifikası
++905549796001
+Model Uçak ATA Yapımı
+IHA - 1 - Sportif / Amatör
+dilaragulbas@gmail.com

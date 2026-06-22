@@ -1,0 +1,52 @@
+
+=== PAGE 1 ===
+Enes Göktuğ Güneş
+Phone:05382600919E-Mail Address:gunesgoktug01@gmail.com
+I am a third-year Software Engineering student with proficiency in programming languages, algorithms, and data
+structures. I am particularly interested in artificial intelligence, machine learning, and cybersecurity, and I continuously
+work on improving myself in these areas. I have strong analytical thinking skills, a high willingness to learn, and a
+proactive approach to developing projects.
+EDUCATION
+2023-2027 Fatih Sultan Mehmet Foundation School
+Software Engineering
+2022-2023 Fatih Sultan Mehmet Foundation School
+English Preparatory School
+WORK EXPERIENCE
+2025/09 AI'M Artificial Intelligence Community
+Research and Development
+In the community, I conduct research on machine learning and try to provide
+insights on new projects. Through the articles and pieces I write, I aim to
+inform and engage the members of the community.
+2025/06 TÜBİTAK BİLGEM Cyber Security Department
+Security and Machine Learning Intern
+As an intern at TÜBİTAK BİLGEM, I developed AI- and cybersecurity-
+focused projects and gained new connections and knowledge.
+2024/06 Cheddar's Scratch Kitchen
+Work and Travel Project for University Students
+In this project, I had the opportunity to improve my English and Spanish for
+4 months in the United States, as well as to experience new cultures.
+LANGUAGES
+English
+Spanish
+Turkish
+SKILLS
+Programming Languages(Python, Java , C/C++), Web Scraping , Web
+Crawling, Machine Learning, Spring Framework, Object Oriented
+Programming, Data Mining, Testing and Debugging, Software Project
+Management, Operating System Concept, , Database Management and
+Design
+
+=== PAGE 2 ===
+REFERENCES
+Company Name: TÜBİTAK BİLGEM - Job Title: Head of Cyber
+Security Department
+Person Name: Dr. İsmail Güneş - Phone Number:
+ismail.gunes@tubitak.gov.tr
+Company Name: Cheddar's Scratch Kitchen - Job Title: Management
+Partner
+Person Name: Vasilios Tselonis - Phone Number: Vtselonis@cheddars.com
+PERSONAL
+Date Of Birth: 29.01.2005
+County: Turkey
+Driving Licence: B (Passenger car)
+Powered by TCPDF (www.tcpdf.org)

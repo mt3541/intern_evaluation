@@ -1,0 +1,109 @@
+
+=== PAGE 1 ===
+Portfolio
+Hatixhe Merkaj
+Electronics and Communication engineering
+student
+Hatixhemerkaj05@gmail.com
+
+=== PAGE 2 ===
+Who I Am
+HATIXHE MERKAJ
+I am a third year electronics and
+communication engineering
+student at Istanbul Technical
+University
+I take great interest in electronics, aviation systems, and
+hyperloop technologies, I also enjoy nature walks and
+good literature. 3
+
+=== PAGE 3 ===
+What I Do
+HATIXHE MERKAJ
+I have a great theoretical knowledge of circuit design
+and circuit analysis. I also have good programming
+circuit programming Zemax
+skills in C, python and Matlab, and I have mastered
+design in C. Python,
+the use of of Zemax optic studio through projects in
+Matlab
+the optical engineering spectrum. I also have
+experience in the control field thanks to my work in
+hyperbee. I can speak five languages including
+simulink
+English, Albanian and German in professional
+simscape
+English,
+Microsoft
+proficiency, Turkish in a B1 level and french as a
+Albanian,
+Excel
+beginner German,
+Turkish,
+French
+4
+
+=== PAGE 4 ===
+Skills
+HATIXHE MERKAJ
+Snapshot
+Teamwork
+Research
+Analytics
+thanks to my education
+research and Programming in C, Managment and
+background and experience
+development Matlab and python, organising skills
+in ITU hyperbee project team I
+simulink , simscape,
+can work in any environment
+zemax optic studio
+and i can find a common
+simulation
+language with anyone 5
+
+=== PAGE 5 ===
+Project
+HATIXHE MERKAJ
+Designing a Laser Filter
+Company Role
+My job was to do the simulation of the optical system in Zemax which is a
+ITU EDL
+ray simulation software. I was to make sure that the filter did what we wanted
+it to do without loosing accuracy
+Goal Outcome
+To built an optical system that will work A good optical system was built and now wveerything is ready waiting for
+as a laser filter that can be used for some last details from the company to finallize the project
+different wavelengths so that eye
+surgeons can use it for different
+surgeries in different parts of the eye 7
+
+=== PAGE 6 ===
+Project
+HATIXHE MERKAJ
+Mathematically modelling the levitation system and designing the
+pid controller
+Company Outcome
+ITU Hyperbee
+Goal
+The project is still
+To perfectly model the levitation system of the
+continuining .
+vehicle we have built during the years. Find a
+suitable controller type design it and test it
+Role
+Researching and understanding the system, extracting
+the mathematical model from simscape and running
+8
+analysis in simulink and testing in real life in the vehicle
+with all the systems put together
+
+=== PAGE 7 ===
+Let’s connect
+OLIVIA WILSON
+DIGITAL MARKETING SPECIALIST
+Email
+hatixhemerkaj05@gmail.com
+Phone number
++905016702005
+10

@@ -1,0 +1,48 @@
+
+=== PAGE 1 ===
+Melike Demirtaş
+m.demirtas2023@gtu.edu.tr | +905336780753 | Portfolyo’m
+Özet
+2023 yılından beri içinde bulunduğum teknoloji takımlarının aviyonik sistemler ve haberleşme protokolleri
+süreçlerinde yer aldım. Takım ve ekip liderliği gibi sorumluluklarım sayesinde teknik tasarım süreçlerinin yanı sıra
+organizasyonel yönetim yetkinliklerimi geliştirme fırsatı buldum. 2025 yılında otomotiv sektöründe önemli bir
+role sahip bir şirkette gerçekleştirdiğim gönüllü AR-GE ve imalat stajım ile teorik bilgilerimi endüstriyel üretim
+süreçleriyle pekiştirdim.
+Yetenekler
+Python: Sayısal mühendislik problemlerinin çözümüne yönelik seviye algoritmalar geliştirdim ve orta-ileri seviye
+proje kodları yazdım.
+C/ Embedded C: Düşük seviyeli donanım kontrolü ve gömülü sistemler üzerinde mikrodenetleyici tabanlı projeler
+tasarladım.
+SystemVerilog /Verilog : Dijital tasarım süreçlerinde fonksiyonel modelleme, algoritma geliştirme ve FPGA tabanlı
+tasarımlar gerçekleştirdim.
+Matlab&Simulink: İşaret işleme ve haberleşme teorisi kapsamında AM/FM modülasyon teknikleri üzerine
+simülasyonlar; sayısal/analog sistemlerde kanal modelleme ve sinyal bütünlüğü analizleri yaptım.
+Altium Designer: Donanım tasarımı ve baskı devre kartı (PCB) çizme süreçlerinde çalıştım.
+Geçmiş Deneyimler
+• KAT Mekatronik Ürünleri A.Ş. – AR-GE ve Mamul Departmanları (Gönüllü Staj – 2025)
+• Avrupa'nın önde gelen otomotiv firmaları için üretilen yüksek teknolojili mamullerin PCB tasarım
+süreçleri ve SMD dizgi hatlarındaki operasyonel akışları uçtan uca inceledim. Endüstriyel üretim
+ve AR-GE süreçlerinde verimliliği artıran Yalın Üretim, 5S ve Çevik metodolojilerinin uygulama
+sahasındaki etkilerini gözlemleme fırsatı edindim.
+• 2025 Teknofest Savaşan İHA Yarışması | GTU-GÖLGE Takımı Aviyonik Sistemler Lideri
+• Yer istasyonu ve İHA arasında kesintisiz veri aktarımı sağlamak amacıyla RF haberleşme
+mimarileri üzerine çalışmalar yürüttüm. Farklı iletişim protokollerinin testlerini gerçekleştirerek
+güvenilirlik analizleri yaptım.
+• 2024 ODTÜ VTOL Yarışması (Türkiye 4.lüğü) | GTU-MERLİN Takımı Aviyonik Sistemler Sorumlusu
+• VTOL aracının fiziksel yapısına özgü elektronik yerleşim planı kurguladım. Görev isterleri
+doğrultusunda, yük bırakma mekanizması için elektromekanik sistem tasarımı ve kontrol devresi
+kurulumu gerçekleştirdim.
+• 2024 Teknofest Uluslararası İHA Yarışması (Türkiye Finalisti) | GTU-AQUA Aviyonik Sistemler Sorumlusu
+• Görev gereksinimlerini karşılayan aviyonik donanım altyapısının kurgulanması ve sistem
+entegrasyonu süreçlerini tecrübe ettim.
+Sınavlar Dil
+2025/2 Akademik Personel ve Lisansüstü İngilizce- İleri seviye yazılı ve sözlü iletişim
+Eğitimi Giriş Sınavı (ALES) Puanı: Arapça- Temel seviye yazılı ve sözlü iletişim
+96,23964
+Eğitim
+2026/2 Elektronik Yabancı Dil Sınavı (e-
+Gebze Teknik Üniversitesi Elektronik Mühendisliği Lisans Eğitimi,
+YDS) Puanı:
+2023-2027
+82,5000
+3.sınıf - GNO: 2.94
