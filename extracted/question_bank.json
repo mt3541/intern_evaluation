@@ -1,0 +1,608 @@
+{
+  "_doc": "Tech-interview question bank for GNC interns. 9 groups x 10 Q+A, bilingual EN/TR. Edit any q_en/q_tr/a_en/a_tr in place and rerun scripts/05_build_question_bank.py. Group 'company_platforms' is intentionally placeholder content for proprietary platform questions.",
+
+  "groups": [
+    {
+      "key": "aircraft_dynamics",
+      "display": "Aircraft Dynamics",
+      "questions": [
+        {
+          "q_en": "Name the 6 degrees of freedom of an aircraft in the body frame.",
+          "q_tr": "Bir uçağın gövde ekseninde (body frame) 6 serbestlik derecesini sayar mısın?",
+          "a_en": "Three translational (u,v,w along x,y,z body axes) and three rotational (p,q,r about x,y,z body axes — roll, pitch, yaw rates).",
+          "a_tr": "Üç öteleme (gövde x,y,z eksenleri boyunca u,v,w) ve üç dönme (yuvarlanma, yunuslama, sapma hızları — p,q,r)."
+        },
+        {
+          "q_en": "List the classical longitudinal and lateral-directional modes and roughly characterize each.",
+          "q_tr": "Klasik boyuna (longitudinal) ve yanal-yön (lateral-directional) modlarını say ve her birini kısaca tanımla.",
+          "a_en": "Longitudinal: short-period (fast, well-damped, AoA/pitch-rate exchange) and phugoid (slow, lightly-damped, speed/altitude exchange). Lateral-directional: dutch-roll (oscillatory yaw-roll), spiral (slow divergence or convergence in bank), roll-subsidence (fast, damped roll-rate decay).",
+          "a_tr": "Boyuna: kısa periyot (hızlı, iyi sönümlü, AoA/yunuslama hızı değişimi) ve fugoid (yavaş, az sönümlü, hız/irtifa değişimi). Yanal-yön: dutch-roll (salınımlı yaw-roll), spiral (yavaş ıraksak/yakınsak yatış), roll-subsidence (hızlı, sönümlü yuvarlanma hızı azalımı)."
+        },
+        {
+          "q_en": "What is a stability derivative? Give Cm_alpha, Cl_beta and Cn_r as examples and explain their physical meaning.",
+          "q_tr": "Stabilite türevi (stability derivative) nedir? Cm_alpha, Cl_beta ve Cn_r örneklerini açıkla.",
+          "a_en": "Partial derivative of a non-dimensional aerodynamic coefficient w.r.t. a state. Cm_alpha = pitch moment per unit AoA (negative for static pitch stability). Cl_beta = rolling moment per unit sideslip (dihedral effect, negative is stabilising). Cn_r = yaw moment per unit yaw rate (negative is yaw damping).",
+          "a_tr": "Boyutsuz aerodinamik katsayının bir duruma göre kısmi türevi. Cm_alpha = AoA başına yunuslama momenti (statik pitch stabilitesi için negatif). Cl_beta = sideslip başına yuvarlanma momenti (dihedral etkisi). Cn_r = yaw hızı başına sapma momenti (negatif olması yaw sönümünü gösterir)."
+        },
+        {
+          "q_en": "Static vs dynamic stability — explain with a pitch example.",
+          "q_tr": "Statik ve dinamik stabilite arasındaki farkı bir pitch örneği ile açıkla.",
+          "a_en": "Static stability is the initial tendency to return after a disturbance (Cm_alpha < 0). Dynamic stability is whether the resulting oscillation actually decays over time (depends on damping). An aircraft can be statically stable but dynamically unstable (e.g. divergent phugoid).",
+          "a_tr": "Statik stabilite, bozulma sonrası başlangıçta geri dönme eğilimidir (Cm_alpha < 0). Dinamik stabilite, oluşan salınımın zamanla sönümlenip sönümlenmediğidir. Uçak statik kararlı ama dinamik kararsız olabilir (ör. ıraksak fugoid)."
+        },
+        {
+          "q_en": "What does 'trim' mean and how do you find it for steady level flight?",
+          "q_tr": "Sabit yatay uçuşta 'trim' (denge) ne demektir, nasıl bulunur?",
+          "a_en": "Trim is a steady-state where all moments and forces (in the trim direction) sum to zero so the aircraft holds the condition without pilot input. For level flight: solve nonlinear equations f(alpha, elevator, throttle) = 0 for V, gamma=0 — typically by Newton iteration on the nonlinear 6-DOF model.",
+          "a_tr": "Trim, tüm kuvvet ve momentlerin sıfır olduğu kararlı durumdur — uçak pilot girdisi olmadan o koşulda kalır. Yatay uçuş için: doğrusal olmayan 6-DOF modelinde alpha, elevator, throttle değişkenleri Newton iterasyonu ile çözülür (V verili, gamma=0)."
+        },
+        {
+          "q_en": "Write the relation among angle of attack (alpha), pitch angle (theta) and flight-path angle (gamma) in symmetric flight.",
+          "q_tr": "Simetrik uçuşta hücum açısı (alpha), yunuslama açısı (theta) ve uçuş yolu açısı (gamma) arasındaki ilişkiyi yaz.",
+          "a_en": "gamma = theta - alpha (small-angle, no sideslip, no wind). So pitch angle equals climb angle plus AoA. With wind, replace velocity vector with airspeed vector.",
+          "a_tr": "gamma = theta - alpha (küçük açı, sideslip yok, rüzgar yok). Yani pitch açısı = tırmanma açısı + AoA. Rüzgar varsa hız vektörü yerine havahızı vektörü kullanılır."
+        },
+        {
+          "q_en": "How does CG location affect pitch stability? What happens when CG moves aft of the neutral point?",
+          "q_tr": "Ağırlık merkezi (CG) konumu pitch stabilitesini nasıl etkiler? CG nötr noktanın arkasına geçerse ne olur?",
+          "a_en": "Static margin = (x_NP - x_CG)/c_bar. As CG moves aft, static margin decreases. Beyond the neutral point (negative SM) the aircraft becomes statically pitch-unstable — a small disturbance grows. Modern fighters often fly there with active control.",
+          "a_tr": "Statik marj = (x_NP - x_CG)/c_bar. CG arkaya kaydıkça statik marj azalır. Nötr noktanın gerisinde (negatif SM) uçak statik olarak kararsız hâle gelir — küçük bozulmalar büyür. Modern savaş uçakları aktif kontrol ile bu bölgede uçar."
+        },
+        {
+          "q_en": "Describe adverse yaw and how the rudder counters it.",
+          "q_tr": "Ters sapma (adverse yaw) nedir ve rudder bunu nasıl dengeler?",
+          "a_en": "When ailerons deflect to bank, the down-going wing has more induced drag (lift on up-going wing is higher) so the nose yaws opposite to the bank direction — that is adverse yaw. Coordinated rudder deflection toward the bank cancels the yawing moment.",
+          "a_tr": "Yatış için aileronlar açıldığında, kalkış yönündeki kanat daha fazla indüklenmiş sürükleme yaşar; bu yüzden burun yatış yönünün aksine sapar — ters yaw. Yatış yönüne verilen koordineli rudder bu momenti dengeler."
+        },
+        {
+          "q_en": "What is a linearised state-space model around a trim point and why use it?",
+          "q_tr": "Bir trim noktası etrafında doğrusallaştırılmış (linearised) durum-uzay modeli nedir ve niye kullanılır?",
+          "a_en": "Take the nonlinear EOMs, expand in small perturbations around trim: dx/dt = A*delta_x + B*delta_u. Used for linear control design (PID, LQR), modal analysis (eigenvalues = modes), and Bode/Nyquist analysis. Valid only near the trim point.",
+          "a_tr": "Doğrusal olmayan hareket denklemleri trim etrafında küçük perturbasyon açılımı ile yazılır: dx/dt = A*delta_x + B*delta_u. Doğrusal kontrol tasarımı (PID, LQR), mod analizi (öz değerler = modlar) ve Bode/Nyquist için kullanılır. Sadece trim civarında geçerlidir."
+        },
+        {
+          "q_en": "What is the difference between dimensional and non-dimensional stability derivatives?",
+          "q_tr": "Boyutlu (dimensional) ve boyutsuz (non-dimensional) stabilite türevleri arasındaki fark nedir?",
+          "a_en": "Non-dimensional derivatives (e.g. Cm_alpha, Cn_beta) come from the dimensionless coefficient and are independent of flight condition and aircraft size. Dimensional derivatives (e.g. M_alpha = qS c_bar Cm_alpha / Iyy) include dynamic pressure, geometry and inertia, and plug directly into the state-space A matrix.",
+          "a_tr": "Boyutsuz türevler (Cm_alpha, Cn_beta gibi) boyutsuz katsayıdan gelir; uçuş koşulundan ve uçak boyutundan bağımsızdır. Boyutlu türevler (örn. M_alpha = qS c_bar Cm_alpha / Iyy) dinamik basınç, geometri ve atalet içerir ve durum-uzay A matrisine doğrudan girer."
+        }
+      ]
+    },
+
+    {
+      "key": "dynamics_modeling_sim",
+      "display": "Aircraft Dynamics Modeling & Simulation",
+      "questions": [
+        {
+          "q_en": "Walk me through how you would build a 6-DOF nonlinear simulation of a fixed-wing UAV from scratch.",
+          "q_tr": "Sıfırdan sabit kanat bir İHA için 6-DOF doğrusal olmayan simülasyonu nasıl kurarsın? Adım adım anlat.",
+          "a_en": "Define states (position, velocity, attitude, body rates), build aero model (look-up tables or polynomial CL/CD/Cm vs alpha, beta, control surfaces), build propulsion model (thrust vs throttle and airspeed), build mass/inertia, integrate Newton-Euler equations with quaternion attitude, add gravity, wind, and sensor outputs.",
+          "a_tr": "Durumları tanımla (konum, hız, attitude, body rate), aerodinamik modeli kur (alpha/beta/kontrol yüzeyleri için CL/CD/Cm tabloları veya polinomları), itki modeli (gaz ve havahızına göre), kütle/atalet, Newton-Euler denklemlerini quaternion ile entegre et, yer çekimi-rüzgar-sensör çıkışlarını ekle."
+        },
+        {
+          "q_en": "Why are quaternions preferred over Euler angles for attitude in simulation?",
+          "q_tr": "Simülasyonda attitude için neden Euler açıları yerine quaternion tercih edilir?",
+          "a_en": "Quaternions avoid the gimbal-lock singularity that Euler angles have at +/-90 deg pitch, are numerically smoother (no trig at every step), and only have 4 states with a single unit-norm constraint instead of 3 states with discontinuities at the wrap-around.",
+          "a_tr": "Quaternionlar, Euler açılarında ±90° pitch'te yaşanan gimbal-lock tekilliğinden kaçınır, sayısal olarak daha pürüzsüzdür (her adımda trigonometri yok) ve sadece tek norm kısıtı olan 4 durum içerir; wrap-around süreksizliği yoktur."
+        },
+        {
+          "q_en": "How do you avoid gimbal lock in an Euler-angle implementation?",
+          "q_tr": "Euler açılı bir uygulamada gimbal lock'tan nasıl kaçınılır?",
+          "a_en": "Switch to a different Euler convention near the singularity, use 'double Euler' (two parameterisations and pick whichever is safer), or replace the attitude representation with quaternions or a DCM. In production, just use quaternions.",
+          "a_tr": "Tekilliğe yaklaşırken farklı Euler konvansiyonuna geç, 'double Euler' (iki parametrizasyon, hangisi güvenli ise onu kullan) ya da DCM/quaternion'a geç. Üretimde doğrudan quaternion kullanılır."
+        },
+        {
+          "q_en": "Describe a sensible Simulink architecture for a UAV simulation (subsystems and signals).",
+          "q_tr": "Bir İHA simülasyonu için mantıklı bir Simulink mimarisi anlat (alt sistemler ve sinyaller).",
+          "a_en": "Top-level subsystems: Plant (aero + propulsion + mass), EOM/integrator, Sensors (IMU/GPS/baro with noise & biases), Environment (atmosphere + wind), Avionics (sensors -> NAV -> GUID -> CTRL -> actuators), Visualisation. Use bus signals for state and actuator commands to keep wiring clean.",
+          "a_tr": "Üst seviye alt sistemler: Plant (aero + itki + kütle), Hareket denklemi/integratör, Sensörler (gürültülü-bias'lı IMU/GPS/baro), Çevre (atmosfer + rüzgar), Aviyonik (sensör -> NAV -> GUID -> CTRL -> aktüatör), Görselleştirme. Wiring temizliği için durum ve aktüatör komutlarında bus sinyalleri kullan."
+        },
+        {
+          "q_en": "What low-fidelity aerodynamic data sources do you know? When is each appropriate?",
+          "q_tr": "Düşük doğruluklu (low-fidelity) aerodinamik veri kaynakları nelerdir, hangisi ne zaman uygundur?",
+          "a_en": "DATCOM (semi-empirical handbook, fast for conventional planforms), AVL (vortex-lattice, good for linear regime and stability derivatives), XFLR5 (panel + thin-airfoil, useful for small UAVs), OpenVSP (geometry plus aero solvers). For high AoA or stall, none of these are accurate — need wind tunnel or CFD.",
+          "a_tr": "DATCOM (yarı-deneysel, klasik geometriler için hızlı), AVL (vortex-lattice, doğrusal rejim ve stabilite türevleri için iyi), XFLR5 (panel + ince kanat, küçük İHA'lar için), OpenVSP (geometri + aero çözücüler). Yüksek AoA / stall için hiçbiri doğru değil — rüzgar tüneli veya CFD gerekir."
+        },
+        {
+          "q_en": "How do you validate a simulation against real flight test data?",
+          "q_tr": "Bir simülasyonu gerçek uçuş test verisi ile nasıl doğrularsın?",
+          "a_en": "Replay the same control inputs from flight in the sim and overlay measured vs predicted states (V, alpha, p, q, r, attitude). Quantify mismatch via RMS error and time/frequency-domain residuals. Identify discrepancies (CG, thrust, drag, control surface effectiveness) and update the model.",
+          "a_tr": "Uçuştaki aynı kontrol girdilerini simülasyonda tekrar oynat ve ölçülen vs tahmin edilen durumları (V, alpha, p, q, r, attitude) üst üste çiz. Uyumsuzluğu RMS hatası ve zaman/frekans rezidüleri ile ölç. Farkları tespit edip (CG, itki, sürükleme, yüzey etkinliği) modeli güncelle."
+        },
+        {
+          "q_en": "What integration step would you choose for a 6-DOF flight dynamics simulation and why?",
+          "q_tr": "6-DOF uçuş dinamiği simülasyonu için hangi entegrasyon adımını seçersin ve neden?",
+          "a_en": "Plant dynamics need ~5-10x oversampling of the fastest mode (short-period ~3-5 Hz on small UAVs => 1-2 ms step). Controller often runs at 100-400 Hz. A common practical choice: fixed-step ODE4 (RK4) at 1 kHz (1 ms) for the continuous side.",
+          "a_tr": "Tesis dinamiği en hızlı modun ~5-10 katı kadar örneklenmeli (kısa periyot küçük İHA'larda ~3-5 Hz => 1-2 ms adım). Kontrolör genelde 100-400 Hz çalışır. Pratik seçim: sürekli taraf için fixed-step ODE4 (RK4) 1 kHz (1 ms)."
+        },
+        {
+          "q_en": "How would you model a servo / actuator? List the typical effects you want to include.",
+          "q_tr": "Bir servoyu / aktüatörü nasıl modellersin? Eklemek istediğin tipik etkileri sırala.",
+          "a_en": "First/second-order transfer function for response speed, rate limit, position saturation, dead band, sometimes backlash and transport delay. For brushless ESC/motor, also add electrical time constant and thrust map vs RPM and airspeed.",
+          "a_tr": "Tepki için 1./2. mertebe transfer fonksiyonu, hız limiti, konum doyumu, ölü bölge; gerekirse boşluk (backlash) ve gecikme. Fırçasız ESC/motor için elektriksel zaman sabiti ve RPM/havahızı'na göre itki haritası."
+        },
+        {
+          "q_en": "How are wind and turbulence modelled in a UAV simulation?",
+          "q_tr": "Bir İHA simülasyonunda rüzgar ve türbülans nasıl modellenir?",
+          "a_en": "Steady wind: constant inertial-frame vector subtracted from inertial velocity to get airspeed. Turbulence: Dryden or Von Karman filtered white-noise models tuned by altitude and wind severity (MIL-F-8785C). Gusts: 1-cos profiles applied at predefined times.",
+          "a_tr": "Sabit rüzgar: ataletsel çerçevede sabit bir vektör; havahızı = ataletsel hız - rüzgar. Türbülans: irtifa ve rüzgar şiddetine göre ayarlanmış Dryden veya Von Karman beyaz gürültü süzgeci (MIL-F-8785C). Hamleler: önceden tanımlı zamanlarda uygulanan 1-cos profili."
+        },
+        {
+          "q_en": "Define MIL, SIL and HIL testing and when you would use each.",
+          "q_tr": "MIL, SIL ve HIL testlerini tanımla ve her birini ne zaman kullanırsın?",
+          "a_en": "MIL (Model-in-the-Loop) — controller as a Simulink block tested against the plant model. SIL — autogenerated controller code run on PC against the plant model. HIL — controller running on real flight-hardware against the plant model on a real-time target. Progressively higher fidelity / risk reduction.",
+          "a_tr": "MIL (Model-in-the-Loop) — kontrolör Simulink blok olarak plant modeline karşı çalışır. SIL — otomatik üretilen kontrolör kodu PC'de plant modeline karşı koşar. HIL — gerçek uçuş donanımındaki kontrolör, gerçek zamanlı hedef üzerindeki plant modeline karşı koşar. Risk azaltması artan doğrulukta sıralı yapılır."
+        }
+      ]
+    },
+
+    {
+      "key": "guidance",
+      "display": "Guidance",
+      "questions": [
+        {
+          "q_en": "Define guidance and contrast it with navigation and control.",
+          "q_tr": "Güdüm (guidance) nedir? Seyrüsefer (navigation) ve kontrol (control) ile farkını anlat.",
+          "a_en": "Navigation: where am I? Guidance: where do I want to go and what reference (heading, attitude, thrust) do I command to get there? Control: how do I make the actuators track that reference? Guidance sits between the mission planner and the inner control loops.",
+          "a_tr": "Navigation: neredeyim? Guidance: nereye gitmek istiyorum ve oraya gitmek için hangi referansı (yön, attitude, itki) komutluyorum? Control: aktüatörler bu referansı nasıl takip ediyor? Güdüm, görev planlayıcı ile iç kontrol döngüleri arasındadır."
+        },
+        {
+          "q_en": "How would you implement basic waypoint-following with heading reference?",
+          "q_tr": "Yön (heading) referanslı temel bir waypoint takibini nasıl uygularsın?",
+          "a_en": "Compute bearing from current position to next waypoint, command heading = bearing, switch to next waypoint when within an acceptance radius. Add crosstrack correction if you want to stay on the leg line and not just chase the waypoint.",
+          "a_tr": "Şu anki konumdan sıradaki waypoint'e olan yönü hesapla, komut heading = bu yön, kabul yarıçapına girince sıradakine geç. Sadece waypoint'i kovalamak yerine leg çizgisi üstünde kalmak için crosstrack düzeltmesi ekle."
+        },
+        {
+          "q_en": "Explain L1 guidance and why fixed-wing path-following uses it.",
+          "q_tr": "L1 güdümünü açıkla. Sabit kanat path-following için neden tercih edilir?",
+          "a_en": "L1 picks a reference point on the desired path at distance L1 ahead; commands a lateral acceleration a_cmd = 2*V^2*sin(eta)/L1 where eta is the angle to the reference. Naturally handles straight legs and arcs, robust to wind, simple to tune (one parameter L1).",
+          "a_tr": "L1, istenen yol üzerinde önde L1 mesafedeki bir referans nokta seçer ve eta bu noktaya açı olmak üzere a_cmd = 2V^2 sin(eta)/L1 yanal ivme komutu üretir. Düz parça ve arklarda doğal çalışır, rüzgara dayanıklı, tek parametreli (L1) kolay ayarlanır."
+        },
+        {
+          "q_en": "What is proportional navigation (PN), the navigation constant N, and where is PN used?",
+          "q_tr": "Proportional navigation (PN) nedir, navigation constant N nedir, PN nerede kullanılır?",
+          "a_en": "PN commands lateral acceleration proportional to LOS rate: a_cmd = N * V_c * lambda_dot. Used in homing missiles; N typically 3-5. The intuition: zero LOS rate => constant bearing => collision.",
+          "a_tr": "PN, görüş hattı (LOS) açısal hızıyla orantılı yanal ivme komutlar: a_cmd = N * V_c * lambda_dot. Genelde N=3-5 ile homing füzelerinde kullanılır. Mantığı: sıfır LOS oranı sabit yön demektir, bu da çarpışmaya götürür."
+        },
+        {
+          "q_en": "How does a loiter (orbit) guidance law work for a fixed-wing UAV?",
+          "q_tr": "Sabit kanat İHA için loiter (yörünge etrafında dolanma) güdümü nasıl çalışır?",
+          "a_en": "Maintain constant radial distance r to the loiter center: compute crosstrack error e = r_actual - r_desired, generate bank/heading command that corrects e while keeping tangential motion around the center, often via L1 with the reference point on the orbit.",
+          "a_tr": "Loiter merkezine olan radyal uzaklığı r sabit tut: crosstrack hatası e = r_gercek - r_istenen, e'yi düzeltirken merkez etrafında teğet hareketi koruyan bank/heading komutu üret; sıklıkla referansı orbit üzerinde olan L1 ile yapılır."
+        },
+        {
+          "q_en": "Compare Dubins-path and B-spline trajectory generation for a fixed-wing UAV.",
+          "q_tr": "Sabit kanat İHA için Dubins-path ve B-spline yörünge üretimini karşılaştır.",
+          "a_en": "Dubins paths assemble straight segments and minimum-radius arcs — shortest path under a turn-radius constraint, but C1 continuous only (curvature jumps). B-splines give smooth C2+ paths with arbitrary curvature profile but no closed-form minimum-time / minimum-length guarantee.",
+          "a_tr": "Dubins-path düz parçalar ve minimum yarıçap arklarından oluşur — dönüş yarıçapı kısıtı altında en kısa yol, ancak sadece C1 sürekli (eğrilikte sıçramalar). B-spline'lar C2+ pürüzsüz, istenen eğrilik profili veren yollar verir; ama kapalı form minimum süre/uzunluk garanti etmez."
+        },
+        {
+          "q_en": "What is line-of-sight (LOS) guidance and where is it useful?",
+          "q_tr": "Line-of-sight (LOS) güdümü nedir, nerede işe yarar?",
+          "a_en": "Command heading along the LOS to a target or look-ahead point. Used for path following (look-ahead distance + crosstrack), missile pursuit, and UAV station-keeping behind a leader. Very simple but can be sluggish vs L1 / PN on curved paths.",
+          "a_tr": "Hedefe veya ileri-bakış noktasına LOS boyunca heading komutla. Yol takibi (look-ahead + crosstrack), füze takibi ve lider arkasında istasyon tutma için kullanılır. Çok basittir; ancak L1/PN'e göre eğri yollarda yavaş kalabilir."
+        },
+        {
+          "q_en": "Describe pure pursuit and its limitations.",
+          "q_tr": "Pure pursuit nedir, sınırlamaları nelerdir?",
+          "a_en": "At each step pick a look-ahead point on the path at distance L, command a turn rate that drives the vehicle through that point. Simple and intuitive but cuts corners on curved paths and is sensitive to look-ahead distance; can become unstable at high speed with short L.",
+          "a_tr": "Her adımda yol üzerinde L mesafedeki bir ileri-bakış noktası seçilir; aracı bu noktadan geçirecek dönüş hızı komutlanır. Basit ve sezgisel ama eğri yollarda köşeleri keser, L'ye duyarlıdır; yüksek hızda küçük L ile kararsız olabilir."
+        },
+        {
+          "q_en": "How do you keep ground track when there is wind? Track angle vs heading angle.",
+          "q_tr": "Rüzgar varken yer izini (ground track) nasıl korursun? Yön (heading) ve rota (track) farkı nedir?",
+          "a_en": "Heading is where the nose points; ground track is the direction of inertial velocity. With crosswind they differ by the crab angle. To follow a fixed ground track, command heading = desired track + crab angle estimated from wind triangle (V_g = V_a + W).",
+          "a_tr": "Heading burnun yönüdür; ground track ataletsel hızın yönüdür. Yan rüzgarda crab açısı kadar fark olur. Sabit bir ground track için heading = istenen track + rüzgar üçgeninden (V_g = V_a + W) kestirilen crab açısı."
+        },
+        {
+          "q_en": "Sketch a mission-level state machine for a typical autonomous UAV mission.",
+          "q_tr": "Tipik bir otonom İHA görevi için görev seviyesi state machine çiz/açıkla.",
+          "a_en": "States: PRE-FLIGHT -> TAKEOFF -> CLIMB -> CRUISE/WAYPOINTS -> LOITER (ON-TASK) -> RTL -> APPROACH -> LAND -> SHUTDOWN. Transitions on altitude/waypoint reach, battery, link loss (failsafe -> RTL or LAND), or operator command.",
+          "a_tr": "Durumlar: UCUS-ONCESI -> KALKIS -> TIRMAN -> CRUISE/WAYPOINT -> LOITER (GOREV) -> RTL -> YAKLASMA -> INIS -> KAPANIS. Geçişler irtifa/waypoint, batarya, link kaybı (failsafe -> RTL/LAND) ve operatör komutu ile."
+        }
+      ]
+    },
+
+    {
+      "key": "navigation",
+      "display": "Navigation",
+      "questions": [
+        {
+          "q_en": "Write the INS strapdown mechanisation equations at a high level.",
+          "q_tr": "Strapdown INS mekanizasyon denklemlerini yüksek seviyede yaz.",
+          "a_en": "Integrate body-frame specific force from accelerometers (after gravity and Coriolis removal) to update velocity; integrate velocity to update position; integrate body rates from gyros to update attitude (quaternion or DCM). All in a chosen navigation frame (NED or ECEF).",
+          "a_tr": "Akselerometre özgül kuvvetini (yerçekimi ve Coriolis çıkarıldıktan sonra) entegre ederek hız güncellenir; hız entegre edilerek konum güncellenir; jiroskop body rate'leri entegre edilerek attitude (quaternion/DCM) güncellenir. Seçilen seyrüsefer çerçevesinde (NED veya ECEF)."
+        },
+        {
+          "q_en": "What role does an EKF play in GPS/INS fusion?",
+          "q_tr": "EKF, GPS/INS füzyonunda ne işe yarar?",
+          "a_en": "INS is high-rate but drifts; GPS is low-rate and bounded. EKF propagates the INS state and covariance, then corrects with GPS measurements (and others — baro, magnetometer, airspeed). Output: low-drift, high-rate position, velocity, attitude with estimated IMU biases.",
+          "a_tr": "INS hızlı ama drift eder; GPS yavaş ama sınırlıdır. EKF, INS durumu ve kovaryansını ilerletir, sonra GPS (ve baro, manyetometre, havahızı gibi diğer) ölçümleriyle düzeltir. Sonuç: düşük driftli, yüksek hızlı konum/hız/attitude + tahmin edilmiş IMU bias'ları."
+        },
+        {
+          "q_en": "List the typical states in a 15-state INS-EKF.",
+          "q_tr": "15-durumlu bir INS-EKF'de tipik durumlar nelerdir?",
+          "a_en": "3 position (NED), 3 velocity (NED), 3 attitude error (small-angle), 3 accelerometer biases, 3 gyro biases. Some implementations also include magnetometer scale/bias or wind estimates, expanding the state.",
+          "a_tr": "3 konum (NED), 3 hız (NED), 3 attitude hatası (küçük açı), 3 akselerometre bias'ı, 3 jiroskop bias'ı. Bazı uygulamalar manyetometre scale/bias veya rüzgar tahminleri ekleyerek durumu büyütür."
+        },
+        {
+          "q_en": "How is magnetometer calibration performed and what errors does it remove?",
+          "q_tr": "Manyetometre kalibrasyonu nasıl yapılır ve hangi hataları giderir?",
+          "a_en": "Rotate the sensor through all attitudes, fit an ellipsoid to the measurements, recover hard-iron offset (translation) and soft-iron matrix (scale + skew). Removes constant magnetic offsets from PCB tracks and distortions from nearby ferrous parts so heading is accurate.",
+          "a_tr": "Sensörü tüm yönlerde döndür, ölçümlere bir elipsoid yerleştir; hard-iron ofseti (öteleme) ve soft-iron matrisini (ölçek + eğrilik) çıkar. PCB izlerinden sabit manyetik kaymaları ve ferromanyetik parça bozulmalarını giderir; heading doğru olur."
+        },
+        {
+          "q_en": "Compare loosely-coupled, tightly-coupled and ultra-tightly-coupled GPS/INS integration.",
+          "q_tr": "Gevşek (loose), sıkı (tight) ve ultra-sıkı (ultra-tight) GPS/INS entegrasyonunu karşılaştır.",
+          "a_en": "Loose: EKF uses GPS PVT solution as measurements (easy, but loses fidelity when <4 sats). Tight: EKF uses raw pseudoranges/Doppler — works with 1-3 sats, more complex. Ultra-tight: INS feeds back into GPS receiver tracking loops for higher jamming/dynamics tolerance.",
+          "a_tr": "Loose: EKF, GPS'in PVT çözümünü ölçüm olarak alır (kolay, <4 uydu durumunda zayıf). Tight: EKF, ham pseudorange/Doppler kullanır — 1-3 uyduda çalışır, daha karmaşık. Ultra-tight: INS, GPS alıcısının takip döngülerine geri besler; jamming ve yüksek dinamiklere daha dayanıklı."
+        },
+        {
+          "q_en": "Why does an INS drift and which aids bound the drift?",
+          "q_tr": "INS neden drift eder, hangi yardımcı sensörler driftı sınırlar?",
+          "a_en": "Integration of accelerometer/gyro noise and biases causes position error to grow ~t^3, velocity ~t^2, attitude ~t. Aids: GPS (PVT or pseudoranges) bounds position/velocity; magnetometer bounds yaw; baro bounds altitude; airspeed bounds horizontal velocity; vehicle constraints (zero-vertical-velocity for level flight) help in coasting.",
+          "a_tr": "Akselerometre/jiroskop gürültü ve bias'larının entegrasyonu konum hatasını ~t^3, hız ~t^2, attitude ~t büyütür. Yardımcılar: GPS konum/hızı, manyetometre yaw'ı, baro irtifayı, havahızı yatay hızı sınırlar; uçuş kısıtları (yatay uçuşta sıfır dikey hız) coast'ta yardımcı olur."
+        },
+        {
+          "q_en": "How would you estimate IMU biases on the ground before flight?",
+          "q_tr": "Uçuş öncesi yerde IMU bias'larını nasıl tahmin edersin?",
+          "a_en": "Hold the vehicle stationary for several seconds; the gyros measure earth rate + bias (earth rate is small for low-grade IMUs => average ~= gyro bias). Accelerometers measure -g + bias, with attitude known from leveling. Subtract for in-flight use. Repeat between flights — biases are temperature-dependent.",
+          "a_tr": "Aracı birkaç saniye sabit tut; jiroskop dünya hızı + bias ölçer (düşük sınıf IMU'lar için dünya hızı küçük => ortalama ≈ gyro bias). Akselerometre -g + bias ölçer, attitude leveling'den bilinir. Uçuş için bunları çıkar. Sıcaklığa bağlı olduğu için her uçuş öncesi tekrarla."
+        },
+        {
+          "q_en": "Compare EKF, UKF and particle filter — when to use each.",
+          "q_tr": "EKF, UKF ve parçacık filtresini karşılaştır. Hangisi ne zaman uygundur?",
+          "a_en": "EKF: linearise around current estimate, fast, works when nonlinearity is mild and unimodal Gaussian. UKF: unscented transform, no Jacobians needed, better for stronger nonlinearity. Particle filter: arbitrary distributions, handles multimodal/non-Gaussian, but expensive — use when the others fail.",
+          "a_tr": "EKF: tahmin etrafında doğrusallaştırma, hızlı, hafif doğrusal olmayan + tek modlu Gauss durumlarda iyi. UKF: unscented dönüşüm, Jacobian gerektirmez, daha güçlü doğrusalsızlıkta üstün. Parçacık: keyfi dağılım, multimodal/non-Gaussian'a uygun, ama maliyetlidir — diğerleri başarısız olunca."
+        },
+        {
+          "q_en": "What is innovation gating in a Kalman filter and what does it protect against?",
+          "q_tr": "Kalman filtresinde innovation gating nedir ve neye karşı koruma sağlar?",
+          "a_en": "Compute Mahalanobis distance d = innovation^T * S^-1 * innovation; reject the measurement if d > threshold (e.g. chi-squared with sensor dim DoF at 99%). Protects against outliers (multipath, sensor faults, spoofing) that would otherwise corrupt the state.",
+          "a_tr": "Mahalanobis mesafesi d = innovation^T * S^-1 * innovation hesaplanır; d eşik üstüyse (örn. sensor boyutlu DoF ile %99 chi-kare) ölçüm reddedilir. Multipath, sensör arızası, spoofing gibi outlier'lara karşı durumu korur."
+        },
+        {
+          "q_en": "Why do GNC systems work in multiple reference frames (ECEF, NED, body)?",
+          "q_tr": "GNC sistemleri neden birden çok çerçeve (ECEF, NED, body) kullanır?",
+          "a_en": "Body frame is where sensors and forces naturally live (IMU, aero). NED is intuitive for navigation tasks (heading, altitude). ECEF is needed for GPS, earth-rotation, and long-range navigation. Conversions are well-defined; each frame is the right tool for a specific computation.",
+          "a_tr": "Body, sensör ve kuvvetlerin doğal çerçevesidir (IMU, aero). NED, navigation görevleri için sezgiseldir (heading, irtifa). ECEF, GPS, dünya dönüşü ve uzun menzilli navigasyon için gereklidir. Dönüşümler iyi tanımlıdır; her çerçeve belirli bir hesap için uygundur."
+        }
+      ]
+    },
+
+    {
+      "key": "control",
+      "display": "Control",
+      "questions": [
+        {
+          "q_en": "Sketch a cascaded inner/outer loop control architecture for a fixed-wing UAV.",
+          "q_tr": "Sabit kanat İHA için kademeli (cascaded) iç/dış döngü kontrol mimarisini çiz/anlat.",
+          "a_en": "Outer-most: position/altitude loop generates airspeed/climb-rate references. Middle: airspeed -> throttle, climb-rate -> pitch ref. Inner: attitude controller (roll/pitch/yaw refs -> aileron/elevator/rudder via rate inner-inner loop). Each loop slower than the one inside it.",
+          "a_tr": "En dış: konum/irtifa döngüsü havahızı/tırmanma hızı referansı üretir. Orta: havahızı -> gaz, tırmanma -> pitch ref. İç: attitude kontrolörü (roll/pitch/yaw ref -> rate iç-iç döngü üzerinden aileron/elevator/rudder). Her döngü içtekinden yavaştır."
+        },
+        {
+          "q_en": "Why is gain scheduling used in flight controllers and how is it implemented?",
+          "q_tr": "Uçuş kontrolörlerinde gain scheduling neden ve nasıl kullanılır?",
+          "a_en": "Plant dynamics change with flight condition (dynamic pressure, mass, configuration). Schedule controller gains as a function of scheduling variables (Vtrue, alpha, mass) via lookup tables interpolated linearly. Combine with hidden-mode-switching care and bumpless transfer.",
+          "a_tr": "Tesis dinamiği uçuş koşulu ile değişir (dinamik basınç, kütle, konfigürasyon). Kontrolör kazançları zamanlama değişkenlerine (Vgerçek, alpha, kütle) göre tablodan lineer interpolasyonla seçilir. Mod geçişlerinde bumpless transfer önlemi alınır."
+        },
+        {
+          "q_en": "Explain PID — why P, I and D, and what are their typical pitfalls?",
+          "q_tr": "PID'i açıkla — P, I ve D neden vardır, tipik tuzakları nelerdir?",
+          "a_en": "P reduces error proportionally (too high -> oscillation). I removes steady-state error (windup, slow response). D damps oscillation by reacting to error rate (amplifies sensor noise). Pitfalls: integrator windup, derivative-kick on setpoint changes, noise amplification — fix with anti-windup, derivative on measurement, low-pass on D.",
+          "a_tr": "P, hata ile orantılı düzeltme yapar (çok yüksek -> salınım). I, kalıcı hatayı yok eder (windup, yavaş tepki). D, hata hızına tepki vererek sönümler (gürültüyü büyütür). Tuzaklar: integrator windup, setpoint değişiminde derivative-kick, gürültü artışı — anti-windup, ölçüme türev, D'ye alçak geçiren ile çözülür."
+        },
+        {
+          "q_en": "How do you implement integrator anti-windup?",
+          "q_tr": "Integrator anti-windup nasıl uygulanır?",
+          "a_en": "Detect actuator saturation; either stop integrating while saturated (conditional integration), or back-calculate by feeding (sat-output - unsat-output) * k_aw into the integrator so the integral state shrinks back into the linear region.",
+          "a_tr": "Aktüatör doyumunu algıla; ya doyumda iken integrali durdur (koşullu entegrasyon) ya da back-calculation ile (sat_çıkış - sat_olmayan_çıkış) * k_aw integratöre geri besle; integral durumu doğrusal bölgeye geri çekilir."
+        },
+        {
+          "q_en": "Describe LQR design. How do you choose Q and R weights?",
+          "q_tr": "LQR tasarımını anlat. Q ve R ağırlıkları nasıl seçilir?",
+          "a_en": "LQR minimizes J = integral(x'Qx + u'Ru) dt for a linear plant, yielding constant feedback K = R^-1 B' P with P from the algebraic Riccati equation. Bryson's rule: Q_ii = 1/x_i_max^2, R_jj = 1/u_j_max^2, then iterate based on time-domain response.",
+          "a_tr": "LQR, doğrusal sistem için J = integral(x'Qx + u'Ru) dt'yi en aza indirir; sabit K = R^-1 B' P geri beslemesi cebirsel Riccati'den gelir. Bryson kuralı: Q_ii = 1/x_i_max^2, R_jj = 1/u_j_max^2; sonra zaman cevabına göre iterate edilir."
+        },
+        {
+          "q_en": "What are typical phase margin and gain margin targets for a UAV control loop?",
+          "q_tr": "İHA kontrol döngüsü için tipik faz payı ve kazanç payı hedefleri nelerdir?",
+          "a_en": "Rule of thumb: gain margin >= 6 dB, phase margin >= 45 deg for production loops. Some military specs are stricter (GM >= 8 dB, PM >= 60 deg) for actuators/airframes near uncertainty. Check across the flight envelope, not at one point.",
+          "a_tr": "Genel kural: üretim için kazanç payı >= 6 dB, faz payı >= 45°. Bazı askeri spesifikasyonlar daha sıkıdır (GM >= 8 dB, PM >= 60°) — özellikle belirsizliklere yakın aktüatör/gövdeler için. Tek nokta değil tüm uçuş zarfında kontrol edilir."
+        },
+        {
+          "q_en": "Describe motor mixing / control allocation for a multirotor.",
+          "q_tr": "Multirotor için motor mixing / kontrol dağıtımı (control allocation) nasıl yapılır?",
+          "a_en": "Map desired [Total thrust, roll moment, pitch moment, yaw moment] to per-motor RPM (or PWM) via a mixer matrix M^-1, where M is the geometric+propeller arrangement. For redundant or asymmetric configs, solve pseudo-inverse with constraints (saturation, motor failure).",
+          "a_tr": "İstenen [Toplam itki, roll momenti, pitch momenti, yaw momenti]'i motor başına RPM (veya PWM)'e mixer matrisi M^-1 ile dönüştür (M = geometrik + pervane düzeni). Fazla/asimetrik konfigürasyonlarda kısıt altında (doyum, motor arızası) pseudo-invers çözülür."
+        },
+        {
+          "q_en": "When does feedforward help that pure feedback cannot?",
+          "q_tr": "Saf geri besleme (feedback) yetmediğinde feedforward ne zaman işe yarar?",
+          "a_en": "Feedforward improves tracking of known reference/disturbance changes without waiting for error to build. Useful when the reference is fast (aggressive trajectory) or a disturbance is measurable (wind, throttle-to-pitch coupling). Cost: requires a good plant model — error if model is wrong.",
+          "a_tr": "Feedforward, bilinen referans/bozucu değişimleri hata birikmeden kompanze eder. Hızlı referans (agresif yörünge) veya ölçülebilir bozucu (rüzgar, throttle-to-pitch eşlemesi) varken faydalıdır. Maliyeti: iyi bir tesis modeli gerekir, model yanlışsa hata bırakır."
+        },
+        {
+          "q_en": "Compare classical Bode-loop-shaping with modern state-space design.",
+          "q_tr": "Klasik Bode loop-shaping ile modern durum-uzay tasarımı arasındaki farkları anlat.",
+          "a_en": "Loop-shaping: SISO, intuitive, frequency-domain stability margins, easy to tune by hand, dominant on legacy avionics. State-space (LQR/H-inf/MPC): MIMO, optimal w.r.t. cost, handles coupling and constraints, requires accurate models. Production code often uses both at different levels.",
+          "a_tr": "Loop-shaping: SISO, sezgisel, frekans-bölgesinde stabilite payları, elle ayarı kolay, eski aviyoniklerde yaygın. Durum-uzay (LQR/H-inf/MPC): MIMO, maliyete göre optimum, eşlemeyi ve kısıtları yönetir, doğru model gerekir. Üretim kodu sıkça farklı seviyelerde her ikisini kullanır."
+        },
+        {
+          "q_en": "How do you make a control law graceful in the presence of actuator saturation?",
+          "q_tr": "Aktüatör doyumunda kontrol yasası zarafetini nasıl korursun?",
+          "a_en": "Anti-windup on integrators, dynamic inversion-style command rate limiting, control allocation with constraints (clipping or pseudo-inverse), reduce reference aggressiveness when saturated, and a clear hierarchy so essential axes (attitude) are served before non-essential (e.g. yaw on a quad).",
+          "a_tr": "İntegrasyonda anti-windup, dinamik tersleme tarzı komut hız sınırlama, kısıtlı kontrol dağıtımı (clip veya pseudo-invers), doyumda referansı yumuşatma ve önemli eksen (attitude) öncelikli net hiyerarşi (örn. quad'da yaw'dan önce attitude)."
+        }
+      ]
+    },
+
+    {
+      "key": "system_identification",
+      "display": "System Identification",
+      "questions": [
+        {
+          "q_en": "Define system identification and contrast with first-principles modeling.",
+          "q_tr": "Sistem tanılama (system identification) nedir ve birinci ilkeler modellemesi ile farkı nedir?",
+          "a_en": "SysID infers model parameters (or full models) from measured input-output data. First-principles models come from physics (mass, aero, dynamics). SysID is faster for complex/unknown plants but requires excitation data; first-principles is more interpretable but slower to build and validate.",
+          "a_tr": "SysID, model parametrelerini (veya tüm modeli) ölçülmüş giriş-çıkış verisinden çıkarır. Birinci ilkeler fizikten gelir (kütle, aero, dinamik). SysID karmaşık/bilinmeyen sistemler için hızlıdır ama uyartım verisi ister; birinci ilkeler daha yorumlanabilir ancak yavaş kurulur ve doğrulanır."
+        },
+        {
+          "q_en": "Compare doublet, 3-2-1-1 and frequency sweep (chirp) inputs.",
+          "q_tr": "Doublet, 3-2-1-1 ve frekans tarama (chirp) uyartımlarını karşılaştır.",
+          "a_en": "Doublet: simple two-step pulse, excites a narrow band — good for quick parameter checks. 3-2-1-1: excites a wider band, classical for SysID of stability derivatives. Chirp/sweep: best spectral coverage for frequency-domain identification but takes longer and assumes near-linear response.",
+          "a_tr": "Doublet: basit iki adımlı puls, dar bant uyartımı — hızlı parametre kontrolü. 3-2-1-1: daha geniş bant, klasik stabilite türevi tanılaması. Chirp/sweep: frekans bölgesi tanılaması için en iyi spektral kapsama, ancak daha uzun sürer ve neredeyse doğrusal cevap varsayar."
+        },
+        {
+          "q_en": "What is the persistence-of-excitation condition?",
+          "q_tr": "Persistence-of-excitation koşulu nedir?",
+          "a_en": "The input must excite the system in enough independent directions/frequencies so the regressor matrix has full rank and the parameters are identifiable. Practically: an input of order n PE is needed to identify an n-th order model. Steady inputs => non-identifiable parameters.",
+          "a_tr": "Giriş, regresör matrisinin tam rank olmasını sağlayacak kadar bağımsız yön/frekans uyartmalıdır; aksi hâlde parametreler tanımlanamaz. Pratikte: n. mertebe model için n. mertebe PE gereken giriş gerekir. Sabit girişler => parametre tanımlanamaz."
+        },
+        {
+          "q_en": "What do ARX, ARMAX, OE and BJ model structures look like?",
+          "q_tr": "ARX, ARMAX, OE ve BJ model yapıları nasıldır?",
+          "a_en": "ARX: A(q)y = B(q)u + e. ARMAX: A(q)y = B(q)u + C(q)e (coloured noise). OE (Output Error): y = B(q)/F(q)*u + e. BJ (Box-Jenkins): y = B/F*u + C/D*e — most general. Choice depends on noise assumptions and the bias/variance trade-off.",
+          "a_tr": "ARX: A(q)y = B(q)u + e. ARMAX: A(q)y = B(q)u + C(q)e (renkli gürültü). OE: y = B(q)/F(q)*u + e. BJ (Box-Jenkins): y = B/F*u + C/D*e — en geneli. Seçim, gürültü varsayımına ve bias/varyans ödünleşmesine bağlıdır."
+        },
+        {
+          "q_en": "What is the Cramer-Rao lower bound and why does it matter in SysID?",
+          "q_tr": "Cramer-Rao alt sınırı (CRLB) nedir ve SysID'de neden önemlidir?",
+          "a_en": "CRLB gives the minimum variance any unbiased estimator of the parameters can achieve, computed from the Fisher information matrix. It bounds how well you can ever do; comparing your estimator's variance to CRLB tells you whether the experiment design or the algorithm is the bottleneck.",
+          "a_tr": "CRLB, herhangi bir sapmasız tahmin edicinin parametre varyansının ulaşabileceği alt sınırdır; Fisher bilgi matrisinden hesaplanır. Tahmin edicinin varyansı ile CRLB'yi kıyaslamak, darboğazın deney tasarımı mı yoksa algoritma mı olduğunu söyler."
+        },
+        {
+          "q_en": "Walk through frequency-response (FRF) identification of a transfer function.",
+          "q_tr": "Bir transfer fonksiyonunun frekans cevabı (FRF) ile tanılanmasını anlat.",
+          "a_en": "Excite with a chirp, compute output/input cross-spectrum / input auto-spectrum -> empirical Bode plot (with coherence). Fit a parametric model (e.g. invfreqs / tfest) to the FRF in least squares. Coherence < ~0.6 means data is unreliable in that band.",
+          "a_tr": "Chirp ile uyart, çıkış/giriş çapraz-spektrum / giriş öz-spektrumdan deneysel Bode + coherence elde et. Bu FRF'e en küçük karelerle parametrik model (invfreqs / tfest) yerleştir. Coherence ~0.6 altı bantta veri güvenilmezdir."
+        },
+        {
+          "q_en": "How do you validate an identified model — residuals and cross-validation?",
+          "q_tr": "Tanılanmış bir modeli rezidüler ve cross-validation ile nasıl doğrularsın?",
+          "a_en": "Compute simulation residuals on a holdout dataset. Residuals should be white (autocorrelation near zero) and uncorrelated with inputs (cross-correlation near zero). Quantify fit (e.g. NRMSE). Cross-validate on a manoeuvre not used in training to avoid overfit.",
+          "a_tr": "Holdout veride simülasyon rezidülerini hesapla. Rezidüler beyaz (otokorelasyon sıfıra yakın) ve girişle ilintisiz (çapraz korelasyon sıfıra yakın) olmalı. NRMSE gibi metriklerle uyum ölç. Aşırı uyum olmaması için eğitimde olmayan manevra ile cross-validate et."
+        },
+        {
+          "q_en": "What are grey-box, black-box and white-box identification?",
+          "q_tr": "Grey-box, black-box ve white-box tanılama nedir?",
+          "a_en": "White-box: full first-principles model, no parameters to identify (or only physical constants). Black-box: arbitrary structure (e.g. high-order ARX) with no physical meaning. Grey-box: known physical structure with unknown parameters (e.g. stability derivatives) — most useful for flight vehicles.",
+          "a_tr": "White-box: tamamen birinci ilkeler, tanılanacak parametre yok (veya sadece fiziksel sabitler). Black-box: keyfi yapı (yüksek mertebeli ARX) — fiziksel anlam yok. Grey-box: bilinen fiziksel yapı + bilinmeyen parametreler (stabilite türevleri gibi) — uçuş araçlarında en kullanışlısı."
+        },
+        {
+          "q_en": "How would you identify stability derivatives from flight test data?",
+          "q_tr": "Uçuş test verisinden stabilite türevleri nasıl tanılanır?",
+          "a_en": "Trim at a flight condition, apply standard inputs (3-2-1-1 on elevator/aileron/rudder), log states (V, alpha, beta, p, q, r, attitudes) at high rate. Set up grey-box state-space with derivatives as parameters; estimate via output-error / maximum-likelihood; verify residuals and re-fly to validate.",
+          "a_tr": "Bir uçuş koşulunda trim yap, standart uyartımlar (elevator/aileron/rudder 3-2-1-1) uygula, durumları yüksek hızda kaydet (V, alpha, beta, p, q, r, attitude). Türevlerin parametre olduğu grey-box durum-uzay kurup output-error / maksimum olabilirlikle tahmin et; rezidüleri kontrol et ve tekrar uçarak doğrula."
+        },
+        {
+          "q_en": "What sample rate and excitation amplitude considerations matter for UAV SysID?",
+          "q_tr": "İHA SysID için örnekleme hızı ve uyartım genliği seçiminde nelere dikkat edersin?",
+          "a_en": "Sample at least 10x the highest mode of interest (e.g. >= 100 Hz for short-period at 5 Hz). Amplitude large enough to push response above noise but small enough to stay in the linear regime (typically a few degrees on surfaces, mild attitude excursions). Avoid actuator saturation.",
+          "a_tr": "İlgilenilen en yüksek modun en az 10 katı kadar örnekle (kısa periyot 5 Hz ise >= 100 Hz). Genlik, cevabı gürültünün üzerine çıkartacak kadar büyük ama doğrusal bölgede kalacak kadar küçük olmalı (yüzeyde birkaç derece, hafif attitude değişimi). Aktüatör doyumundan kaçın."
+        }
+      ]
+    },
+
+    {
+      "key": "company_platforms",
+      "display": "Company Platforms",
+      "questions": [
+        {
+          "q_en": "[PLACEHOLDER] What is the airframe / mission of platform A and what are its critical GNC requirements?",
+          "q_tr": "[PLACEHOLDER] A platformunun gövdesi / görevi nedir, kritik GNC gereksinimleri nelerdir?",
+          "a_en": "[PLACEHOLDER — reference answer to be filled by the interviewer team]",
+          "a_tr": "[PLACEHOLDER — referans cevap mülakat ekibi tarafından doldurulacak]"
+        },
+        {
+          "q_en": "[PLACEHOLDER] Describe the flight control computer (FCC) architecture used on platform A.",
+          "q_tr": "[PLACEHOLDER] A platformunda kullanılan uçuş kontrol bilgisayarı (FCC) mimarisini anlat.",
+          "a_en": "[PLACEHOLDER]",
+          "a_tr": "[PLACEHOLDER]"
+        },
+        {
+          "q_en": "[PLACEHOLDER] What is the sensor suite on platform B (IMU class, GPS, baro, magnetometer, airspeed)?",
+          "q_tr": "[PLACEHOLDER] B platformundaki sensör seti nedir (IMU sınıfı, GPS, baro, manyetometre, havahızı)?",
+          "a_en": "[PLACEHOLDER]",
+          "a_tr": "[PLACEHOLDER]"
+        },
+        {
+          "q_en": "[PLACEHOLDER] Walk through the autopilot mode hierarchy (manual, stabilize, auto, RTL, …) on platform A.",
+          "q_tr": "[PLACEHOLDER] A platformunda otopilot mod hiyerarşisini (manuel, stabilize, auto, RTL, …) anlat.",
+          "a_en": "[PLACEHOLDER]",
+          "a_tr": "[PLACEHOLDER]"
+        },
+        {
+          "q_en": "[PLACEHOLDER] How is takeoff and landing automated on platform B?",
+          "q_tr": "[PLACEHOLDER] B platformunda kalkış ve iniş nasıl otomatikleştirilir?",
+          "a_en": "[PLACEHOLDER]",
+          "a_tr": "[PLACEHOLDER]"
+        },
+        {
+          "q_en": "[PLACEHOLDER] What failsafes are implemented (link loss, low battery, GPS loss)? Behavior per failsafe?",
+          "q_tr": "[PLACEHOLDER] Hangi failsafe'ler vardır (link kaybı, düşük batarya, GPS kaybı)? Her birinin davranışı?",
+          "a_en": "[PLACEHOLDER]",
+          "a_tr": "[PLACEHOLDER]"
+        },
+        {
+          "q_en": "[PLACEHOLDER] How are guidance laws customised on the company platforms compared to upstream ArduPilot/PX4?",
+          "q_tr": "[PLACEHOLDER] Şirket platformlarındaki güdüm yasaları upstream ArduPilot/PX4'ten nasıl farklılaştırılmıştır?",
+          "a_en": "[PLACEHOLDER]",
+          "a_tr": "[PLACEHOLDER]"
+        },
+        {
+          "q_en": "[PLACEHOLDER] What integration/test bench is used during platform development (HIL rig, motion platforms)?",
+          "q_tr": "[PLACEHOLDER] Platform geliştirme sırasında hangi entegrasyon/test tezgâhları kullanılır (HIL rig, hareket platformları)?",
+          "a_en": "[PLACEHOLDER]",
+          "a_tr": "[PLACEHOLDER]"
+        },
+        {
+          "q_en": "[PLACEHOLDER] Describe the typical flight envelope and performance numbers of platform A.",
+          "q_tr": "[PLACEHOLDER] A platformunun tipik uçuş zarfı ve performans rakamlarını anlat.",
+          "a_en": "[PLACEHOLDER]",
+          "a_tr": "[PLACEHOLDER]"
+        },
+        {
+          "q_en": "[PLACEHOLDER] What are the certification / quality / process standards followed on company platforms (DO-178C, MIL-STD, internal)?",
+          "q_tr": "[PLACEHOLDER] Şirket platformlarında izlenen sertifikasyon / kalite / süreç standartları nelerdir (DO-178C, MIL-STD, dahili)?",
+          "a_en": "[PLACEHOLDER]",
+          "a_tr": "[PLACEHOLDER]"
+        }
+      ]
+    },
+
+    {
+      "key": "matlab_simulink_programming",
+      "display": "MATLAB / Simulink / Programming",
+      "questions": [
+        {
+          "q_en": "Differences between a MATLAB script, function, and live script?",
+          "q_tr": "MATLAB script, function ve live script arasındaki farklar nelerdir?",
+          "a_en": "Script: runs in base workspace, no I/O signature. Function: has its own workspace, takes inputs and returns outputs — composable and unit-testable. Live script: literate notebook style with formatted text + interactive output — good for reports, bad for production code.",
+          "a_tr": "Script: base workspace'te koşar, giriş/çıkış imzası yok. Function: kendi workspace'i vardır, giriş alır çıkış döner — birleşik ve test edilebilir. Live script: yazılı not defteri stili, biçimli metin + etkileşimli çıkış — raporlar için iyi, üretim kodu için kötü."
+        },
+        {
+          "q_en": "Why is vectorisation faster than explicit loops in MATLAB?",
+          "q_tr": "MATLAB'da vektörizasyon, açık döngülerden neden daha hızlıdır?",
+          "a_en": "MATLAB calls optimised BLAS/LAPACK / SIMD-vectorised C kernels under the hood for array ops. Loops execute the JIT'd interpreter per element with overhead. Vectorised expressions also let MATLAB plan memory access more efficiently.",
+          "a_tr": "MATLAB, dizi işlemleri için arka planda optimize BLAS/LAPACK / SIMD vektörize C çekirdekleri çağırır. Döngüler eleman başına JIT'li yorumlayıcı yükü taşır. Vektörize ifadeler ayrıca bellek erişimini daha verimli planlatır."
+        },
+        {
+          "q_en": "What is a Simulink S-function and when would you use one?",
+          "q_tr": "Simulink S-function nedir ve ne zaman kullanılır?",
+          "a_en": "User-written block (in MATLAB, C/C++, or Fortran) implementing model callbacks (mdlOutputs, mdlUpdate, mdlDerivatives). Use when stock blocks can't express the behavior (custom integrators, legacy C code wrap, hardware drivers, exotic data types).",
+          "a_tr": "Model çağrılarını (mdlOutputs, mdlUpdate, mdlDerivatives) gerçekleyen kullanıcı blok (MATLAB, C/C++, Fortran). Hazır blokların ifade edemediği davranışlar (özel integratör, eski C kodunu sarmalama, donanım sürücüleri, egzotik veri tipleri) için kullanılır."
+        },
+        {
+          "q_en": "Differences between continuous, discrete, fixed-step and variable-step solvers in Simulink.",
+          "q_tr": "Simulink'te continuous, discrete, fixed-step ve variable-step çözücüler arasındaki farklar nedir?",
+          "a_en": "Continuous solvers integrate ODEs (ode45, ode23). Discrete solvers step at fixed sample times. Fixed-step (ode4) is needed for code generation and real-time. Variable-step (ode45) adapts step for tolerance — fast for stiff problems but non-deterministic timing.",
+          "a_tr": "Continuous çözücüler ODE'yi entegre eder (ode45, ode23). Discrete çözücüler sabit örnekleme zamanında ilerler. Fixed-step (ode4) kod üretimi ve gerçek zaman için gerekir. Variable-step (ode45) toleransa göre adımı uyarlar — sert problemlerde hızlı ama zamanlaması belirsiz."
+        },
+        {
+          "q_en": "How do you embed a Simulink model into a C/C++ codebase using Embedded Coder?",
+          "q_tr": "Embedded Coder ile bir Simulink modelini C/C++ kodbazına nasıl gömersin?",
+          "a_en": "Configure model: solver fixed-step, discrete sample times, system target file ert.tlc, code interface (struct vs function args), storage classes for parameters and signals. Build to generate .c/.h with model_step(), model_initialize(). Integrate into your scheduler.",
+          "a_tr": "Modeli yapılandır: solver fixed-step, ayrık örnekleme, system target file ert.tlc, kod arayüzü (struct/argüman), parametre ve sinyaller için storage class. Build ile .c/.h üretip model_step() ve model_initialize() fonksiyonlarını scheduler'a entegre et."
+        },
+        {
+          "q_en": "Which MATLAB constructs are not code-generation compatible?",
+          "q_tr": "Hangi MATLAB yapıları kod üretimiyle (codegen) uyumlu değildir?",
+          "a_en": "Dynamic types/sizes after init, eval / feval with non-constant strings, file I/O (most), figure / plot calls, anonymous workspace captures, recursive cells/structs, try-catch with non-error types. Use coder.extrinsic for unsupported calls in test scenarios only.",
+          "a_tr": "İlk atamadan sonra değişen tip/boyut, sabit olmayan stringli eval/feval, çoğu dosya I/O, figure/plot çağrıları, anonim workspace capture'lar, özyinelemeli cell/struct, error olmayan tiplerde try-catch. Sadece test için desteklenmeyen çağrılarda coder.extrinsic kullan."
+        },
+        {
+          "q_en": "Handle classes vs value classes in MATLAB (classdef).",
+          "q_tr": "MATLAB classdef'te handle ve value sınıfları arasındaki fark nedir?",
+          "a_en": "Value classes copy on assignment (semantics like structs). Handle classes (inherit from handle) pass by reference — mutations are visible to all holders, suitable for hardware proxies, GUIs, large shared state. Default is value unless you inherit handle.",
+          "a_tr": "Value sınıfları atamada kopyalanır (struct gibi). Handle sınıfları (handle'dan miras) referansla geçer — değişimler tüm sahiplerce görülür; donanım proxy, GUI, büyük paylaşımlı durumlar için uygundur. Aksi belirtilmedikçe varsayılan value'dur."
+        },
+        {
+          "q_en": "How would you read, plot and filter an ArduPilot .bin or PX4 .ulg log in MATLAB?",
+          "q_tr": "MATLAB'da ArduPilot .bin veya PX4 .ulg log'unu nasıl okur, çizer ve filtrelersin?",
+          "a_en": "ArduPilot: use Ardupilog or mavlogdump to convert to MATLAB structs/CSV. PX4: ulog2csv or px4tools. Then plot with timeseries / stackedplot, filter with lowpass / filtfilt for offline (zero-phase), or butter+filter for causal analysis. Resample to common time grid with retime.",
+          "a_tr": "ArduPilot: Ardupilog veya mavlogdump ile struct/CSV'ye dönüştür. PX4: ulog2csv veya px4tools. timeseries/stackedplot ile çiz, offline (zero-phase) için lowpass/filtfilt, causal analizi için butter+filter ile süz. retime ile ortak zaman ızgarasına örnekle."
+        },
+        {
+          "q_en": "Describe a sensible git workflow on a flight-controller codebase.",
+          "q_tr": "Uçuş kontrol kodbazında makul bir git iş akışı anlat.",
+          "a_en": "Feature branches off main/master, short-lived. Pull request with reviewers + CI (build + unit + SITL autotest). Squash or rebase before merge. Tag releases (vX.Y.Z) with signed annotated tags. Never force-push to shared branches. Keep secrets out of history (pre-commit hooks).",
+          "a_tr": "main/master üzerinden kısa ömürlü feature branch'ler. PR'da reviewer + CI (build + unit + SITL autotest). Merge öncesi squash veya rebase. Sürümler imzalı annotated tag (vX.Y.Z) ile etiketlenir. Paylaşımlı branch'lere force-push yapma. Sırları hook'larla history'ye sokma."
+        },
+        {
+          "q_en": "What are Simulink bus signals and when do you prefer buses over individual signals?",
+          "q_tr": "Simulink bus sinyalleri nedir, ne zaman ayrı sinyaller yerine bus tercih edilir?",
+          "a_en": "Buses group related signals into a typed bundle (like a C struct). Use them when many signals travel together (sensor bundle, state vector) to keep wiring clean, enforce interfaces (Bus Object), and align with code-generation struct types. Avoid for scalar dynamics in tight inner loops.",
+          "a_tr": "Bus, ilişkili sinyalleri tipli demet hâlinde gruplar (C struct gibi). Birçok sinyal birlikte gidiyorsa (sensör paketi, durum vektörü) wiring temizliği için, Bus Object ile arayüz dayatmak için ve kod üretiminin struct tipleriyle hizalanmak için kullan. Sıkı iç döngüde skalar dinamik için kullanma."
+        }
+      ]
+    },
+
+    {
+      "key": "ardupilot_code_methodology",
+      "display": "ArduPilot Code Structure & Methodology",
+      "questions": [
+        {
+          "q_en": "Describe the top-level directory layout of the ArduPilot repository.",
+          "q_tr": "ArduPilot deposunun üst seviye dizin yapısını anlat.",
+          "a_en": "Vehicle dirs (ArduCopter, ArduPlane, Rover, ArduSub, AntennaTracker, Blimp), shared libraries/ (AP_HAL, AP_NavEKF3, AC_AttitudeControl, AP_Motors, AP_GPS, AP_InertialSensor, …), Tools (autotest, SITL, scripts), modules (third-party submodules), wscript (build).",
+          "a_tr": "Araç dizinleri (ArduCopter, ArduPlane, Rover, ArduSub, AntennaTracker, Blimp), ortak libraries/ (AP_HAL, AP_NavEKF3, AC_AttitudeControl, AP_Motors, AP_GPS, AP_InertialSensor, …), Tools (autotest, SITL, scripts), modules (üçüncü taraf submodule), wscript (build)."
+        },
+        {
+          "q_en": "What is AP_HAL and why does ArduPilot need it?",
+          "q_tr": "AP_HAL nedir ve ArduPilot'a niye gereklidir?",
+          "a_en": "AP_HAL is the Hardware Abstraction Layer — an interface decoupling vehicle/library code from board specifics (ChibiOS, Linux, SITL, ESP32). It exposes UART, I2C, SPI, scheduler, storage, GPIO. Lets the same vehicle code run on Pixhawk, Cube, Linux companions, and SITL.",
+          "a_tr": "AP_HAL Donanım Soyutlama Katmanıdır — araç/kütüphane kodunu kart özelinden (ChibiOS, Linux, SITL, ESP32) ayırır. UART, I2C, SPI, scheduler, storage, GPIO arayüzleri sunar. Aynı araç kodu Pixhawk, Cube, Linux companion ve SITL üzerinde çalışır."
+        },
+        {
+          "q_en": "How does the ArduPilot scheduler work and how are loop rates assigned?",
+          "q_tr": "ArduPilot scheduler'ı nasıl çalışır, döngü hızları nasıl atanır?",
+          "a_en": "Tasks are declared with a frequency (e.g. 400 Hz, 50 Hz, 10 Hz) and a max time budget in microseconds. The scheduler tick (typically 400 Hz on Copter) picks tasks whose period has elapsed, respecting CPU budget. Over-budget tasks are logged as PERF warnings.",
+          "a_tr": "Görevler frekansla (örn. 400 Hz, 50 Hz, 10 Hz) ve mikrosaniye cinsinden CPU bütçesiyle tanımlanır. Scheduler tick'i (Copter'da genelde 400 Hz) periyodu dolan görevleri CPU bütçesine uyarak seçer. Bütçeyi aşan görevler PERF uyarısı olarak loglanır."
+        },
+        {
+          "q_en": "How are parameters defined and accessed in ArduPilot (AP_Param)?",
+          "q_tr": "ArduPilot'ta parametreler nasıl tanımlanır ve erişilir (AP_Param)?",
+          "a_en": "Each parameter is declared in a var_info table (key, type, default, range) inside its owner library. They are stored in persistent storage (EEPROM/FRAM), exposed via MAVLink PARAM_* and the GCS. In code: ap_param_object.get() / set_and_save(). Naming convention: GROUP_SUBNAME (e.g. ATC_RAT_RLL_P).",
+          "a_tr": "Her parametre sahip kütüphanedeki var_info tablosunda (anahtar, tip, varsayılan, aralık) tanımlanır. Kalıcı depoda (EEPROM/FRAM) tutulur; MAVLink PARAM_* ve GCS üzerinden erişilir. Kodda: ap_param_object.get() / set_and_save(). Adlandırma: GROUP_SUBNAME (ATC_RAT_RLL_P gibi)."
+        },
+        {
+          "q_en": "What is the role of EKF3 in ArduPilot (Copter/Plane)?",
+          "q_tr": "ArduPilot Copter/Plane'de EKF3'ün rolü nedir?",
+          "a_en": "EKF3 is the navigation estimator: fuses IMU, GPS, baro, magnetometer, airspeed (Plane), optical flow / range, beacons. Outputs position, velocity, attitude, bias estimates used by the controller. Supports multiple cores for redundancy and lane selection.",
+          "a_tr": "EKF3 seyrüsefer tahmin edicidir: IMU, GPS, baro, manyetometre, havahızı (Plane), optical flow / range, beacon'ı birleştirir. Kontrolörün kullandığı konum, hız, attitude ve bias tahminlerini üretir. Yedeklilik için birden çok core ve lane seçimi vardır."
+        },
+        {
+          "q_en": "How would you add a new RC auxiliary function (e.g. a custom switch action)?",
+          "q_tr": "Yeni bir RC yardımcı fonksiyonu (örn. özel bir anahtar aksiyonu) nasıl eklersin?",
+          "a_en": "Add a new enum value to RC_Channel::AUX_FUNC, implement the handler in RC_Channel::do_aux_function() (or override in vehicle code), document the value, regenerate parameter docs (Tools/scripts). Users select it via RCx_OPTION.",
+          "a_tr": "RC_Channel::AUX_FUNC enum'ına yeni değer ekle, RC_Channel::do_aux_function() içinde (veya araç kodunda override) handler'ı uygula, değerleri belgele, parametre dokümanlarını yeniden üret (Tools/scripts). Kullanıcılar RCx_OPTION ile seçer."
+        },
+        {
+          "q_en": "Describe SITL and walk through how to start a Copter SITL session.",
+          "q_tr": "SITL nedir? Bir Copter SITL oturumunu nasıl başlatırsın?",
+          "a_en": "SITL = software-in-the-loop, runs the actual flight code on PC against a simulated plant. Typical: sim_vehicle.py -v ArduCopter --console --map. It launches the Copter binary, a JSBSim/Gazebo-like plant, MAVProxy as ground station; you can change parameters, fly missions, and step through code.",
+          "a_tr": "SITL = software-in-the-loop, gerçek uçuş kodunu PC'de simüle plant'a karşı çalıştırır. Tipik: sim_vehicle.py -v ArduCopter --console --map. Copter binary, JSBSim/Gazebo-like plant ve MAVProxy yer istasyonu başlatılır; parametre değiştirip görev uçurabilir, kodu adım adım izleyebilirsin."
+        },
+        {
+          "q_en": "What is MAVLink and how does ArduPilot use it?",
+          "q_tr": "MAVLink nedir, ArduPilot bunu nasıl kullanır?",
+          "a_en": "MAVLink is a lightweight binary messaging protocol for UAV ↔ GCS / companion / payload. ArduPilot uses it for heartbeat, telemetry, parameters, mission upload/download, command (COMMAND_LONG / COMMAND_INT), and the FTP protocol. Multiple channels (USB, telem1/2, UDP) supported simultaneously.",
+          "a_tr": "MAVLink, İHA ↔ GCS / companion / yük arası hafif ikili mesaj protokolüdür. ArduPilot bunu heartbeat, telemetri, parametreler, görev yükle/indir, komut (COMMAND_LONG/INT) ve FTP için kullanır. Birden çok kanal (USB, telem1/2, UDP) eşzamanlı desteklenir."
+        },
+        {
+          "q_en": "How do you analyse a .bin flight log to debug a problem?",
+          "q_tr": "Bir sorunu çözmek için .bin uçuş log'unu nasıl analiz edersin?",
+          "a_en": "Open in MAVExplorer / Mission Planner / Plot.ardupilot.org / pymavlink. Look at messages relevant to the symptom: ATT/RATE for control issues, EKF/POS/GPS/VIBE for nav, BAT/PM for power/CPU. Cross-correlate signals in time, check PARAM block for config, compare to a known-good flight.",
+          "a_tr": "MAVExplorer / Mission Planner / Plot.ardupilot.org / pymavlink ile aç. Semptomla ilgili mesajlara bak: kontrol için ATT/RATE, navigasyon için EKF/POS/GPS/VIBE, güç/CPU için BAT/PM. Sinyalleri zaman ekseninde çapraz inceler, konfigürasyon için PARAM blokuna bak, bilinen iyi bir uçuşla kıyasla."
+        },
+        {
+          "q_en": "Walk through the ArduPilot contribution flow (fork → PR → review → merge).",
+          "q_tr": "ArduPilot katkı sürecini (fork → PR → review → merge) anlat.",
+          "a_en": "Fork ArduPilot/ardupilot on GitHub, create a topic branch, follow the C++ style guide and commit message conventions, run autotest locally (sim_vehicle.py + Tools/autotest), open PR. CI runs build matrices and autotest. Maintainers review; expect iterations. Squash on merge.",
+          "a_tr": "GitHub'da ArduPilot/ardupilot'u forkla, topic branch aç, C++ stil rehberine ve commit mesajı kurallarına uy, autotest'i yerel olarak çalıştır (sim_vehicle.py + Tools/autotest), PR aç. CI build matrisleri ve autotest koşar. Maintainer review eder; iterasyon olur. Merge'de squash yapılır."
+        }
+      ]
+    }
+  ]
+}
