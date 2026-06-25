@@ -1,0 +1,172 @@
+
+=== PAGE 1 ===
+OILOFTROP
+|
+REENIGNE
+ERAWTFOS
+&
+SCITOBOR
+Ruveyda Dilara
+Iletisim
++90 554 979 60 01
+dilaragulbas@gmail.com Gulbas
+Sakarya, Turkiye
+Egitim Candidate Robotics & Software Engineer
+Sakarya Universitesi
+ROS2 UAV Systems SLAM Autonomous Navigation Computer Vision
+Bilgisayar Muhendisligi
+2022 – 2026
+GNO: 3.25 / 4.00 Hakkimda
+Yetkinlikler Otonom sistemlerin yazilim mimarilerine ve robotik platformlarin karar verme mekanizmalarina
+Otonom Sistemler odaklanmis bir Bilgisayar Muhendisi adayiyim. Savunma sanayii disipliniyle sahada kazandigim
+ROS1/2 Nav2, micro-ROS, XRCE-DDS, deneyim; ROS2 tabanli otonom navigasyon, GPS'siz konumlandirma, surü IHA sistemleri ve gercek
+SLAM, EKF, Map Merging, Gazebo, RViz, zamanli goruntu isleme alanlarini kapsamaktadir. SAU Yapay Zeka Toplulugu Baskani olarak teknik
+QGIS proje koordinasyonu ve takim yonetimi deneyimi kazandim.
+IHA & Ucus Kontrol
+Pixhawk, PX4, Ardupilot, MAVLink, Projeler
+PPM/PWM, InSAR, DEM Navigasyon
+YZ & Goruntu Isleme
+YOLOv8/v10, DETR, Small Object Detection, Yapay Zeka Destekli Tarimsal Insansiz Kara Araci TEKNOFEST 2024 Finalist
+OpenCV, Object Tracking
+TEKNOFEST 2024 Finalist – Tarimsal IKA Yarisma Projesi
+Yazilim & Araclar YOLOv8 OpenCV ROS2 Object Detection Autonomous Nav.
+C++, Python, C, C#, SQL, Linux, Git,
+PostgreSQL, ASP.NET Tarimsal alanlarda otonom calisabilen, yapay zeka destekli bir insansiz kara araci gelistirildi. Arac,
+bitki hastalikklarinin ve zararlilarinin erken tespiti icin YOLOv8 tabanli gercek zamanli nesne algilama
+Referanslar sistemi ile donatildi. ROS2 mimarisi uzerine insa edilen otonom navigasyon katmani; GPS
+Prof. Dr. Cemil Oz koordinatlariyla haritalanan tarim parselleri uzerinde sistematik tarama rotalari olusturabilmektedir.
+SAU Bil. Muh. Bolum Baskani Derin ogrenme modeli, farkli isik kosullari ve bitki cesitleri icin optimize edilerek sahada test edildi.
+Omer Faruk Degirmenci Proje TEKNOFEST 2024 Tarimsal Insansiz Kara Araci Yarismasinda Finalist unvanina layik goruldu.
+CEO – DyrobX
+Furkan Unal
+Altinay Savunma – YZ Muh.
+Suru Insansiz Hava Araclari ile Akilli Gozetleme Sistemi Bitirme Projesi
+Dil
+Bitirme Projesi – Sakarya Universitesi
+Ingilizce: Okuma/Anlama B1 Swarm UAV SLAM ROS2 MAVLink PX4 Gazebo
+Konusma: A2
+Birden fazla otonom IHA platformundan olusan bir suru sisteminin koordineli gozetleme yapabilmesi
+icin yazilim mimarisi tasarlandi. Her bir IHA, kendi yerel haritasini olusturan bir SLAM modulu ile
+donatilirken; merkezi bir harita birlestirme (map merging) katmani tum platformlarin algiladigi cevresel
+bilgileri tek bir global haritada birlestirmektedir. PX4 ve MAVLink protokolu uzerinden offboard kontrol
+saglanarak suru koordinasyon algoritmasi gercek zamanli calistirildi. Gazebo simulasyon ortaminda
+farkli suru boyutlari ve gorev senaryolariyla kapsamli testler yapildi. Sistem, gozetleme alani
+kapsamini tek bir IHA'ya kiyasla uc kat artirmayi basardi.
+1 / 3
+
+=== PAGE 2 ===
+SABLUG
+ARALID
+ADYEVUR
+|
+RELEJORP
+Proje Portfoyu – devam
+Deneyim Ozeti
+Airobos Teknoloji Projeler (devam)
+Aday Muhendis – 4 Ay
+Sub. 2026 – May. 2026
+TUBITAK STAR Cografi Veri (DEM) Destekli GPS'siz Irtifa ve KonumlandirmSaavunma Sanayii Uygulamasi
+Stajyer Arastirmaci – 3 Ay
+Airobos Teknoloji A.S. – Teknopark Ankara
+Eyl. 2025 – Oca. 2026
+InSAR DEM Radar Signal Processing GPS-denied Nav. QGIS
+DASAL Havacilik
+Stajyer – 1 Ay GPS sinyalinin erisilemez oldugu sinir guvenligi ve kentsel savunma senaryolari icin radar tabanli
+Ag. 2025 – Eyl. 2025 alternatif konumlandirma sistemi gelistirildi. Radar verilerinin InSAR (Interferometric Synthetic
+DyrobX Robotik Aperture Radar) yontemleriyle islenmesiyle Sayisal Yukseklik Modeli (DEM) haritlari olusturuldu. IHA
+ROS & AI Developer – 1 Yil platformu, bu DEM verileriyle gercek zamanli olarak kendi yuksekligini ve konumunu hesaplayabiliyor;
+Nis. 2024 – Nis. 2025
+hafriyat analizi, usulsuz insaat tespiti ve sinir ihlali senaryolarina uygulanabilir hale getirildi. QGIS
+uzerinde gorsellestirilen sonuclar operasyonel dogrulama icin kullanildi.
+Gonullu Calismalar
+SAU YZ Toplulugu
+Baskan 2025-26
+SAUIRO IHA Takimi Gercek Zamanli Kucuk Nesne ve Insan Tespiti Sistemi Turkiye'nin Ilk Drone Barinagi
+Yazilim Gel. 2025
+DyrobX Robotik Ve Muhendislik A.S. – Sakarya Teknokent
+Fikir ile Gelecek
+YOLOv8/v10 DETR Small Object Detection OpenCV ROS2
+Ar-Ge Uyesi 2023-24
+Turkiye'nin ilk drone barinagi projesi kapsaminda; kucuk nesne ve insan tespiti icin ozellesmis derin
+SAITEM
+Yazilim Uyesi 2022-23 ogrenme sistemleri gelistirildi. Yuksek irtifadan bakildiginda piksel buyuklugu son derece kucuk olan
+nesnelerin tespiti icin YOLOv8/v10 ve Transformer tabanli DETR mimarisi karsilastirilarak hibrit bir
+Odüller & Basarilar model birlestirme algoritmasi olusturuldu. Gercek zamanli calisma gereksinimleri icin model
+TEKNOFEST 2024 optimizasyonu yapildi; ROS2 ekosistemine entegre edilerek kamera akisi uzerinde canli nesne takibi
+Tarimsal IKA – Finalist
+saglanabildi. Yangin tespiti, hafriyat analizi ve usulsuz park senaryolari icin ozel veri setleri
+TEKNOFEST 2024
+olusturularak model ince ayari yapildi.
+Ulasim YZ – Katilim
+TEKNOFEST 2025
+Uluslar. IHA – Katilim
+Model Ucak ATA Yapimi GPS'siz Otonom Navigasyon ve Yol Planlama Sistemi Savunma Sanayii – Altinay
+IHA-1 Sportif/Amator
+DASAL Havacilik Teknolojileri – Altinay Savunma Istiraki
+En Aktif Kullanan Topluluk micro-ROS XRCE-DDS Ardupilot Nav2 Google Cartographer
+– Sosyal Medya 2024
+En Aktif Topluluk 2024 micro-ROS ve micro XRCE-DDS agent mimarisi uzerinden gercek zamanli SLAM ve lokalizasyon
+sistemleri gelistirildi. Google Cartographer kullanilarak LiDAR verileriyle ortam haritalama yapildi;
+Ardupilot ve ROS2 Nav2 entegrasyonu ile IHA platformlari icin global ve yerel yol planlama optimize
+edildi. Afet senaryolarinda GPS sinyali olmaksizin coklu robot koordinasyonu saglayan mimarinin
+suru IHA platformlarina uyarlanmasi icin simulasyon ortamlari kurgulanarak performans analizleri
+yurutuldu. Transformer tabanli DETR modeli ek goruntu isleme katmani olarak sisteme entegre edildi.
+2 / 3
+
+=== PAGE 3 ===
+SABLUG
+ARALID
+ADYEVUR
+|
+MIYENED
+Son Proje & Deneyim Detaylari
+Teknik Beceriler
+ROS 1/2 (Nav2) Projeler (devam)
+micro-ROS / XRCE-DDS
+SLAM & Map Merging
+EKF (robot_localization) PPM Sinyalleri ile Manuel / Otonom Gecisli IKA Kontrol SistemGiomulu Sistem Tasarimi
+PX4 / Ardupilot Kisisel Proje
+MAVLink Protokolu
+PPM/PWM Ardupilot MAVLink Embedded C UART
+YOLOv8/v10
+Insansiz kara araci icin PPM sinyal altyapisi kullanilarak hem manuel hem de otonom modul arasinda
+DETR Mimarisi
+OpenCV kesintisiz gecis saglayan kontrol sistemi tasarlandi. Donanim katmaninda UART ve SPI protokolleri
+InSAR / DEM uzerinden alici/verici birimlerle haberlesme saglandi; Ardupilot uzerinden temel otonom gorev
+Gazebo / RViz / QGIS planlama entegre edildi. Manuel modda pilotun tam kontrolu saglanirken, otonom moda geciste
+C++ / Python / C / C# sistemin kendi kendine rota takibine gecmesi ve acil durumlarda anlinda manuel moda donebilmesi
+Linux (Ubuntu) saglanarak guvenli operasyon altyapisi olusturuldu.
+Git / PostgreSQL
+ASP.NET / HTML / JS
+Is Deneyimi
+Soft Skills
+(cid:127) Topluluk Baskanligi
+Aday Muhendis (4 Ay) Subat 2026 – Mayis 2026
+(cid:127) Proje Koordinasyonu
+Airobos Teknoloji A.S. – Teknopark Ankara
+(cid:127) Takim Calismasi
+Drone barinagi projesi icin Small Object Detection modelleri gelistirildi; DEM tabanli GPS'siz nav.
+(cid:127) Teknik Raporlama
+tasarlandi.
+(cid:127) Dokumantasyon
+PX4/MAVLink offboard kontrol ve obstacle avoidance algoritmalari kurgulanarak QGIS ve Gazebo'da
+dogrulandi.
+Yangin tespiti, hafriyat analizi, usulsuz park ve nesne takibi senaryolari icin OpenCV tabanli sistemler
+uretildi.
+TUBITAK STAR Stajyer Arastirmaci (3 Ay) Eylul 2025 – Ocak 2026
+TUBITAK
+GPS bagimsiz afet senaryolari icin coklu robot SLAM ve harita birlestirme cozumleri gelistirildi.
+Suru IHA platformlari icin simulasyon ortamlari kurgulanarak performans analizleri yurutuldu.
+DETR mimarisi entegre edilerek gercek zamanli nesne algilama optimize edildi.
+Stajyer (1 Ay) Agustos 2025 – Eylul 2025
+DASAL Havacilik Teknolojileri – Altinay Savunma Istiraki
+micro-ROS ve XRCE-DDS uzerinden gercek zamanli SLAM ve lokalizasyon mimarileri gelistirildi.
+Ardupilot + ROS2 Nav2 entegrasyonuyla IHA'lar icin global/yerel yol planlama optimize edildi.
+ROS & AI Developer (1 Yil) Nisan 2024 – Nisan 2025
+DyrobX Robotik Ve Muhendislik A.S. – Sakarya Teknokent
+URDF/Xacro ile modellenen platformlar Gazebo'ya aktarildi; EKF ile LiDAR/IMU/kamera fuzyonu
+yapildi.
+YOLO ve OpenCV modelleri ROS ekosistemine entegre edilerek gercek zamanli nesne algilama
+saglandi.
+ROS-Serial ile donanim entegrasyonu; Linux Bash ve PID ile sistem otomasyonu optimize edildi.
+3 / 3

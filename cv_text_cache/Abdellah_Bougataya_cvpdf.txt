@@ -1,0 +1,47 @@
+
+=== PAGE 1 ===
+ABDELLAH BOUGATAYA
++90 501 156 3242 ⋄ abdellahbougataya82@gmail.com ⋄ I˙stanbul, Turkey
+LinkedIn: abdellah-bougataya ⋄ GitHub: AbdoullahBougataya
+EDUCATION
+Yıldız Teknik U¨niversitesi September 2023 - July 2027
+Control and Automation Engineering CGPA: 3.34 / 4.00
+Electronics Academic Team Leader, Inonest Community; Student Affairs, International Students Club
+PROJECTS
+Remote Headless UAV Simulation & Telemetry Server February 2026 - May 2026
+Headless SITL simulation server with low-latency streaming and telemetry routing
+· Deployed a headless ArduPilot SITL and Gazebo simulation environment on a remote server to offload heavy
+computational physics and visual rendering from the development machines.
+· Engineeredalow-latencyvideostreamingpipelineusingGStreamerandMediaMTX,andconfiguredaMAVLink
+router over TCP/UDP to manage bidirectional telemetry synchronization.
+Custom Flight Controller (AVIONX team) April 2025 - July 2025
+Bare-metal flight controller firmware with cascaded PID control and motor system identification
+· Modeled quadcopter dynamics using Newtonian physics and system identification techniques, developing cas-
+caded PID control loops in MATLAB & Simulink to achieve a 10% overshoot and a 0.5-second settling
+time.
+· Translated continuous-time models into bare-metal C/C++ firmware running on an ESP32 microcontroller,
+optimizing memory layout and execution speed by utilizing custom structs, pointers, and modular software
+files.
+Double Copter Self-Balancing Aero-Pendulum January 2025 - April 2025
+Bi-actuated self-balancing pendulum system with sensor fusion and software filtering
+· Implemented a software low-pass filter to reject sensor noise and deployed a complementary filter strategy for
+fast,low-overheadstateestimation. Integratedabackward-differencederivativemethodanddynamicclamping
+anti-windup for the PIV controller.
+· Developed a modular firmware library for the BMI160 IMU from scratch, implementing low-level I2C commu-
+nication protocols over Wire.h to log real-time sensor data.
+Rocket Engines API June 2024 - July 2024
+Backend REST API for rocket engine metrics with automated data scraping
+· WroteacustomPythonscripttoscrape,parse,andcleannon-uniformdatabasetablesfromwebdata,resolving
+interval values using median statistical approximations.
+· Developed a high-performance REST API using Golang to query and serve processed rocket engine metrics
+from an SQLite database via JSON endpoints on port 8080.
+SKILLS & CERTIFICATIONS
+Control & Estimation System Identification, Kalman Filters, LQR/LQG, PID Control, Signal Filtering
+Software & Embedded C, C++, Python, Golang, SQL, ROS2, LATEX, Embedded Firmware, I2C, MAVLink
+Tools & Platforms MATLAB & Simulink, Git, Linux, ArduPilot SITL, Gazebo, SOLIDWORKS
+Languages Arabic (Native), English (Advanced), French (Advanced), Turkish (Intermediate)
+Certifications CS50: Introduction to Computer Science (Harvard/edX), ROS2 for Beginners,
+MATLAB Fundamentals, SOLIDWORKS CAD Fundamentals
+REFERENCES
+ResearchstudentunderAssoc. Prof. ClaudiaYAS¸ARattheControlTechLab(YTU).Academicandprofessional
+references are available upon request.

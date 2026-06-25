@@ -1,0 +1,70 @@
+
+=== PAGE 1 ===
+HAJIR MOHAMMED
+Control Systems · UAV Guidance, Navigation & Control
+hajermohamed505@gmail.com | +90 538 079 13 33 | Kayaşehir, Istanbul, Türkiye
+PROFILE
+Final-year Control Engineering student at Yıldız Technical University with direct, hands-on experience in autonomous
+UAV systems — spanning VTOL airframe design, flight control algorithm development, sensor fusion, and embedded
+implementation on STM32 platforms. Proficient in MATLAB/Simulink-based model-driven development, controller
+design and tuning, and system identification, with practical exposure to flight controllers (SpeedyBee), open-source
+autopilot stacks (iNAV, Mission Planner), and C/Embedded C. Driven to contribute to the design and validation of
+control, guidance, and navigation algorithms for fixed-wing UAV platforms in a high-performance R&D environment.
+EDUCATION
+Yıldız Technical University — Istanbul, Türkiye Expected December 2026
+Bachelor of Control Engineering
+Senior Thesis: Design and Control of a VTOL (Vertical Take-Off and Landing) Unmanned Aerial Vehicle
+Relevant Coursework: Linear Control Systems, System Dynamics, Feedback Control Theory, Digital Control, Flight
+Mechanics, Signal Processing, Embedded Systems, Modeling & Simulation, Mechatronic Systems.
+PROJECTS & ENGINEERING EXPERIENCE ( LINK )
+VTOL UAV — Design, Modeling & Flight Control . Senior Thesis Project Oct 2024 – Jun 2025
+• Designed and 3D-printed a custom VTOL airframe and lifting surfaces; integrated propulsion, avionics, and
+flight controller for full vertical-to-forward flight transition.
+• Developed a full nonlinear 6-DOF dynamic model of the airframe in MATLAB/Simulink, including aerodynamic,
+propulsion, and actuator subsystems for high-fidelity simulation.
+• Performed system identification on motor and airframe response data to derive validated transfer-function
+and state-space models used for controller synthesis.
+• Designed and tuned cascaded attitude, altitude, and position controllers (PID + state-space); verified stability
+margins through Bode, Nyquist, and root-locus analysis.
+• Implemented a Kalman / complementary filter sensor-fusion algorithm to estimate attitude and orientation
+from raw IMU data.
+• Deployed control logic on an STM32 microcontroller ( STM32CubeIDE); configured and tuned a SpeedyBee
+flight controller running iNAV, with mission and PID tuning through Mission Planner.
+MATLAB Mini Drone Competition · MathWorks ( LINK) May 2024
+• Designed and simulated quadrotor flight-control algorithms in MATLAB/Simulink for the official MathWorks
+competition framework.
+• Developed trajectory-tracking and waypoint-navigation logic; iteratively tuned controllers to improve settling
+time, overshoot, and disturbance rejection.
+• Collaborated within a multidisciplinary team to benchmark autonomous flight performance against
+competition success metrics.
+
+=== PAGE 2 ===
+Undergraduate Control Systems Laboratory · Yıldız Technical University Oct 2024 – Dec 2024
+• DC motor speed/position control: modeled the plant in Simulink and tuned closed-loop controllers for
+accurate reference tracking.
+• Ball-and-beam balancing: designed and optimized a PID controller for a nonlinear, underactuated system.
+• Magnetic levitation: derived a linearized state-space model and implemented a stabilizing controller for an
+inherently unstable plant.
+• Coupled-tank system: implemented multi-loop liquid-level control and validated step response and
+disturbance rejection experimentally.
+Digital Oscilloscope Modeling Project · Coursework 2024
+• Designed and simulated a digital oscilloscope model in MATLAB for signal acquisition and visualization.
+• Tuned sampling, triggering, and signal-processing parameters to optimize fidelity of captured waveforms.
+TECHNICAL SKILLS
+Simulation & Modeling MATLAB, Simulink, Simscape, Control System Toolbox, System Identification
+Toolbox
+Control Theory Linear Control Systems, PID, State-Space, Pole Placement, Cascaded Control,
+Frequency-Domain Analysis (Bode, Nyquist, Root Locus), Digital Control, System
+Identification
+Estimation & Sensor Fusion Kalman Filter, Complementary Filter, IMU-based Attitude Estimation
+Programming C, Embedded C, MATLAB scripting, basic Python
+Embedded & Hardware STM32 (STM32CubeIDE), Arduino, SpeedyBee Flight Controller, IMU sensors,
+UART / I²C / SPI
+UAV Toolchain iNAV, Mission Planner, Ardupilot ecosystem, 3D printing for airframe fabrication
+Engineering Workflow Model-Based Design, Software-in-the-Loop testing, technical documentation &
+reporting
+LANGUAGES
+Arabic (Native) English (Fluent) Turkish (Fluent)
+AREAS OF INTEREST
+Autonomous flight systems · Fixed-wing & VTOL UAV control · Guidance and navigation algorithms · Sensor
+fusion and state estimation · Flight simulation and model-based design

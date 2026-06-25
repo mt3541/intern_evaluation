@@ -1,0 +1,94 @@
+
+=== PAGE 1 ===
+Mahmut ARPACI
+Maltepe İstanbul
+0551 126 89 68
+mahmutarpaci19@gmail.com
+Mahmut ARPACI
+Marmara Üniversitesi Mekatronik Mühendisliği öğrencisi olarak; havacılık ve savunma sistemlerine
+yönelik Model-Based Design (MBD) yaklaşımı çerçevesinde kontrol, güdüm ve otonom sistemler
+üzerine çalışmalar yürütmekteyim. MATLAB/Simulink ve Simscape ortamlarında yüksek sadakatli
+fiziksel modelleme, hiyerarşik kontrol mimarisi tasarımı ve gerçek zamanlı simülasyon (Digital Twin)
+altyapılarının geliştirilmesi konularında deneyim sahibiyim.
+Gerçekleştirdiğim staj süreçlerinde; hava araçlarının dinamik modellenmesi, kontrol
+algoritmalarının simülasyon ortamında doğrulanması ve haberleşme katmanlarının sisteme
+entegrasyonu üzerine çalışmalar yürüttüm. TEKNOFEST kapsamında üstlendiğim takım
+kaptanlığı ve kontrol sorumluluğu rolleriyle edindiğim teknik birikimi, İHA uçuş dinamikleri
+ve simülasyon sistemleri alanında katma değer üretmek amacıyla kullanmayı
+hedeflemekteyim.
+Eğitim
+Marmara Üniversitesi – Mekatronik Mühendisliği (Gano: 3.03)
+Lisans (Devam Ediyor) • Tahmini Mezuniyet: Ağustos 2026
+Deneyim
+DASAL HAVACILIK TEKNOLOJİLERİ- İŞ YERİ EĞİTİMİ (72 İŞ GÜNÜ / EYLÜL 2025– OCAK 2026)
+Kontrol Stajyeri
+Çok Katmanlı Kontrol Mimarisi: Çoklu taşıyıcı bir İHA platformu için dış döngü (konum), iç döngü
+(yönelim) ve Control Allocation (Kontrol Tahsisi) algoritmalarını içeren hiyerarşik kontrol yapısını
+MATLAB/Simulink ortamında analiz ettim.
+Gerçekçi Sistem Modelleme: Simülasyon sadakatini artırmak amacıyla sisteme motor dinamikleri
+(gecikme) ve sensör gürültü modelleri entegre ederek, sistemin gürültülü ortamlardaki kararlılığını ve
+kontrol performansını doğruladım.
+Dijital İkiz ve Görselleştirme: Simulink üzerindeki uçuş verilerinin UDP haberleşme protokolü
+aracılığıyla Unreal Engine ortamına gerçek zamanlı aktarımını sağlayan bir "Digital Twin" arayüzü
+kurguladım.
+Gerçek Zamanlı Veri Entegrasyonu: Otopilot verilerinin 3B uçuş sahneleri üzerinde anlık
+görselleştirilmesi ve simülasyon tabanlı doğrulama (Validation) altyapılarının oluşturulması
+süreçlerinde uygulamalı tecrübe edindim.
+DASAL HAVACILIK TEKNOLOJİLERİ- YAZ STAJI (36 İŞ GÜNÜ / TEMMUZ-EYLÜL 2025)
+Kontrol Stajyeri
+Bileşen Modelleme ve Doğrulama: BLDC motor ve ESC (Electronic Speed Controller) sistemlerinin
+matematiksel modellerini MATLAB/Simulink ortamında oluşturarak, simülasyon çıktılarını üretici
+datasheet verileriyle (akım, tork, RPM eğrileri) karşılaştırmalı olarak doğruladım.
+
+=== PAGE 2 ===
+Kontrolcü Tasarımı ve Entegrasyon: Parrot Mambo drone platformunun varsayılan kontrol
+yapısını, kendi tasarladığım özel kontrol mimarisi ile değiştirerek sistemin dinamik
+yanıtlarını ve kararlılık (stability) analizlerini gerçekleştirdim.
+Sistem Dinamiği Analizi: Hava aracının farklı uçuş rejimlerindeki tepkilerini inceleyerek,
+teorik kontrolcü parametrelerinin gerçek sistem davranışları üzerindeki etkilerini analiz
+ettim.
+PROJELER
+Hava Savunma Sistemleri – TEKNOFEST 2025 Finalist
+Takım Kaptanı / Kontrol Sorumlusu
+• Güdüm ve Kontrol: Hedef konumu verilerini işleyerek aracın dinamik yönelim ve
+takip hareketlerini yöneten kontrol-güdüm algoritmalarını geliştirdim.
+• Gerçek Zamanlı Takip: Görüntü işleme tabanlı hedef tespiti verilerini kontrol
+döngüsüne entegre ederek gerçek zamanlı takip sistemi mimarisini kurdum.
+• Sistem Entegrasyonu: Farklı disiplinlerden gelen alt sistemlerin entegrasyonu, ekip
+koordinasyonu ve saha test süreçlerini yönettim.
+İnsansız Su Altı Sistemleri – TEKNOFEST 2025 Finalist
+Kontrol Sorumlusu
+• Sensör Füzyonu ve Stabilizasyon: IMU ve basınç sensörü verilerini kullanarak su altı
+aracının 6 serbestlik dereceli (6-DoF) otonom yönelim ve denge kontrolünü sağladım.
+• Kontrol Tasarımı: Aracın zorlu su altı koşullarında kararlı kalmasını sağlayan kontrol-
+güdüm sistemlerinin tasarım ve entegrasyon süreçlerini yürüttüm.
+İnsansız Tarımsal Kara Aracı – TEKNOFEST 2023 Finalist
+Gömülü Sistem Geliştiricisi
+• Haberleşme Altyapısı: Otonom sürüş için gerekli olan gerçek zamanlı sensör verisi
+işleme ve kablosuz veri aktarımı altyapısını mikrodenetleyici seviyesinde kurguladım.
+• Gömülü Yazılım: Düşük seviyeli kontrol algoritmaları ve sensör haberleşme
+protokolleri üzerine çalışarak otonom sistemlerin donanım-yazılım entegrasyonu
+aşamalarında görev aldım.
+Yetenekler
+Programlama & Modelleme
+• Diller: C (Orta), C++ (Orta)., MATLAB (İyi), Python (Orta).
+• Metodoloji: Model-Based Design (MBD), Nesne Yönelimli Programlama (OOP).
+• Araçlar: MATLAB / Simulink, Simscape Multibody, Unreal Engine.
+Kontrol & Simülasyon
+• Kontrol Teorisi: PID Tabanlı Kontrol, Kontrol Tahsisi (Control Allocation), Uçuş Dinamiği ve
+Kararlılık Analizi.
+• Doğrulama (V&V): MIL (Model-in-the-Loop), SIL (Software-in-the-Loop), HIL (Hardware-in-
+the-Loop) Altyapı Hazırlığı ve Gerçek Zamanlı Simülasyon.
+2
+
+=== PAGE 3 ===
+• Fiziksel Modelleme: BLDC Motor ve ESC Dinamik Modelleme, Çoklu Araç (Multi-Agent)
+Sistemleri.
+Gömülü Sistemler & Haberleşme
+• Protokoller: UDP/IP (Gerçek Zamanlı Veri Aktarımı), CAN-BUS (Teorik/Başlangıç), RS232,
+RS485, UART, I2C.
+• Donanım Platformları: ESP32, STM32, Arduino.
+Referanslar
+Mert Serhat SARIHAN • Dasal Havacılık Teknolojileri • Uçuş Kontrol Mühendisi •
+serhat.sarihan@dasal.com
+3

@@ -1,0 +1,76 @@
+
+=== PAGE 1 ===
+Ruba Almadi
+Date of birth:31/10/2005 Phone: (+90) 05393957218 (Home) Email address:
+ruba.almadi5@gmail.com Website: www.linkedin.com/in/ruba-almadi-b04352314
+Address: SIYAVUSPASA MAH. SARMASIK SK. BAHCELIEVLER, 34688, Istanbul,
+Turkey (Home)
+ABOUT MYSELF
+I am Ruba, a third year Control & Automation Engineering student at Istanbul Technical University.During my
+academic experience, I took part in multiple projects, coursework, and clubs that enhanced my technical and
+social skills. I had the chance to develope control models using PID-based approaches in MATLAB/Simulink, and
+gaining hands-on experience in system modeling and electromagnetic analysis using Ansys Maxwell. Strong
+teamwork, coordination, and communication skills, with a focus on driving technical progress and supporting
+collaborative problem-solving
+EDUCATION & TRAINING
+Control & Automation Engineering
+Istanbul Technical University [ 06/09/2023 - Current ]
+Address: Reşitpaşa, ITU Ayazaga Kamusu Rektorluk Binasi, 34467 Sariyer/Istanbul, Istanbul (Turkey) | Website:
+https://www.itu.edu.tr/en | Level in EQF:6
+LANGUAGE SKILLS
+Mother tongue(s):Arabic
+English Turkish
+LISTENING:C2 READING:C2 WRITING: C2 LISTENING:C2 READING:C2 WRITING: C2
+SPOKEN PRODUCTION:C2 SPOKEN PRODUCTION:C2
+SPOKEN INTERACTION:C2 SPOKEN INTERACTION:C2
+SKILLS
+Digital Skills
+Ansys Maxwell Electronics | Matlab Environment (Matlab, Simulink, Simscape) | C and Paython Programming
+Social Skills
+Team supervision | Work planning | Teamwork and collaboration | Technical decision-making
+Personal Skills
+Good time management | leadership | Quick learner | Problem-solving
+PROJECTS
+[ 01/11/2023 - 01/06/2025 ]
+ITU HyperBee-Levitation & Propulsion Team Member Worked on the design and analysis of the Hyperloop
+pod’s electromagnetic levitation system, including magnetic circuit optimization and FEM simulations in ANSYS
+
+=== PAGE 2 ===
+Maxwell. Gained experience in electromagnetic behavior,vehicle–track interaction,and designing and optimizing
+systems, while producing technical documentation and academic-style reports.
+As a team, we achieved multiple awards in Hyperloop competitions, including three category awards at EHW
+2024 (Levitation, Propulsion, Sense & Control), a 2nd place finish and Steel Levitation Award at Teknofest 2024,
+and the Electromagnetic System Innovation Award at Teknofest 2025 for the levitation system I contributed to.
+[ 01/06/2025 - Current ]
+ITU HyperBee- Levitation & Control Team LeaderLeading the Levitation & Control subteam, coordinating
+multidisciplinary work on modeling and optimizing the pod’s electromagnetic levitation system. I am currently
+developing a PID-based control architecture, building MATLAB/Simulink/Simscape models, and running
+closed-loop simulations to evaluate dynamic stability and system performance. I manage task distribution,
+mentor new members, and apply control theory and electromagnetics to continually improve the system’s
+reliability.
+CERTIFICATIONS
+[ TEKNOFEST& TUBITAK, 17/11/2025 ]
+TEKNOFEST Hyperloop Development Competition Finalist 2025 Electromagnetic Levitation Award
+[ TEKNOFEST& TUBITAK, 17/11/2024 ]
+TEKNOFEST Hyperloop Development Competition Finalist 2024 Second Place Award and Steel Levitation
+Award
+[ European Hyperloop Week, 10/09/2024 ]
+European Hyperloop Week Participant 2024
+[ European Hyperloop Week, 10/09/2024 ]
+Levitation Subsystem Award
+[ European Hyperloop Week, 10/09/2024 ]
+Propulsion Subsystem Award
+[ European Hyperloop Week, 10/09/2025 ]
+Sense & Control Subsystem Award
+[ European Hyperloop Week, 12/09/2025 ]
+European Hyperloop Week Participant 2025
+[ MathWorks, 31/10/2025 ]
+Simscape Onramp
+[ MathWorks, 20/11/2025 ]
+Simulink Onramp
+[ MathWorks, 26/11/2025 ]
+Control Design Onramp with Simulink
+[ MathWorks, 26/11/2025 ]
+PID Control Techniques
+[ Udemy, 30/01/2026 ]
+Model, Simulate and Control a Drone in MATLAB & SIMULINK

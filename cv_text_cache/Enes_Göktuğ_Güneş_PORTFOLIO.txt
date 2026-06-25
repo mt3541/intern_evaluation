@@ -1,0 +1,89 @@
+
+=== PAGE 1 ===
+Enes Göktuğ Güneş
+Software Engineering Student · 3rd Year · Fatih Sultan Mehmet Foundation University
+gunesgoktug01@gmail.com | +90 538 260 09 19 | github.com/ggunes01
+I am a software engineering student with a strong interest in artificial intelligence, cybersecurity, and backend
+development. I enjoy building real-world projects that combine different technologies — from machine learning models
+to RESTful APIs and secure web applications.
+C O R E S K I L L S
+Languages: Python · Java · C / C++
+Frameworks & Libraries: Spring Boot · React.js · Flask · Hibernate · Selenium · JSoup
+AI & ML: Machine Learning · Artificial Intelligence · NLP · TF-IDF · Word2Vec · Scikit-learn
+Cybersecurity: OWASP Top 10 · SonarQube · Burp Suite · OWASP ZAP · Secure Coding
+Databases: PostgreSQL · SQL Server · SQLite · SQL · Database Design
+Web & APIs: RESTful API · Web Scraping · Web Crawling · API Integration
+Tools & Practices: Git · GitHub · OOP · Data Structures · SDLC · Software Testing
+P R O J E C T S
+01 / 07
+Web Site Analysis from Text Data
+INTERNSHIP PROJECT
+TÜBİTAK BİLGEM · Cybersecurity Department
+During my internship at TÜBİTAK BİLGEM, I developed a system that analyses websites by processing their text content. The
+project involved building RESTful APIs with Spring Boot to manage data flow between components. I used JSoup and custom
+web crawling techniques to collect and parse web content automatically. An AI model was integrated into the pipeline to
+classify or evaluate the collected text data. This work gave me hands-on experience in combining backend development, web
+intelligence, and applied machine learning in a real research environment.
+Tech: Spring Boot · REST API · Web Scraping · Web Crawling · JSoup · AI Model Integration · Java · Cybersecurity
+02 / 07
+Turkish News Text Classification
+Academic Project · NLP & Machine Learning
+This project focuses on automatically classifying Turkish news articles into five categories: sports, technology, health,
+politics/economy, and crime. I built and compared multiple NLP pipelines using different text representations — Bag of
+Words, TF-IDF (unigrams and bigrams), and Word2Vec. Four machine learning models were tested: Logistic Regression, Linear
+SVM, KNN, and MLP. The dataset contained 2,015 articles, reduced to 1,833 after cleaning. The best models (Linear SVM,
+KNN, MLP with TF-IDF) achieved approximately 98% accuracy.
+Tech: Python · NLP · TF-IDF · Word2Vec · Scikit-learn · SVM · MLP · Jupyter Notebook
+→ https://github.com/ggunes01/Turkish-News-Text-Classification
+03 / 07
+
+=== PAGE 2 ===
+StrideUp — AI-Powered Fitness Platform
+Software Testing & Security Course · Full-Stack Web App
+StrideUp is a web application that generates personalised weekly diet and workout plans using the OpenAI GPT API. I built the
+full stack: a React + Vite frontend and a Java backend with REST-style endpoints. The app includes a water tracker, weight
+progress logger, and AI coach chat. Security was a key focus — passwords are hashed with SHA-256, sessions use
+cryptographically secure tokens, and all queries use JDBC prepared statements. The project was tested with 77 test cases
+using Selenium, JMeter, OWASP ZAP, Burp Suite, and SonarQube, which confirmed zero critical vulnerabilities.
+Tech: Java · React.js · REST API · SQLite · OpenAI API · Selenium · OWASP ZAP · SonarQube · JMeter
+→ https://github.com/ggunes01/TestingSecurityProject
+04 / 07
+Multiplayer Yahtzee Game
+Network System Design Course · Java Client-Server
+A real-time multiplayer Yahtzee game built in Java using TCP socket programming and a client-server architecture. The server
+manages all game logic, player synchronisation, and turn control between two connected clients. Each client runs a graphical
+interface built with Java Swing, allowing players to roll dice, select score categories, and track both scores live. The server was
+designed to be deployed on an AWS EC2 instance, making it a realistic network-based application rather than a local-only
+demo.
+Tech: Java · Socket Programming · TCP/IP · Java Swing · Client-Server Architecture · AWS EC2 · OOP
+→ https://github.com/ggunes01/NetworkSystemDesignProject_YahtzeeGamePlay
+05 / 07
+ProcX — Advanced Linux Process Manager
+Operating Systems Course · C / Linux
+ProcX is a command-line process manager written in C for Linux. It can launch programs in attached or detached modes, list
+active processes, terminate them by PID, and automatically clean up zombie processes. The project uses advanced OS
+primitives: System V Shared Memory for process records, POSIX Semaphores for safe concurrent access, System V Message
+Queues for inter-instance communication, POSIX Threads for background monitoring, and Unix Signals for process control.
+This project deepened my understanding of low-level operating system concepts.
+Tech: C · Linux · POSIX Threads · Shared Memory · Message Queues · Semaphores · IPC
+→ https://github.com/ggunes01/ProcX-Advanced-Process-Manager
+06 / 07
+Automotive Service Database System
+Database Management Course · Python + SQL Server
+A desktop application for managing an automotive repair workshop. The system handles vehicle damage tracking, repair
+records, spare parts inventory, invoice generation, and insurance claim workflows. Built with Python and Tkinter for the user
+interface, and Microsoft SQL Server for the database backend. The project covered full database design — including entity
+relationships, normalisation, and stored procedures — as well as a practical implementation connecting the GUI to live data.
+Tech: Python · Tkinter · SQL Server · Database Design · SQL
+→ https://github.com/ggunes01/Automotive_Service_DataBase_System
+07 / 07
+
+=== PAGE 3 ===
+Treasure Hunt — Data Structures Game
+Data Structures Course · Java Swing
+A graphical treasure hunt game developed in Java to demonstrate core data structures in action. The game uses a singly
+linked list for map navigation, a doubly linked list for inventory management, and a binary search tree for the scoreboard. The
+interface was built with Java Swing. This project helped me understand how data structure selection directly affects the
+performance and design of an application, and gave me practical experience implementing these structures from scratch.
+Tech: Java · Java Swing · Linked List · Binary Search Tree · Data Structures & Algorithms
+→ https://github.com/ggunes01/Treasure_Hunt_DataStructures

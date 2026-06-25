@@ -1,0 +1,82 @@
+
+=== PAGE 1 ===
+Muhammed Kadir Aksoy
+kadiraksoy434@gmail.com 05398833211 Gaziosmanpaşa İstanbul 23 Kasım 2002
+Yıldız Teknik Üniversitesi Kontrol ve Otomasyon Mühendisliği son sınıf öğrencisiyim. Analitik ve sistematik
+düşünme becerilerine sahip, öğrenmeye açık ve takım çalışmasına yatkın bir yapıya sahibim. Kontrol ve
+otomasyon alanlarında; Ar-Ge, üretim ve uygulama süreçlerinde yer alarak teknik bilgi ve mühendislik
+yetkinliğimi geliştirmeyi hedefliyorum.
+Eğitimler
+2021 - 2026 Kontrol ve Otomasyon Mühendisliği(İngilizce)
+Yıldız Teknik Üniversitesi(Elektrik-Elektronik Fakültesi)
+Eğitimim süresince kontrol sistemleri ve dinamik sistem modelleme
+konularına odaklandım. Lineer sistem analizi, kapalı çevrim kontrol ve
+sistem davranışlarının incelenmesi üzerine teorik ve uygulamalı çalışmalar
+gerçekleştirdim. MATLAB/Simulink ortamında modelleme ve simülasyon
+çalışmaları yaparak sistem performansının değerlendirilmesi konusunda
+deneyim kazandım. Bunun yanında endüstriyel otomasyon ve PLC tabanlı
+kontrol sistemlerine yönelik bilgi edindim.
+İş deneyimi
+Şub 2025 - Haz 2025 Kontrol Ekip Üyesi
+STAR-X Roket Takımı
+Roket sistemlerinin modelleme ve kontrol süreçlerinde görev aldım. Uçuş
+dinamiklerinin simülasyon ortamında incelenmesi ve kontrol
+algoritmalarının geliştirilmesine katkı sağladım. Elde edilen sonuçların
+analiz edilmesi ve sistem performansının iyileştirilmesi çalışmalarında yer
+aldım.
+Haz 2025 - Ağu 2025 Kontrol, Güdüm ve Seyrüsefer Teknolojileri Stajyeri
+Baykar Technologies
+İnsansız hava araçlarına yönelik güdüm ve kontrol projesinde görev aldım.
+Özellikle rota planlama üzerine çalışarak RRT ve RRT* tabanlı algoritmalar
+geliştirdim ve bu algoritmaların simülasyon ortamında performans
+analizlerini gerçekleştirdim. Sabit kanatlı İHA sistemleri ve uçuş dinamikleri
+hakkında teknik bilgi edindim.
+Eyl 2025 - Şub 2026 Uzun Dönem Stajyer
+Omron Industrial Automation Europe, İstanbul
+Endüstriyel otomasyon sistemleri kapsamında PLC tabanlı kontrol
+uygulamalarında görev aldım. Programlama ve sistem entegrasyonu
+süreçlerine katılarak otomasyon çözümlerinin geliştirilmesine destek
+sağladım. Üretim sistemlerinde kontrol yapılarının uygulanmasına yönelik
+deneyim kazandım.
+Projeler Otonom Drone Platformunda FMCW Radar Tabanlı Algılama ve Veri
+Toplama Sisteminin Tasarımı ve Geliştirilmesi; Bu çalışma kapsamında,
+otonom bir hexacopter platformu üzerinden FMCW radar tabanlı veri
+toplama sisteminin geliştirilmesi amaçlanmaktadır. Proje süreci;
+MATLAB/Simulink ortamındaki modelleme ve kontrolcü simülasyonları ile
+başlayıp, platformun donanım üretimi ve Ardupilot konfigürasyonlarını
+kapsamaktadır. Gerçek zamanlı uçuş testleri ile radar sensörünün
+
+=== PAGE 2 ===
+platforma entegrasyonu ve sistemin otonom veri toplama yetkinliğinin
+doğrulanması hedeflenmektedir.
+SAR Görüntülerinde derin öğrenme Tabanlı Nesne Tespiti ve
+Performans Analizi; SAYZEK programı kapsamında ve ASELSAN
+mentörlüğünde yürütülen bu çalışmada, Sentetik Açıklıklı Radar (SAR)
+görüntülerinde nesne tespit performansını artırmaya yönelik derin
+öğrenme analizleri gerçekleştirilmiştir. Proje kapsamında, çeşitli YOLO
+modellerinin başarısı görüntü çözünürlüğüne dayalı parametreler
+üzerinden incelenmiştir. Modellerin gömülü donanım üzerindeki çalışma
+performansı analiz edilerek; çözünürlük değişimlerinin hem tespit
+doğruluğu hem de işlem hızı üzerindeki etkileri raporlanmıştır.
+Beceriler Matlab/Simülink PLC Programlama
+Kontrol Sistemleri Yazılım & Programlama
+Sistem Modelleme ve Simülasyon Takım çalışması
+Algoritma geliştirme İnsansız Hava Araçları
+Sertifikalar
+Oca 2026 Savunma Sanayii 401
+SSB - Savunma Sanayii Başkanlığı
+Eki 2025 TC51 - Sysmac Kontrol Temel Ve TC52 - Sysmac Kontrol İleri
+Omron Industrial Automation Europe
+Kas 2023 Circuit Simulation Onramp
+MathWorks
+Kas 2023 Control Design Onramp with Simulink
+MathWorks
+Kas 2023 Simulink Onramp
+MathWorks
+Eki 2023 MATLAB Onramp
+MathWorks
+Oca 2026 Otonom Sürüş Teknolojileri Temel Eğitim
+Milli Teknoloji Akademisi
+Diller Türkçe İngilizce
+Hobi ve ilgi alanları Spor yapmak Seyehat etmek
+Müzik dinlemek

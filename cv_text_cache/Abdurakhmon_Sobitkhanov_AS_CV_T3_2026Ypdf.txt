@@ -1,0 +1,47 @@
+
+=== PAGE 1 ===
+ABDURAKHMON SOBITKHANOV
+new1687ton@gmail.com +90 539 438 55 42
+abdurakhmon-sobitkhanov İstanbul, Türkiye
+HAKKIMDA
+Ben Kontrol ve Otomasyon Mühendisliği öğrencisiyim; başlıca ilgi alanlarım İHA gömülü sistemleri ve
+kontrol uygulamalarıdır. Bu alanlarda kendimi geliştirmek ve milli teknolojik kalkınmaya katkı sağlayacak
+projelerde rol almak istiyorum. Gömülü yazılım, sensör füzyonu, kontrolcü tasarımı ve sistem modelleme
+konularında uygulamalı deneyime sahibim; takım çalışmasına yatkın ve öğrenmeye açığım.
+EĞİTİM
+Kontrol ve Otomasyon Mühendisliği, Yıldız Teknik Üniversitesi 2023 - Devam Ediyor
+3. sınıf, AGNO: 3.53 / 4.00
+PROJELER
+KUADKOPTER Ağustos 2025
+Kuadkopter dinamiğini transfer fonksiyonlar ile modelledik. Ardından MATLAB/Simulink ortamında iç
+döngü (Inner-Loop) PID (Rate, Attitude) kontrolcüler tasarlayarak modelimizi simüle ettik. IMU ve
+Barometre sensörlerinden alınan verilerden hata ve gürültüsüz durum kestirimi almak için okunan verilere
+Kalman filtresi uyguladım. PID ayarları (tuning) yapıldıktan sonra kendimiz tasarladığımız test düzeneğinde
+(test rig) sonuçları test ettik, ardından dış ortamda gerçekleştirdiğimiz test uçuşlar ile stabil uçuş
+performansını kanıtladık. Gerçek zamanlı veri okuma ve uzaktan tuning ayarları yapabilmek için Wi-Fi
+telemetri tabanlı özgün bir Yer Kontrol Arayüzü geliştirdik.
+TOP DENGELEME SİSTEMİ Ekim 2025
+Kamera ile pozisyonu belirleyerek topu düz bir plaka üzerinde dengeleyen özel bir sistem geliştirdik. PID
+kontrolcüsünü STM32 ile kodladım, MATLAB/Simulink’te modelleme ve kontrol ayarlarını yaptım. Proje çok
+disiplinli (kontrol, mekanik, elektrik, görüntü İşleme ve gömülü sistem) bir sistemdir ve farklı dallardan
+mühendis adayları ile birlikte geliştirildi.
+KENDİNİ DENGELEYEN SARKAÇ SİSTEM Nisan 2025
+Çift BLDC motor kullanarak geliştirilen, PID ve PIV kontrolcüler ile otomatik dengeleme sağlayan bir
+sistemdir. Sistemi, dronun dönme dinamiğini modellemek amacıyla tasarladık. Projede kontrol algoritmaları
+ve gömülü yazılım geliştirme görevlerini üstlendim.
+TEKNİK BECERİLER DENEYİM
+Proglamlama Dilleri Takım Liderliği
+C, C++ (OOP) Kuadkopter projesinde 4 kişilik ekibe liderlik
+ettim, görev dağılımını ve teknik süreçleri
+Yazılım & Araçlar
+yönettim.
+MATLAB/Simulink, STM32 Cube IDE, MPLAB X IDE
+Gömülü Sistemler Mentorluk
+PIC, STM32, ESP32 YTU INONEST kulübünde öğrencilere elektronik
+eğitimi verdim, ödevler hazırlayarak teknik
+Haberleşme
+gelişimlerine rehberlik ettim.
+UART, I2C
+EK BİLGİ
+Sertifikalar: CS50 – Harvard University | Introduction to Computer Science (Online)
+Diller: Türkçe, İngilizce, Arapça, Özbekçe.

@@ -1,0 +1,237 @@
+
+=== PAGE 1 ===
+PORTFOLYO
+Gömülü Yazılım, Algoritma Tasarımı ve Modelleme
+üzerine çalışmalar yürütüyorum.
+GNC ve Aviyonik Yazılım Geliştiricisiyim.
+Onur Can SARI
+1
+
+=== PAGE 2 ===
+Hakkımda
+Fırat Üniversitesi Bilgisayar Mühendisliği 3. sınıf öğrencisiyim. Kariyerim
+boyunca roket, uydu ve hava savunma sistemleri üzerine yoğunlaşarak;
+gömülü sistemler, aviyonik yazılımları ve yer istasyonları konusunda
+deneyim kazandım.
+Geliştirdiğim her çalışmaya bir 'proje'den ziyade, bir 'ürün' olarak yaklaşırım.
+Teknik ekip yönetimi ve projelerin raporlanması konusunda sorumluluklar
+üstlendim.
+Mevcut çalışmalarımda füze sistemleri için GNC disiplinine odaklandım.
+Uçuş kontrol sistemleri için algoritma tasarım ve modelleme üzerine
+çalışmaktayım.
+2
+
+=== PAGE 3 ===
+Gönüllükler
+İlkokul, ortaokul, lise ve
+üniversite öğrencilerine;
+Drone,
+Model Roketçilik,
+Sabit Kanat
+Simülasyonu,
+Gömülü Sistemler ve IoT
+alanlarında eğitmenlik
+yaptım.
+Fırat Üniversitesi İnsansız
+Araçlar Topluluğu’nun
+Kurucu Başkanlığını
+yaparak bu faaliyetlere
+devam ediyorum.
+3
+
+=== PAGE 4 ===
+Deneyimim
+ROKETSAN İpek Yolu Model Uydu Takımı
+Güdüm, Navigasyon ve Kontrol Stajyeri Aviyonik & Yer İstasyonu Yazılım Geliştirici
+(Temmuz 2025 - Ağustos 2025) (Eylül 2024 - Mayıs 2025)
+Markas Teknoloji İpek Yolu Sualtı Roket Takımı
+Gömülü Yazılım Mühendisi Güdüm, Navigasyon ve Kontrol Geliştirici
+(Şubat 2024 - Mayıs 2025) (Eylül 2024 - Mayıs 2025)
+İpek Yolu & Falcon Roket Takımı Ayyıldız Hava Savunma Sistemleri Takımı
+Aviyonik & Yer İstasyonu Yazılım Geliştirici Gömülü Yazılım Geliştirici
+(Ocak 2024 - Halen) (Ağustos 2024 - Halen)
+4
+
+=== PAGE 5 ===
+Katıldığım Fuarlar
+5
+
+=== PAGE 6 ===
+Take Off İstanbul 2024
+T 3 Va k f ı n ı n d a vet i y le ro ket t a k ı m ı m ı z ı n y ü ks e k i r t i fa ro ket i n i ve
+S k y Lo g i c ü r ü n ü n ü t a n ı t t ı m .
+6
+
+=== PAGE 7 ===
+SAHA EXPO 2024
+T 3 Va k f ı n ı n d a vet i y le M a r k a s Te k n o lo j i ’ n i n ü ret t i ğ i S k y Lo g i c ve
+ç ev re b i r i m le r i n i t a n ı t t ı m .
+7
+
+=== PAGE 8 ===
+Projelerim
+8
+
+=== PAGE 9 ===
+1
+Z o r l u G ö r e v R o k e t Y a r ı ş m a s ı A v i y o n i k Y a z ı l ı m ı
+Faydalı yükün görevi olan uçuş süresi boyunca telemetri verisi
+Faydalı Yük
+toplayıp yer istasyonuna iletmesini gerçekleştirdim.
+1. ve 2. Kademe aviyoniklerinin görevlerini OpenRocket ve MATLAB
+2.Kademe
+ortamında analiz ederek, uçuş aşamaları olan motor ateşleme, kademe
+Aviyonik
+ayrımı ve kurtarma süreçlerine karar veren algoritmaları geliştirdim.
+Elektronik Gözlem Ünitesi, 2. kademe aviyoniğinin verdiği motor
+Elektronik
+ateşleme emrini doğrulayan algoritmayı geliştirdim.
+Gözlem Ünitesi
+Dahili iletişimde RS232, RS485, UART ve I2C protokollerini
+kullandım.
+1. Kademe
+Yer istasyonu haberleşmesinde LoRa ile her aviyonikten sorgu-cevap Aviyonik
+şeklinde 20ms aralıkla iletişim sağladım. Eğer 10sn boyunca veri
+istenmezse ilgili kanala 1sn aralıkla veri gönderilir.
+Tüm gömülü sistemler için ESP32-S3 işlemci üzerinde C
+programlama dili kullandım. Geliştirme sürecinde Git kullandım.
+Karar algoritmaları için barometre, IMU ve roket üzerinde bulunan
+switch ve pogo pin verilerini temel aldım. Sensör verilerinin
+doğruluğunu arttırmak için Kalman filtresi uyguladım.
+9
+Yer İstasyonu
+
+=== PAGE 10 ===
+10
+
+=== PAGE 11 ===
+2
+Z o r l u G ö r e v R o k e t Y a r ı ş m a s ı Y e r İ s t a s y o n u
+Yer İstasyonu Arayüzü
+Y a z ı l ı m ı
+Aviyoniklerin anlık konum verilerinin harita üzerinde görselleştirdim.
+Telemetri verilerini çizgi ve bar grafiklerini kullanılarak görselleştirdim.
+Visual Studio programı üzerinde C# dili ile geliştirdim. Geliştirme sürecinde Git kullandım.
+Voltaj bilgilerini, uygun dinamik model bulamadığım için piksel boyama yöntemi ile
+görselleştirdim.
+Yer istasyonuna iletilen her veri ayrıştırılarak daha sonra kullanılmak üzere Excel ile kaydettim.
+2. Kademe aviyoniğinin yönelim verileri ile 3D model kullanarak roketin anlık duruşunu
+görselleştirdim.
+Roket ve led görseli kullanarak motor ateşleme, kademe ayrılması ve paraşüt açılma durumlarının
+takibini kolaylaştırdım.
+Yer istasyonu donanımından gelen verileri, baş-son kontrolü ve veri sayısı ile hangi aviyonik
+olduğunu anlayıp ilgili değişkenlere dağıttım.
+Yer istasyonuna gelen tüm veri paketlerini ham haliyle gösterdim. Bu sayede iletişim göz ile kontrol
+edilebilmektedir.
+11
+
+=== PAGE 12 ===
+12
+
+=== PAGE 13 ===
+3
+R o k e t Y a r ı ş m a s ı A v i y o n i k T e s t S i s t e m i Y a z ı l ı m ı
+EK-7 Yarışma Dokümanı
+TEKNOFEST Roket Yarışması finallerinde yarışmacı takımların Özgün Uçuş
+Kontrol Bilgisayarlarını (Ö-UKB) doğrulamak ve uçuş izni vermek amacıyla
+kullanılan resmi test sisteminin gömülü yazılımı ve kullanıcı arayüzünü
+geliştirdim.
+Test donanımı ile Ö-UKB arasında RS232 protokolü üzerinden haberleşme Özgün UKB
+sağladım.
+Test donanımı ile kullanıcı arayüzü arasında UART protokolü kullandım.
+RS232
+Test sisteminde SİT ve SUT olmak üzere iki test bulunmaktadır. Testler
+sırasındaki tüm durumlar kullanıcı arayüzü ile takip edilebilmektedir.
+Test Donanımı
+Sensör İzleme Testi (SİT) sırasında;
+Ö-UKB’den alınan sensör verilerini kullanıcı arayüzüne aktararak uygun
+UART
+aralıklarda veri ürettiğini ve herhangi bir durumda pyro sinyali üretmediğini
+kontrol ettim.
+Sentetik Uçuş Testi (SUT) sırasında;
+Kullanıcı Arayüzü
+Ö-UKB’ye HiL test sistemi mantığında, kurtarma algoritmasını sınayacak uçuş
+profillerinin sentetik verileri gönderilip pyro sinyallerinin doğru zaman
+13
+aralığında aktifleştiğini kontrol ettim.
+
+=== PAGE 14 ===
+4
+S k y L o g i c T i c a r i U ç u ş K o n t r o l B i l g i s a y a r ı Y a z ı l ı m ı Detaylar
+ROKETSAN tarafından akredite edilerek ticari uçuş kontrol bilgisayarları
+listesine giren SkyLogic’in tüm uçuş aşamalarını yöneten algoritmasını ve
+gömülü yazılımını geliştirdim.
+Roketin tüm aşamalarında doğru kararların doğru zamanlamayla
+verilmesini sağlayan algoritmayı geliştirdim.
+RP2040 işlemci üzerinde C/C++ programlama dili kullandım.
+GNSS ve harici LoRa gibi farklı ürünlerle ve özgün çevre birimleriyle tak-
+çalıştır mantığında haberleşebilmesi için esnek bir algoritma tasarladım.
+Şok ve titreşim testleri sırasındaki gürültüleri filtreleyerek, telemetri
+verilerinin doğruluğunu koruyabilen bir Kalman filtresi tasarladım.
+SkyConfig konfigurasyon aracı üzerinden uçuş parametrelerinin (paraşüt açma
+irtifası vb.) konfigüre edilebilmesini sağlayan bir algoritma tasarladım.
+Değiştirilebilir konfigurasyon verilerini EEPROM üzerinde kaydettim.
+RP2040 üzerinden dahili LoRa modülünü konfigure edebilen kütüphaneyi Bare
+metal C kullanarak oluşturdum.
+Son 10 uçuş verisini daha sonra kullanmak üzere Flash belleğe kaydettim.
+SkyConfig üzerinden bu verilere erişilebilmektedir. 14
+
+=== PAGE 15 ===
+5
+S k y C o n f i g M a s a ü s t ü K o n f i g u r a s y o n A r a c ı Detaylar
+SkyLogic ve Markas Teknoloji donanımlarının konfigürasyon, kalibrasyon ve test
+süreçleri için kullanılan masaüstü yazılımını geliştirdim.
+GNSS verilerini harita üzerinde görselleştirdim.
+Visual Studio programı üzerinde C# dili ile geliştirdim.
+Sensörlerden gelen verileri canlı bir şekilde izlenebilmesini sağladım.
+Arayüz üzerinden pyro ateşleme kanallarının test edebilebilmesini sağladım.
+IMU sensörü için arayüz üzerinden kalibrasyon işlemlerini ve takibini sağladım.
+Seri port üzerinden 128 bit AES şifreleme, baş-son, CRC kontrollü bir iletişim altyapısı
+kurdum.
+Kullanıcının LoRa haberleşme ayarlarını ve uçuş parametrelerini, kod müdahalesine gerek
+kalmadan arayüz üzerinden güncelleyebileceği bir yapı kurdum.
+Kayıtlı uçuş verilerinin grafikler üzerinden zamana bağlı olarak analiz edilmesini sağladım.
+15
+
+=== PAGE 16 ===
+6
+F ü z e G ü d ü m v e O t o p i l o t T a s a r ı m ı Detaylar
+ROKETSAN stajım sırasında hava savunma füze sistemleri için kinematik, dinamik
+modelleri oluşturmayı ve bunlar ile uçuş kontrol yazılımları geliştirmeyi öğrendim.
+OpenVSP ile aerodinamik katsayı analizi gerçekleştirdim.
+PNG güdüm ve Three-Loop otopilot ile kapalı döngü bir kontrol sistemi tasarladım.
+MATLAB/Simulink kullanarak aktüatör ve kinematik modelleri içeren 6DoF bir simülasyon
+oluşturdum.
+Sentetik arayıcı başlık verilerini IMU sensörümden aldığım veriler ile filtreledim.
+Belirli bir çarpışma açısı elde etmek amacıyla bias terimlerini güdüm algoritmama dahil
+ettim.
+Paul Zarchan’ın "Tactical and Strategic Missile Guidance" kitabını rehber olarak
+kullandım.
+Füzenin maksimum dayanabileceği aerodinamik kuvvetleri dikkate alarak güdüm
+algoritmasında ivme kısıtlaması uyguladım.
+Füzenin farklı hedef tiplerine karşı nasıl tepkiler verdiğini inceledim.
+16
+
+=== PAGE 17 ===
+7
+T o r p i d o G ü d ü m v e O t o p i l o t T a s a r ı m ı Detaylar
+TEKNOFEST Sualtı Roket Yarışması görev konseptine uygun rotayı takip edecek kontrol
+yazılımı geliştirdim.
+Hidrodinamik etkilere ve su altı dinamiklerine uygun otopilot tasarımı yaptım.
+MATLAB/Simulink kullanarak hidrodinamik modelleri içeren 6DoF bir simülasyon
+oluşturdum.
+Kontrol yazılımını ESP32-S3 üzerinde C/C++ dili ile kodladım. Geliştirme aşamasında Git
+kullandım.
+Görev konseptine uygun rotayı PNG güdüm oluşturdum. Varış noktalarında belirli açıyla
+bulunması durumunu bias terimleri ekleyerek sağladım.
+Thor Fossen’ın "Handbook of Marine Craft Hydrodynamics and Motion Control" kitabını
+rehber olarak kullandım.
+Deniz ortamında otopilotun verdiği tepkileri inceleyerek simulasyon çıktıları ile
+kıyasladım. Bu sayede, simulasyon parametrelerini en doğru değere getirdim.
+İşlemcinin işlem kapasitesi ile simulasyon zaman adımını senkronize etmek için log
+kayıtlarını izleyerek simulasyonun uyumlu olmasını sağladım.
+17
+
+=== PAGE 18 ===
+Teşekkürler.
+18

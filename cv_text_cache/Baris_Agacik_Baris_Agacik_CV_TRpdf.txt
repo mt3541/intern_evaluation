@@ -1,0 +1,50 @@
+
+=== PAGE 1 ===
+B A R I Ş A Ğ A C I K
+Kontrol ve Otomasyon Mühendisi
++90 531 334 61 85 | barisagacik@gmail.com | İstanbul, Türkiye | linkedin.com/in/barisagacik
+PR OF İL
+Kontrol ve Otomasyon Mühendisliği son sınıf öğrencisiyim. Sistem modelleme ve simülasyonuna, kontrol sistemlerine, uzay ve havacılık
+konularına özel ilgi duyuyorum. Sorumluluğumdaki işleri en iyi şekilde yapmaya özen gösteren, öğrenmeye açık bir yapıya sahibim. Hedefim,
+kontrol sistemleri alanında kendimi geliştirerek kaliteli bir kontrol mühendis olabilmek.
+E Ğ İTİM
+Yıldız Teknik Üniversitesi — Kontrol ve Otomasyon Mühendisliği (Lisans) 2022 – 2026
+AGNO: 3.03 / 4.00 | 4. Sınıf | İlgili Dersler: Kontrol Sistemleri, Sistem Dinamikleri ve Modelleme, PLC Programlama, Gömülü Sistemler,
+Dijital Elektronik, Akıllı Kontrol Sistemleri, Dayanıklı Kontrol, Taşıt Dinamiği ve Kontrolü, Uçuş Bilimi.
+PR OJ E LE R
+TUSAŞ LIFT-UP (Bitirme) — İnsansız Hava Araçlarında Flap Kontrollü Rüzgar Yükü Azaltma Sistemi Geliştirme 2025 - 2026
+– TUSAŞ LIFT-UP programı kapsamında, esnek kanat yapılarındaki ani rüzgar yüklerini aktif flap kontrol yüzeyleriyle söndüren bir sistem
+geliştirdim. Nastran/Patran ile modal analiz, MATLAB/Simulink ile PID, 𝐻 , SMC (Sliding Mode Controller) tabanlı kontrolcü tasarımları
+∞
+gerçekleştirdim. Projenin ikinci aşamasında ise kanadı üretip, deneysel ortamda teste soktum ve başarılı bir şekilde ani rüzgar yüklerini
+azaltıldığını teyit ettim.
+TÜBİTAK 2209-A (Tasarım Projesi) — Rüzgâr Yükü Hafifletme Yetenekli Flap Kontrollü Quadcopter Tasarımı ve Yapısal Çatlak
+Tespiti Uygulaması 2025 - 2026
+– Pervane akımı altındaki aerodinamik flaplar aracılığıyla yanal kuvvet üretimini gövde yöneliminden ayıran "Sıfır Eğim" konseptli özgün bir
+İHA platformu tasarılandı. 6-DOF dinamik model ve hiyerarşik kontrolcü MATLAB/Simulink’te doğrulandı; rüzgarlı senaryolarda konum
+hatası (RMSE) geleneksel quadcopterlere kıyasla belirgin biçimde iyileştirildi.
+Elektrikli Araç Modelleme ve Simülasyonu
+– MATLAB/Simulink’te araç dinamiği, enerji yönetimi, motor modeli ve güç elektroniğini entegre eden kapsamlı bir EV simülasyonu
+kurdum; çeşitli sürüş döngülerinde hız, tork, enerji tüketimi ve menzil analiz edildi.
+İŞ DE N E YİM İ
+Yılmaz Redüktör (Stajyer) Haziran – Ağustos 2025
+– Codesys tabanlı PLC’leri Structured Text (ST) ve Ladder Diagram dillerinde programlayarak endüstriyel süreycü kontrol uygulamaları
+geliştirdim.
+– Operatör HMI arayüzleri tasarımladım; aktif üretim ortamında Modbus, EtherCAT ve Profinet protokollerini uygulamalı olarak kullandım.
+– Sysmac Studio tabanlı kontrolcülerle çok eksenli hareket kontrolü projelerine katkı sağladım; STM32 üzerinde temel düzeyde gömülü C
+uygulaması geliştirdim.
+– Motor sürücü bakımı, arıza teşhisi ve devreye alma süreçlerinde aktif görev üstlendim; test dokümantasyonuna destek verdim.
+Airpak Ltd. (Stajyer) Mart – Mayıs 2025
+– Endüstriyel toz toplama ve filtreleme sistemleri için otomasyon panosu montajı ve kablolamasını gerçekleştirdim; AutoCAD ile pano
+şemaları hazırladım.
+– Kontrol bileşenlerini seçtim; sistem devreye alma sürecinde Siemens PLC uygulamaları geliştirerek test ettim.
+TE KN İK B E CE R İLE R
+Yazılım MATLAB/Simulink, Codesys, Sysmac Studio, Siemens PLC, Omron PLC, Phoenix Contact PLC, AutoCAD,
+SolidWorks, MSC Nastran, MSC Patran
+Programlama C, Gömülü C, Python, Structured Text (ST), Ladder Diagram
+Kontrol LQR, Durum Geri Besleme, PID, 6-DOF Modelleme, Çok Eksenli Hareket Kontrolü, Kalman Filtreleri.
+Protokoller Modbus, EtherCAT, Profinet
+Diller Türkçe — Anadil | İngilizce — B2
+SE R T İFİ KAL AR VE R E FE R AN S
+Referanslar: Umut Oruç, Makine Mühendisi @ Vestel | +90 554 366 24 60
+Sertifikalar: MathWorks: MATLAB Onramp · Simulink Onramp · Circuit Simulation Onramp · Control Design Onramp with Simulink

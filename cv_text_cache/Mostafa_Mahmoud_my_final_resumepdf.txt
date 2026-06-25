@@ -1,0 +1,70 @@
+
+=== PAGE 1 ===
+Mostafa Mahmoud
++905071227914|+905071200444 linkedin.com/in/m0stafa-mahmoud mustafasphinx@gmail.com
+AboutMe
+A3rd-yearMechatronicsEngineeringstudentatYildizTeknikUniversity(GPA:3.4)withastrongfocusonembeddedsystems,
+automation,andreal-timecontrol.SkilledinPython,C++,EmbeddedC,SolidWorks,andmicro-controller-baseddevelopment
+(Arduino,PIC,STM32),withpracticalexperienceinProteussimulationand3Ddesign.Ienjoytransformingconceptsintofunctional
+prototypesandhavehands-onexperienceinrobotics,controlsystems,andAl-drivenapplications.Iameagertocontributeto
+cutting-edgeprojectsthroughinternshipsorpart-timeroleswhiledeepeningmyexpertiseinembeddedtechnologiesand
+advancedcontrolsystems.
+Education
+YildizTechnicalUniversity,Istanbul,Türkiye 2023–2027
+B.Sc.inMechatronicsEngineering|CandidateatM2lab|GPA:3.35 3rdYearUndergraduate
+Projects
+TeknofestAirDefenseCompetition
+DevelopedthewholeEmbeddedcontrolsystemforthesystemusingSTM32MCU.
+•
+ImplementedaclosedloopcascadedPIDControllertopreciselyaimattargets.
+•
+DesignedUARTcommunicationbetweentheMCUandaPC.andI2CtoreadEncoderinputs.
+•
+DevelopedaFreeRTOSsoftwareforprecisetimemanagement.
+•
+TeknofestFPVDroneTrackingcompetition(currentlyongoing)
+FlightControllerConfigurationandsystemintegration
+•
+DevelopedMAVlinkcommunicationbetweenRaspberryPicompanioncomputer,groundstation,andPixhawk6xtotransmittelemetry,
+•
+dronestatesmonitoring,andautonomouscommands.
+Implementedclosed-loopgimbalcontroltotrackFPVdroneprecisely.
+•
+IntegratedopticalflowandLiDARsensorsfordronepositionestimationwithoutGPS.
+•
+TeknofestAIinAviationCompetition
+DevelopedaYOLO-basedcomputervisionpipelineusingPythonandOpenCVforreal-timeobjectdetectionfromvideostreams.
+•
+Implementedamonocularcamerapositionestimationalgorithmfortargetlocalization.
+•
+3-floorElevatorControlSystemwithPICMicro-controller
+Programmedamulti-floorIRremotecontrolledelevatorsystemusinga360°servomotorwithLCDdisplay.
+•
+ArduinoLearningProjects
+4.1.Line-FollowingRobot:BuiltarobotwithArduinoandsensorsforreal-timelinetracking.
+•
+4.2.SmartWindTurbine:Designedalightweightturbinethatauto-adjustsdirectiontowindusingpotentialsensors.
+•
+Skills
+TechnicalSkillsEmbeddedSystems,RealTimeSystems,Microcontrollersprogramming,STM32,PIC,Robotics,ComputerVision,
+Objectdetection
+SoftwareandTools:STM32CubeIDE,STM32CubeMX,Arduino,Proteus,MATLAB,SolidWorks,EmbeddedC,C++,Python
+SoftSkills:Leadership,Communication,Problemsolving,adaptabilityandquicklearning,Teamwork
+Certifications ExtracurricularActivities
+IntroductiontoMicroprocessors–ARM PrivateTutor
+TaughtMath,DifferentialEquations,Physics,Systemdynamics,Sig-
+C programming Bootcamp - The complete C language
+nals,andMicro-controllers.
+Course–Udemy
+VolunteeredastheHeadoftheAcademicCommittee
+EmbeddedC–Coursera
+Inaclubintheuniversity.Guidingstudentsthroughtheiracademic
+journeyandpreparingstudyplansforthem.
+EmbeddedSystemsBare-MetalProgramming(STM32)–
+Udemy
+MotorControlWorkshop
+Apracticalworkshoponhowtocontrolservoandsteppermotors
+MasteringSTM32CubeMX5andCubeIDE-EmbeddedSys-
+usingSTM32.
+tems–Udemy
+FreeRTOSfromGroundUpTMonARMprocessors–Udemy

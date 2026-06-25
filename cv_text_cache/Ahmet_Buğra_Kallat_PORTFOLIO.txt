@@ -1,0 +1,35 @@
+
+=== PAGE 1 ===
+Sayın SkyDagger İnsan Kaynakları Ekibi,
+SkyDagger'ın 2026 Yaz Dönemi Kontrol, Güdüm ve Seyrüsefer Teknolojileri staj
+programı için başvurumu sunmak istiyorum. İstanbul Teknik Üniversitesi Makine
+Mühendisliği öğrencisiyim ve hem akademik çalışmalarım hem de takım deneyimim
+doğrudan otonom hava araçlarının kontrol ve güdüm-seyrüsefer mimarileri üzerine kurulu.
+İTÜ Albatros İHA Takımı'nda Aviyonik ve Otopilot Sistemleri Departman Kaptanı olarak
+15+ kişilik bir ekibi yöneterek uçuş kontrol ve aviyonik sistemlerinin geliştirilmesinden ve
+yeni algoritmaların entegrasyonundan sorumlu oldum. Bu süreçte ekibim Teknofest Savaşan
+İHA Yarışması'nda "En İyi Tasarım" ödülünü kazandı, Serbest Görev kategorisinde derece
+elde etti ve UAS Challenge (IMEchE) finalinde İTÜ'yü uluslararası platformda temsil etti.
+Otonom Sistemler Araştırma Laboratuvarı'ndaki araştırma öğrenciliğimde ise tam olarak
+güdüm-seyrüsefer alanında çalışıyorum: GPS'siz ortamda konumlandırma için SLAM ve
+görüntü işleme entegrasyonu, dinamik nesne filtreleme ve yapay zekâ destekli rota planlama.
+Hareketli hedefin tespit edilmesi, takip edilmesi ve ona doğru güvenilir bir seyrüsefer çözümü
+üretilmesi gibi konuların önleyici sistem teknolojilerinizin çekirdeğinde yer aldığını
+düşünüyorum; bu nedenle SkyDagger'da katkı sunabileceğim alanın bu olduğuna inanıyorum.
+Bitirme projem olan Şekil Değiştirebilen Kanatlı (Morphing-Wing) İHA Geliştirme
+Projesi'nde sistemin kontrol, simülasyon ve aviyonik tarafını üstlendim. Kanat açıklığının
+her morphing durumunda araç aerodinamiğini değiştirmesi nedeniyle, aerodinamik katsayıları
+morphing durumuna göre gerçek zamanlı interpole eden değişken katsayılı bir kontrolcü
+tasarladım. Bu davranışı simülasyon ortamında doğrulayabilmek için, standart aero
+eklentilerinin sabit-katsayı varsayımını aşan ve morphing konfigürasyonu arasında katsayı
+geçişi yapabilen özel bir Gazebo eklentisi geliştirdim; tüm uçuş dinamiklerini Gazebo Sim 8
++ PX4 + ROS 2 üzerinde SITL ortamında test ederek kontrol mimarisini doğruladım.
+Teknik olarak Python, C/C++, MATLAB/Simulink ile kontrol sistemleri; ROS 2 Humble,
+Gazebo Sim 8 ve PX4 üzerinde SITL simülasyonu; PyTorch ve YOLO ile gerçek zamanlı
+nesne tespiti konularında uygulamalı deneyime sahibim.
+Lab ortamındaki araştırmacı disiplinini sahaya yönelik mühendislik hızıyla birleştiren bir
+ekipte çalışmak benim için büyük bir motivasyon kaynağı. Ekibinize bu yaz katkı sunma
+fırsatını değerlendirmekten memnuniyet duyarım.
+Saygılarımla,
+Ahmet Buğra Kallat
+İTÜ Makine Mühendisliği | bugrakallat@gmail.com | linkedin.com/in/bugrakallat

@@ -1,0 +1,80 @@
+
+=== PAGE 1 ===
+Sefa Demirtürk
+Istanbul,Turkey | +905436209003 | sefademirturk84@gmail.com
+linkedin.com/in/sefademirturk | github.com/sefademirturk
+PROFILE
+Electronics Engineer with experience in FPGA design, embedded systems, digital signal processing, cybersecurity,
+artificial intelligence and network technologies. Experienced in SIEM platforms, threat analysis, machine learning
+applications and defense industry projects. Strong background in VHDL/Verilog development, DSP algorithms and
+real-timesystemimplementation.
+EXPERIENCE
+KoçInformationandDefenseTechnologies Oct2024–Sep2025
+SystemManagement
+• FPGAdevelopmentusingXilinxFPGAplatforms.
+• DesignedUARTandI2Ccommunicationinterfaces.
+• DevelopedDSPapplicationsincludingFIR/IIRfiltersandFFT.
+• PerformedMATLABsimulationsandfixed-pointverification.
+• Workedonsonarsignalprocessingapplications.
+KoçSistem(KoçHolding) Nov2023–Oct2024
+SOCProjectAssistant
+• Collected,parsedandnormalizedsecuritylogsusingIBMQRadarSIEM.
+• Developedcorrelationrulesandmonitoredsecurityoffenses.
+• Integratedfirewall,IDS/IPSandendpointsecuritylogs.
+• Conductedthreatintelligenceintegrationandalarmtuningactivities.
+Turkcell Sep2022–Oct2023
+NetworkDepartment–CandidateEngineer
+• PerformednetworkperformancemonitoringusingSNMP-basedtools.
+• ImplementedtrafficprioritizationandbandwidthmanagementusingCiscoQoS.
+• ConductedapplicationtrafficanalysisandloadbalancingusingCitrixADC.
+• Assistedinrootcauseanalysisfornetworkperformanceissues.
+TÜBI˙TAKSAGE Feb2021–Sep2022
+ElectronicsManufacturingandArtificialIntelligenceDepartment
+• DevelopedUARTandI2CcommunicationmodulesusingVHDLonFPGAplatforms.
+• BuiltmachinelearningapplicationsusingPython.
+• PerformeddatacleaningandfeatureengineeringusingPandasandNumPy.
+• DevelopeddeeplearningmodelsusingTensorFlowandKeras.
+PROJECTS
+AutonomousRecyclingSystemwithImageProcessing
+• Developedanobject-recognitionbasedwastesortingsystemusingRaspberryPi.
+• ImplementedimageprocessingandobjectclassificationusingOpenCVandYOLOv5.
+• TrainedmachinelearningmodelswithPyTorch.
+• IntegratedembeddedhardwarewithAIinferencesystems.
+Real-TimeNetworkTrafficAnomalyDetectionSystem
+• DevelopedanAI-basedintrusiondetectionsystem.
+• UsedNSL-KDDandCICIDS2017datasets.
+• AchievedF1-scoreof0.96usingXGBoost.
+
+=== PAGE 2 ===
+• Builtareal-timearchitectureusingFlaskandKafka.
+AutonomousMarineCleaningVehicle–Teknofest2021
+• DesignedautonomousnavigationusingGPSandcompassmodules.
+• Developedwirelesscommunicationinfrastructure.
+• Implementedrouteplanningandenergyoptimizationmethods.
+SKILLS
+Programming
+Python,C,C++,VHDL,VerilogHDL,Bash
+FPGA&EmbeddedSystems
+XilinxFPGA,NexysA7,RaspberryPi,UART,I2C,GNSS
+DigitalSignalProcessing
+FIRFilters,IIRFilters,FFT,DFT,MATLAB
+ArtificialIntelligence
+PyTorch,TensorFlow,Keras,Scikit-Learn,YOLOv5
+CyberSecurity
+IBMQRadarSIEM,IDS/IPS,ThreatIntelligence
+DataEngineering
+Pandas,NumPy,ApacheSpark,Kafka,Grafana,Prometheus
+Tools
+Docker,OpenCV,Flask,JupyterNotebook,GoogleColab
+EDUCATION
+GebzeTechnicalUniversity 2019–2026
+B.Sc. inElectronicsEngineering
+CERTIFICATIONS
+• LifelongCyberSecurityExpertiseCertificate–Bog˘aziçiUniversityBUSIBER
+• CyberTake-OffGovernanceRiskCompliance–THYTechnology
+• SupervisedMachineLearning: RegressionandClassification–Coursera
+• AcousticsTraining–KoçInformationandDefense
+• QuantumHorizons: DevelopmentsandOpportunities–TÜB˙ITAK
+LANGUAGES
+Turkish(Native)
+English(Intermediate)

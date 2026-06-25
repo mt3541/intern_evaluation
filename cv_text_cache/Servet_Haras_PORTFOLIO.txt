@@ -1,0 +1,119 @@
+
+=== PAGE 1 ===
+2026
+PORTFOLYO
+HOŞ GELDİNİZ
+Merhaba! Benim Adım
+Servet Haras
+Elektrik-Elektronik Mühendisliği Öğrencisi
+servetharas@gmail.com +90 536 245 69 19
+
+=== PAGE 2 ===
+HAKKIMDA
+Adı Soyadı Mühendislik Adayı
+Servet Haras
+Kadir Has Üniversitesi Elektrik-Elektronik Mühendisliği 2. sınıf öğrencisiyim. Fizik,
+Üniversite matematik ve teknolojiye duyduğum ilgi doğrultusunda devre tasarımı, otomasyon
+Kadir Has Üniversitesi sistemleri, MATLAB, C++ ve veri analizi alanlarında kendimi geliştiriyorum.
+Bölüm Telekomünikasyon, endüstriyel elektronik, yapay zekâ gibi alanlara özel ilgi
+Elektrik-Elektronik Müh. duyuyorum. Teknofest Otonom Robotaksi projesinde BMS tasarımı ve batarya
+entegrasyonu üzerine bağımsız sorumluluk aldım.
+GPA
+3.91 / 4.00 Takım çalışmasına yatkın, çözüm odaklı ve sürekli öğrenen bir yapıya sahibim.
+Hedefim; geleceğin teknolojilerine katkı sunan projelerde yer almak.
+E-posta
+servetharas@gmail.com
+Telefon
+(536) 245-6919
+BECERILER
+Teknik Araçlar C++ • MATLAB • TINA-TI • SQL • Excel VBA • Flutter • Python
+Devre Tasarımı • BMS • Güç Elektroniği • PLC Temelleri • DC Güç
+Donanım
+Kaynağı Tasarımı
+Problem Çözme • Analitik Düşünme • Takım Çalışması • Liderlik •
+Kişisel
+Sunum
+Diller Türkçe (Anadil) • İngilizce (B2)
+
+=== PAGE 3 ===
+ÖN YAZI
+Sayın AB Market Otomasyon İnsan Kaynakları ve Staj Değerlendirme Kurulu,
+Ben Servet Haras, Kadir Has Üniversitesi Elektrik-Elektronik Mühendisliği öğrencisiyim. Endüstriyel otomasyon, kontrol
+sistemleri ve akıllı donanım çözümlerine duyduğum güçlü ilgi, beni AB Market Otomasyon'un dinamik ve üretim odaklı
+ekosistemine yönlendirdi. Şirketinizin otomasyon alanındaki uygulamaları, kariyerimin başında pratik mühendislik
+deneyimi kazanmak istediğim en ideal platformdur.
+Teorik eğitimimi gerçek dünya projeleriyle desteklemeye büyük önem veriyorum. Teknofest Otonom Robotaksi yarışması
+kapsamında batarya paketleme, kapasite hesaplama ve Batarya Yönetim Sistemi (BMS) entegrasyonu gibi kritik donanım
+süreçlerini bireysel sorumluluk alarak yürüttüm. Bunun yanı sıra DC güç kaynağı tasarımı ve BJT amplifier devresi gibi
+laboratuvar projelerinde devre analizi, PCB düzeni ve donanım doğrulama konularında uygulamalı yetkinlik geliştirdim.
+Teknik tarafta şu araç ve yetkinlikleri aktif olarak kullanabiliyorum:
+• MATLAB ve TINA-TI ile devre simülasyonu ve sistem analizi
+• C++ ile gömülü sistem ve kontrol algoritması geliştirme
+• SQL ve Excel VBA ile veri yönetimi ve süreç otomasyonu
+• PLC tasarımı ve endüstriyel kontrol sistemleri temelleri
+AB Market Otomasyon bünyesinde staj yapmak; sahada otomasyon sistemleriyle doğrudan çalışma, endüstriyel problem
+çözme ve profesyonel mühendislik ortamında yetkinliklerimi test etme fırsatıdır. Analitik düşünce yapımı, donanım
+tutkumu ve takım çalışmasına yatkınlığımı şirketinize katkıya dönüştürmeyi hedefliyorum.
+Birlikte değer üretmek dileğiyle.
+Saygılarımla,
+Servet Haras
+
+=== PAGE 4 ===
+PORTFOLYO — PROJELERIMI İNCELEYIN
+Teknofest Otonom Robotaksi – Batarya Tasarımı
+Proje Türü: Teknofest Yarışması
+Otonom araç için batarya paketi tasarımı, kapasite hesaplaması ve BMS
+entegrasyonu gerçekleştirildi. Hücre seçimi, seri/paralel konfigürasyon
+optimizasyonu ve güç koruması devreleri uygulandı.
+DC Ayarlanabilir Güç Kaynağı (1.5V – 12V / 1A)
+Proje Türü: Donanım Tasarımı & Laboratuvar Projesi
+1.5V – 12V çıkış aralığında, 1A kapasiteli ayarlanabilir DC güç kaynağı
+tasarlandı ve üretildi. LM317 tabanlı lineer regülatör devresi kullanıldı;
+dijital voltmetre ve ampermetre ekranı entegre edildi.
+BJT Transistör Amplifier Devresi
+Proje Türü: Analog Elektronik & Laboratuvar Projesi
+Ortak emitter konfigürasyonunda BJT tabanlı sinyal yükseltici devre tasarlandı. DC çalışma noktası (Q-point) hesabı, AC sinyal
+analizi ve kazanç optimizasyonu gerçekleştirildi. TINA-TI ile simülasyon doğrulaması yapıldı, breadboard üzerinde fiziksel
+uygulama tamamlandı.
+PLC Tasarımı
+Proje Türü: MATLAB üzerinden PLC Devre Tasarımı ve Simülasyonu
+Endüstriyel kontrol senaryoları için MATLAB/Simulink ortamında PLC
+lojik devreleri tasarlandı ve simüle edildi. Ladder diagram mantığı
+uygulandı.
+Quick Service Restaurant (QSR) Veri Analizi
+Proje Türü: Python & Excel VBA
+Restoran satış verilerinden gelir optimizasyonu ve ürün mix analizi
+yapıldı. Python (pandas, matplotlib) ile görselleştirme ve Excel VBA ile
+otomatik raporlama sistemi geliştirildi.
+
+=== PAGE 5 ===
+Mobil Uygulama Geliştirme
+Proje Türü: Flutter (Cross-Platform)
+Flutter ile cross-platform mobil uygulama prototipi geliştirildi. Kullanıcı arayüzü
+tasarımı ve temel özellik entegrasyonu gerçekleştirildi.
+
+=== PAGE 6 ===
+HIZMETLERIM — SIZIN İÇIN YAPABILECEKLERIM
+▸ Otomasyon & Kontrol Sistemleri Desteği
+PLC programlama temelleri, endüstriyel kontrol devresi tasarımı ve MATLAB/Simulink ortamında sistem simülasyonu.
+▸ Donanım Tasarımı & Devre Analizi
+Analog/dijital devre tasarımı, güç elektroniği uygulamaları (DC güç kaynağı, BJT amplifier), TINA-TI ile simülasyon ve PCB düzeni.
+▸ Enerji Sistemleri & BMS
+Batarya paketleme, kapasite hesaplama, hücre konfigürasyonu ve Batarya Yönetim Sistemi (BMS) entegrasyonu.
+▸ Veri Yönetimi & Süreç Otomasyonu
+SQL ile veri sorgulama ve Excel VBA kullanarak raporlama süreçlerinin otomatize edilmesi; Python ile veri analizi ve
+görselleştirme.
+▸ Teknik Simülasyon & Analiz
+MATLAB ve TINA-TI araçları ile devre analizi, sistem performans simülasyonları ve teknik doğrulama çalışmaları.
+▸ Mobil Uygulama Prototipi
+Flutter ile cross-platform mobil uygulama tasarımı ve prototipleme.
+▸ Teknik Raporlama & Dokümantasyon
+Mühendislik projelerinin, laboratuvar sonuçlarının ve malzeme analizlerinin profesyonel standartlarda raporlanması.
+
+=== PAGE 7 ===
+İLETIŞIM — GERI DÖNÜŞÜNÜZÜ BEKLIYORUM
+📧 E-posta 📞 Telefon
+servetharas@gmail.com +90 536 245 69 19
+💼 LinkedIn 📍 Konum
+linkedin.com/in/servetharas İstanbul, Türkiye
+Servet Haras • 2026 Portfolyo

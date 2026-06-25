@@ -1,0 +1,49 @@
+
+=== PAGE 1 ===
+HÜSEYİN KIRCA
+huseyin22kirca@gmail.com
+0539 500 9228
+MEKATRONİK MÜHENDİSİ
+www.linkedin.com/in/huseyin-kirca
+Bilgisayarla görme ve görüntü işleme alanlarına yoğunlaşmış, 3. sınıf Mekatronik Mühendisliği öğrencisiyim.
+Hem yazılım hem de donanım yönlerini birleştiren gerçek zamanlı nesne algılama, izleme ve video akışı
+sistemlerinde uygulamalı deneyime sahibim. Mekatronik alanındaki geçmişim bana çok disiplinli bir bakış
+açısı kazandırarak görüntü işleme çözümlerini robotik ve insansız hava araçları (İHA) projelerine entegre
+etmemi sağlıyor. Akıllı algoritmalar ile pratik mühendislik uygulamaları arasındaki boşluğu dolduran yenilikçi
+sistemler geliştirmeye tutkuyla bağlıyım.
+TEKNİK BECERİLER
+Computer Vision & Image Processing (OpenCV)
+Object Detection & Tracking (YOLO,CSRT)
+Real-Time Video Processing & Streaming (RTSP, GStreamer)
+UAV Systems & Autonomous Flight (ArduPilot)
+Embedded Systems & Microcontrollers (STM32, Arduino,ESP8266,Pico)
+MATLAB Simulink
+DENEYİM
+Hürtürk İHA Takımı Kaptanlığı 2024 - Günümüz
+İnsansız hava araçlarının tasarım, geliştirme ve test süreçlerini yönettim.
+Ekip üyeleri arasında görev dağılımını, proje planlamasını ve zaman yönetimini sağladım.
+Video iletim sistemleri, uçuş kontrolü ve yapay zeka destekli nesne takibi konularında projeleri koordine
+ettim.
+2023-2024
+Hürtürk İHA Takımı Yazılım Ekip Üyesi
+YOLO ve OpenCV kullanarak nesne algılama ve izleme algoritmaları geliştirdim ve optimize ettim.
+İHA uygulamaları için gerçek zamanlı video işleme hatları uyguladım.
+Otonom operasyonlar için yapay zeka tabanlı görüntü işleme sistemleri uçuş kontrolüyle entegre ettim.
+Saha koşullarında görüntü iletimi ve işleme performansının test edilmesine ve doğrulanmasına katkıda
+bulundum.
+EĞİTİM
+Kocaeli Üniversitesi - Mekatronik Mühendisliği 2023 - Günümüz
+GPA: 3.30/4
+Giresun Fen Lisesi 2018-2022
+PROJELER
+ESP8266-Based IoT Weather Station
+Python Google API Translation Application
+Firebase & MIT App Inventor Smart Home System
+YOLO + CSRT & YOLO + Lucas-Kanade Object Tracking
+Modeling of a Ball-on-Plate System Using Simulink
+SERTİFİKALAR
+PCAP: Programming Essentials in Python — CISCO Network Academy Haziran 2020
+Analyzing Data with Python — IBM / edX (Verified Certificate) Ocak 2021
+TEKNOFEST SavaşanİHA Yarışması Eylül 2024
+DİL
+English B1

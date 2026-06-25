@@ -1,0 +1,45 @@
+
+=== PAGE 1 ===
+Mostafa Mahmoud
+Mechatronics Engineer | Embedded Systems & Robotics
+📧 📞
+mustafasphinx@gmail.com | +90 507 122 79 14
+Projects
+Air Defence competition at Teknofest
+This project focused on designing and implementing an air defense system capable of autonomously and manually
+popping balloons from a distance of 6 meters. The system featured a PC-based user interface that enabled manual control
+of the platform and incorporated computer vision for autonomous targeting. The interface communicated with an STM32
+microcontroller, which managed stepper motor control, body movement, and the laser firing mechanism. I was
+responsible for designing and assembling the complete electronic system, developing the motor control circuits, and
+integrating an absolute magnetic encoder for precise feedback. Communication between components was handled via
+UART and I²C protocols, while motor actuation was controlled using hardware timers to ensure accurate and responsive
+operation.
+3-Floor Elevator System
+Designed and implemented a 3-floor elevator system with embedded control and IR remote operation, ensuring safe and
+efficient movement between floors. The system was built around a PIC16F887 microcontroller and a 360° servo motor
+capable of multiple rotations with precise position feedback. Floor selection and movement were controlled using IR
+sensors and a remote, providing intuitive and reliable operation.
+SolidWorks 3D Model - Pipeline Inspection Robot
+Developed a pipeline inspection robot designed to navigate along pipes while providing real-time visual inspection. The
+robot is equipped with a forward-facing camera for monitoring and analysis, and it is securely held in place by six
+adjustable arms that grip the pipe, ensuring stable movement. This project highlights mechanical design for secure
+attachment, mobility on cylindrical surfaces, and integration of embedded control with visual inspection capabilities.
+Teknofest AI in Aviation
+In this project, my teammate and I developed an AI-based system to analyze drone footage using a single camera. The
+first task involved object detection, where we trained a YOLO model to identify four object classes: humans, vehicles, and
+two types of flags. The second task focused on position estimation relative to the first frame, using only the drone footage.
+For this, we employed a combination of optical flow, SuperPoint feature extraction, SuperGlue matching, and essential
+matrix computation, with the Umeyama algorithm applied to determine scale. This project demonstrates the integration of
+computer vision techniques for object detection and precise position estimation using monocular drone footage.
+Line Following Robot
+This project involved designing and building a small line-following robot as an introductory robotics exercise. Using an
+Arduino microcontroller and multiple IR sensors, we developed a system capable of detecting and following a predefined
+path autonomously. The project provided hands-on experience in sensor integration, basic motor control, and embedded
+system programming, serving as a foundation for more advanced robotics projects.
+Smart Wind Turbine
+In this project, we developed a smart wind turbine system using an Arduino microcontroller. To reduce costs, we replaced
+traditional wind sensors with a lightweight object that acted as a mechanical wind vane, rotating freely with the wind. This
+object was connected to a potentiometer, allowing us to measure the wind direction by reading its angular position. Using
+this information, a motor automatically adjusted the turbine to align with the wind for maximum efficiency. This approach
+demonstrates creative problem-solving, cost-effective sensor design, and precise motor control in an embedded system.
+© 2025 Mustafa Hesham | Portfolio

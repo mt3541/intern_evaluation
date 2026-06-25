@@ -1,0 +1,109 @@
+
+=== PAGE 1 ===
+Onur Can SARI
+Adres: Sincan / Ankara
+Telefon: +90 532 151 2005
+Email: onurcansari61@gmail.com
+onurcansari
+Linkedin:
+HAKKINDA
+Ortaokulda teknolojiyi keşfeden ve bu tutkusunu TÜBİTAK ve TEKNOFEST yarışmalarıyla bir kariyere
+dönüştüren mühendis adayı ve girişimciyim. Roket, uydu ve hava savunma sistemleri için projeler
+geliştirerek aviyonik yazılımları, yer istasyonları ve kontrol algoritmaları üzerine deneyim kazandım. Teknik
+ekip yönetimi ve proje raporlama süreçlerinde sorumluluklar üstlendim. Mevcut çalışmalarımda füze
+sistemleri için GNC disiplinine odaklanarak, uçuş kontrol algoritmalarının tasarımı ve modellenmesi üzerine
+çalışmaktayım. Kısacası, işin teknik kısmında; yani mutfağında olmayı tercih ediyorum.
+DENEYİM
+Falcon Roket Takımı - Aviyonik & Yer İstasyonu Yazılım Geliştirici Ocak 2026 - Halen
+Payload taşıyan tek kademeli bir yüksek irtifa roketi geliştiriyoruz. Ben de bu takımın yazılım takım
+lideriydim. Roketin uçuş benzetim yazılımlarından alınan uçuş fazı bilgileri ile karar algoritmalarını
+tasarlıyorum. Ayrıca, tüm aviyoniklerin ortak bir şekilde sorgu-cevap şeklinde haberleşeceği yer
+istasyonunu tasarlıyorum.
+Ayyıldız Hava Savunma Sistemleri Takımı - Gömülü Yazılım Geliştirici Ağustos 2024 - Halen
+Görüntü işleme alt sisteminden gelen hata verisi ile hareket eden motorlar için PID algoritması
+tasarladım. PID algoritmasını, sistemin hareketleri sırasında kendi katsayılarını güncelleyecek şekilde
+bir otopilot tasarladım. Step motorlar için mikroadımlar kullanarak hassasiyeti 256 kat arttırdım. Aynı
+zamanda bu ekibin yazılım ekip lideri ve takım kaptanıyım.
+ROKETSAN - Güdüm, Navigasyon ve Kontrol Stajyeri Temmuz 2025 - Ağustos 2025
+PNG güdüm ve Three-Loop otopilot algoritmaları kullanarak kapalı döngü bir kontrol sistemi
+tasarladım. Simulink’te çevresel ve kinematik modelleri içeren simulasyonlar kurarak, sistemi MIL-
+STD-810 standartlarına ve HiL test senaryolarına göre doğruladım.
+Markas Teknoloji - Gömülü Yazılım Mühendisi Şubat 2024 - Mayıs 2025
+ROKETSAN alt yükleniciliğinde Markas Teknoloji tarafından geliştirilen SkyLogic ve çevre birimleri
+dahil olmak üzere tüm elektronik sistemlerin gömülü yazılımını geliştirdim. Ayrıca, bu sistemleri test
+etmek için de “SkyConfig” masaüstü yazılımını geliştirdim.
+İpek Yolu Roket Takımı - Aviyonik & Yer İstasyonu Yazılım Geliştirici Ocak 2024 - Mayıs 2025
+Payload taşıyan iki kademeli bir roket sistemi geliştirdik ve çalışmalarımızla TEKNOFEST “En İyi Takım
+Ruhu” ödülünü kazandık. Ben de bu takımın yazılım takım lideriydim. “Zorlu Görev Roket Yarışması
+Aviyonik Yazılımı” projesine ek olarak tüm aviyoniklerin ortak bir şekilde sorgu-cevap şeklinde
+haberleşeceği yer istasyonunu tasarladım.
+İpek Yolu Model Uydu Takımı - Aviyonik & Yer İstasyonu Yazılım Geliştirici Eylül 2024 - Mayıs 2025
+38 km irtifa görevine yönelik ESP32 ve Raspberry Pi Pico tabanlı telemetri uçuş yazılımı geliştirdim.
+Stratosferik koşulları flash hafızaya kaydettim ve 128 bit AES şifresi ile E22 LoRa modülleri kullanarak
+yaklaşık 80 km mesafeden haberleştim. Ayrıca bu ekibin yazılım ekip lideri ve takım kaptanıydım.
+İpek Yolu Sualtı Roket Takımı - Güdüm, Navigasyon ve Kontrol Geliştirici Eylül 2024 - Mayıs 2025
+Operasyon konseptine uygun güzergahı takip edecek güdüm algoritmasını PNG güdüm yasasını
+kullanarak tasarladım. Roketin su altında kanatçıklarla hareketini sağlamak için Simulink ortamında
+6DoF otopilot tasarımı yaptım. Tüm kontrol yazılımını C/C++ dili kodladım. Aynı zamanda bu ekibin
+yazılım takım lideriydim.
+
+=== PAGE 2 ===
+EĞİTİM
+Fırat Üniversitesi Eylül 2023 - Halen
+Bilgisayar Mühendisliği 3. Sınıf Lisans Öğrencisi
+PROJELER
+Taktik Füze Güdüm ve Otopilot Tasarımı
+MATLAB/Simulink ortamında hava savunma füze sistemleri için ortam ve kinematik modelleri içeren bir
+6DoF model tasarladım. Gövde stabilizasyonunu sağlamak için sisteme Three Loop Otopilot yapısı
+entegre ettim. Güdüm algoritması için, klasik PNG güdümünü, önleme sırasında belirli bir terminal çarpma
+açısı elde etmek için bias terimleri ile geliştirdim. Paul Zarchan'ın “Tactical and Strategic Missile Guidance"
+kitabına dayanan angajman senaryoları aracılığıyla, sistemin istenen angajman geometrisini korurken
+değişken hızlarda manevra yapan hedefleri başarıyla angaje ettiğini simülasyon yoluyla doğruladım.
+Zorlu Görev Roket Yarışması Aviyonik Yazılımı
+ESP32-S3 mikrodenetleyicileri kullanarak Kademe 1, Kademe 2, Payload ve Elektronik Gözlem Ünitesi
+(EGÜ) için gömülü yazılım geliştirdim. OpenRocket ve MATLAB simülasyonları ile analiz edilen operasyonel
+konsepte dayanarak, motor ateşleme, kademe ayrımı ve kurtarma süreçlerini yöneten karar verme
+algoritmaları tasarladım. Güvenliği sağlamak için, EGÜ'yü aviyonik kararları alınmadan önce doğrulayan bir
+kontrolör olarak programladım. Dahili iletişimde RS232, RS485, UART ve I2C kullanılırken, yer iletişiminde
+LoRa tabanlı yer merkezli sorgu-cevap yöntemi kullanılır. Bu sistem, 20 milisaniye aralıklarla üç farklı
+aviyonikden baş-son kontrollü bir haberleşme sağlamaktadır. Ayrıca, bağlantı kesildiğinde devreye
+girecek otomatik yayın modu da hazırladım.
+SkyLogic Ticari Uçuş Kontrol Bilgisayarı için Firmware Geliştirme
+ROKETSAN tarafından akredite edilmiş ve MIL-STD-461 standardını karşılayan SkyLogic ticari uçuş
+kontrol bilgisayarı için gömülü yazılımı Raspberry Pi Pico üzerinde geliştirdim. Roketin fırlatma, seyir,
+apogee ve kurtarma dahil olmak üzere tüm uçuş aşamalarını yöneten karar algoritmalarını tasarladım.
+RS232, RS485, I2C, SPI ve UART protokolleri aracılığıyla sistem içindeki IMU, barometre ve sistem
+verilerinin toplanmasını ve işlenmesini sağladım. Ayrıca bu yazılım, telemetri verilerinin yer istasyonuna
+iletilmesini ve aşamalı kurtarma sistemlerinin tetiklenmesini sağlamaktadır.
+TEKNOFEST Roket Yarışması Aviyonik Test Sistemi Yazılımı
+ROKETSAN yürütücülüğünde gerçekleştirilen TEKNOFEST Roket Yarışması'nda uçuş kontrol
+bilgisayarlarını doğrulamak için kullanılan resmi Aviyonik Test Sistemi için gömülü yazılım geliştirdim ve
+EK-7 Test Kontrol Belgesini hazırladım. Bu sistemde, HiL ortamı tasarlayarak, uçuş koşullarını simüle
+etmek için 115200 bps hızında RS232 üzerinden sentetik telemetri verileri aktaran Sentetik Uçuş Testi
+senaryoları hazırladım. Ayrıca, sensör doğruluğunu tespit etmek ve hatalı kurtarma sinyallerini izlemek için
+Sensör İzleme Test senaryosunu hazırladım.
+SkyConfig: Masaüstü Konfigurasyon, Kalibrasyon ve Test Yazılımı
+SkyLogic ve Markas Teknoloji ürünlerini yönetmek için C# ve .NET Framework kullanarak SkyConfig
+masaüstü uygulamasını geliştirdim. Seri port üzerinden 128 bit AES şifreleme ve baş-son kontrollü bir
+iletişim kurdum. Bu arayüz ile kullanıcıların uçuş parametrelerini konfigure etmesini, sensör
+kalibrasyonlarını ve sistem testlerini gerçekleştirmelerini sağladım.
+DİLLER
+Türkçe: Ana Dil
+İngilizce: B1
+HOBİ VE İLGİ ALANI
+Judo (Siyah Kuşak 1. Dan) : 2022-2023 Akademik Yılı Judo Gençler Türkiye Şampiyonası’nda ikinci
+oldum. Türkiye Judo Federasyonu’na bağlı lisanslı bir sporcu olarak ulusal yarışmalara katılıyorum.
+
+=== PAGE 3 ===
+GÖNÜLLÜLÜK
+Topluluk Kurucu Başkanı Ocak 2025 - Halen
+Fırat Üniversitesi İnsansız Araçlar Topluluğu
+İnsansız araç teknolojileri alanında Ar-Ge kültürünü teşvik etmek için kurduğum toplulukta teknik eğitim
+programları, proje yarışmaları ve kariyer etkinlikleri düzenledim. Üyelerin ulusal platformlarda yetkinlik
+kazanmalarını sağlayan mühendislik projeleri, ekip yönetimi süreçleri ve sosyal gelişim faaliyelerini
+yönettim.
+Gönüllü Eğitmen ve Yazılım Sorumlusu Ocak 2024 - Mayıs 2025
+İpek Yolu Uluslararası Çocuk ve Gençlik Çalışmaları Merkezi
+İlkokul, ortaokul, lise ve üniversite öğrencilerine drone, model roketçilik, sabit kanat simulasyonu, gömülü
+sistemler ve IoT alanlarında eğitmenlik yaptım. Bu eğitimlerde hem teorik hem de uygulamalı eğitim
+verdim.

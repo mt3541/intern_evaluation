@@ -1,0 +1,131 @@
+
+=== PAGE 1 ===
+PORTFOLYO
+Muhammed Kadir Aksoy
+PROJELER
+Otonom İHA Üzerinde FMCW Radar Tabanlı Algılama ve Veri Toplama
+Sistemi
+1. Sistem Tasarımı ve Donanım Mimarisi
+Proje kapsamında; uzun menzilli otonom uçuş, çevresel algılama ve ham veri toplama görevlerini
+icra edebilen endüstriyel sınıfta bir Hexacopter platformu geliştirilmiştir. Platformun temel fiziksel
+ve elektromekanik özellikleri aşağıda detaylandırılmıştır:
+• Gövde Yapısı: Karbon fiber malzemeden üretilmiş, kollar açıkken yaklaşık 1 metre (1000
+mm) çapraz motor mesafesine sahip modifiye Tarot 680 Pro mimarisi kullanılmıştır. Geniş
+geometri, yapısal mukavemeti korurken aerodinamik kararlılığı artırmaktadır.
+• Kütle, Güç ve İtki Dinamiği: Hava aracının gövde, motorlar, haberleşme sistemleri ve
+gömülü bilgisayarlar dahil olmak üzere radar sistemi hariç genel ağırlığı net 2900 gramdır
+(2.9 kg). Güç sistemi olarak, yüksek gerilim ve verimlilik gereksinimlerini karşılamak
+amacıyla 2 adet Tattu 3700 mAh LiPo batarya birbirine seri olarak bağlanmıştır. Platformda
+kullanılan her bir motor 1500 gram (1.5 kg) maksimum itki üretmekte olup, 6 motorlu sistem
+toplam 9000 gram (9.0 kg) maksimum itki kapasitesine sahiptir.
+• Uçuş Kontrol ve Gömülü Sistemler: Sistem merkezinde, Raspberry Pi 4 üzerine entegre
+edilmiş Navio2 otopilot kartı yer almaktadır. Seri bağlı Tattu bataryalardan gelen yüksek
+akım yüklerini ve motor sürüş süreçlerini güvenle yönetebilmek adına yüksek performanslı
+T-MOTORHOBBY C-55A-8S-BLHeli_32 8-IN-1 Professional Cinematic ESC modülü
+mimariye entegre edilmiştir. Platformda ayrıca hassas irtifa takibi ve güvenli iniş için TF Mini
+Plus LiDAR sensörü bulunmaktadır.
+
+=== PAGE 2 ===
+2. Haberleşme ve Uzaktan Kontrol (RC) Katmanı
+• Veri ve Telemetri Hattı: Yer Kontrol İstasyonu (GCS) ile İHA arasındaki MAVLink veri akışı,
+868 MHz bandında çalışan RFD868x (yer birimi) ve ultra hafif RFD868ux (hava birimi)
+modülleri üzerinden çift yönlü (diversity anten ile) sağlanır.
+• Uzaktan Kumanda Sistemi: Pilot kontrolü, EdgeTX işletim sistemli RadioMaster TX16S
+kumanda ve arkasına entegre edilen RFD TXMod v2.0 uzun menzil vericisi ile
+gerçekleştirilir.
+3. Yazılım Mimarisi, Test ve Doğrulama Süreçleri
+Yazılım Katmanı: Raspberry Pi 4 üzerinde gerçek zamanlı Linux çekirdeği (RT-Preempt)
+koşturulmuş ve ArduPilot (ArduCopter) otopilot yazılımı gerçek zamanlı öncelikli olarak
+derlenmiştir.
+Tezgah ve Güvenlik Testleri (Statik Testler): Hava aracı güvenli bir şekilde yere sabitlenerek
+%100 full gaz (full throttle) testi gerçekleştirilmiştir. Seri bağlı Tattu bataryaların sağladığı
+
+=== PAGE 3 ===
+maksimum yük altında T-MOTOR C-55A ESC biriminin akım dayanımı, güç dağıtımı ve ısıl
+(termal) kararlılığı analiz edilmiş, ESC sistemi ısınma testini başarıyla geçmiştir.
+Uçuş ve Otonom İniş Testleri: Statik testlerin ardından yapılan gerçek uçuş testlerinde
+sistemin dinamik tepkilerinde hiçbir kararsızlık veya arıza görülmemiştir. ArduPilot mimarisi
+üzerinden tam otonom iniş (Autonomous Landing) görevleri icra edilmiştir. İniş esnasında,
+barometrik sapmaları önlemek ve santimetre hassasiyetinde z-ekseni takibi yapabilmek adına
+TF Mini Plus LiDAR sensörü ana irtifa referansı (Rangefinder) olarak baz alınmış ve otonom
+inişler kusursuz şekilde tamamlanmıştır.
+Entegrasyon ve Gelecek Çalışmalar (Çoklu İşlemci ve Radar Entegrasyonu): Projenin en
+kritik AR-GE aşamasını oluşturan milimetre-dalga (mmWave) radar sisteminin İHA platformuna
+entegrasyon süreçleri devam etmektedir. Radar alt sistemi olarak Texas Instruments
+IWR6843ISK frekans modüleli sürekli dalga (FMCW) radar kiti ve bu kitten yüksek hızlı LVDS
+hatları üzerinden ham veri yakalamak amacıyla Texas Instruments DCA1000EVM veri toplama
+kartı (Capture Card) seçilmiştir. Sistem mimarisinde kritik uçuş görevleri ile ağır veri işleme
+yüklerini birbirinden ayırmak amacıyla çift işlemcili (Multi-Processor/Heterogeneous) bir yapı
+kurgulanmıştır. Bu doğrultuda; Raspberry Pi 4 kritik uçuş kontrol ve otonom seyrüsefer
+(ArduPilot) süreçlerini kararlı bir şekilde yönetmeye devam ederken; DCA1000EVM üzerinden
+akacak olan yüksek bant genişliğindeki ham ADC radar verilerini eş zamanlı yakalamak, FFT
+algoritmalarını koşturmak ve gelişmiş sinyal işleme süreçlerini ana otopilot hatlarını yormadan
+yürütmek üzere sisteme Raspberry Pi 5 mimarisi de "Görev Bilgisayarı (Mission Computer)"
+olarak entegre edilmektedir.
+Rota Planlama (Path Planning) Çalışmaları
+1. Algoritma Geliştirme ve Matematiksel Altyapı
+insansız hava araçlarının karmaşık ve engellerle dolu görev sahalarında otonom seyrüsefer icra
+edebilmesi amacıyla MATLAB ortamında gelişmiş rota planlama algoritmaları tasarlanmış ve
+simüle edilmiştir. Çalışmada olasılıksal yol haritası yöntemlerinden RRT (Rapidly-exploring
+Random Tree) ve en iyileştirilmiş türevi olan RRT* mimarileri baz alınmıştır.
+2 Boyutlu (2D) RRT Alanı: İlk aşamada, sabit irtifadaki engellerin dairesel yapılar olarak
+modellendiği 2 boyutlu harita uzayında hızlı ağaç genişleme algoritmaları geliştirilmiştir.
+Başlangıç noktasından hedef koordinata dairesel engellere çarpmadan, rastgele örnekleme
+(random sampling) yoluyla en kısa ve güvenli rotayı bulan kinematik kısıtsız matematiksel
+modeller doğrulanmıştır.
+3 Boyutlu (3D) RRT Uzayı: İkinci aşamada algoritma, İHA'nın gerçek dünya isterlerine uygun
+olarak X, Y ve Z eksenlerini kapsayan 3 boyutlu uzaya taşınmıştır. Küresel engellerle (hava
+koridorları kısıtları, topoğrafik engeller vb.) yapılandırılan 3D uzayda, ağacın dikey ve yatay
+eksende eş zamanlı kararlı dallanması sağlanmış, dinamik engellerden kaçış rotaları optimize
+edilmiştir.
+Yönelim Açısı (Heading) Entegrasyonu: Çalışmanın en gelişmiş fazında, 3 boyutlu uzay
+koordinatlarına ek olarak hava aracının kinematik dönüş sınırları ve yönelim açısı (heading)
+
+=== PAGE 4 ===
+kısıtları da durum uzayına (state-space) eklenmiştir. Böylece üretilen rotanın sadece geometrik
+bir çizgi olması engellenmiş, hava aracının dönüş yarıçapı kısıtlarına (dubins curve / kinematik
+kısıtlar) tam uyumlu, gerçek uçuş dinamiklerine uygun pürüzsüzleştirilmiş (smoothed) rotalar
+elde edilmiştir.
+
+=== PAGE 5 ===
+SAR Görüntülerinde Derin Öğrenme Tabanlı Nesne Tespiti ve
+Performans Analizi
+1. Projenin Amacı, Literatürdeki Yeri ve Metodoloji
+Bu proje; bulutlanma, gece/gündüz koşulları veya olumsuz hava şartlarından etkilenmeyen
+Sentetik Açıklıklı Radar (SAR) görüntülerindeki askeri ve sivil hedef sınıflarının yapay zeka ile
+otomatik tespit edilmesini amaçlamaktadır. Proje, SAYZEK programı kapsamında ASELSAN
+mentörlüğünde yürütülmüştür. Elde edilen özgün sonuçlar ve donanım mimarisi analizleri makale
+haline getirilmiş ve IEEE CoDIT 2026 (International Conference on Control, Decision and
+Information Technologies) konferansına sunularak kabul almıştır.
+• Veri Seti (FAIR-CSAR): Çalışmada, Gaofen-3 uydusundan elde edilen ve 340.000'den fazla
+etiketli nesne içeren, literatürün en güncel büyük ölçekli benchmark veri seti FAIR-CSAR
+kullanılmıştır. Veri setindeki tüm hedefler, nesnelerin konumunu ve dönüş açılarını tam
+temsil eden Yönlendirilmiş Dikdörtgen Kutular (Oriented Bounding Boxes - OBB) ile
+etiketlenmiştir.
+• Model Karşılaştırmaları ve YOLO26x-OBB Seçimi: Proje kapsamında YOLOv8x-OBB,
+YOLO26x, YOLOv8m ve YOLOv8s gibi farklı kapasitedeki YOLO türevleri eğitilerek
+kıyaslanmıştır. Yapılan benchmark testlerinde, önerilen YOLO26x-OBB modeli %44.54
+mAP50 değerine ulaşarak; literatürdeki RoI Transformer (%38.0) ve Faster R-CNN (%35.3)
+gibi güçlü rakiplerini geride bırakmış ve projenin ana mimarisi olarak sabitlenmiştir.
+2. Çözünürlük Skalalama (Resolution Scaling) ve Performans Analizi
+Eğitilen YOLO26x-OBB modelinin anlık operasyonel yeteneklerini ve girdi boyutuna olan
+duyarlılığını ölçmek amacıyla kapsamlı bir çözünürlük optimizasyon testi gerçekleştirilmiştir.
+Model, 1024 piksel başlangıç çözünürlüğünden başlanarak kademeli olarak 128 piksel çözünürlüğe
+
+=== PAGE 6 ===
+kadar düşürülmüş; her bir kademede doğruluk (mAP50) ve çıkarım hızı (FPS) metrikleri kayıt
+altına alınmıştır. Yapılan analizlerde çözünürlük düşüşü ile FPS artışı arasındaki ilişkinin strictly
+doğrusal olmadığı görülmüştür. Doğruluk değerlerinin (mAP50) belirli kırılma noktalarına kadar
+kararlı kaldığı, ardından keskin bir düşüş gösterdiği gözlemlenmiştir. Buradaki temel amaç,
+performans kaybının minimum olduğu optimum çözünürlük sınırlarını belirlemektir.
+3. Kenar AI (Edge Computing) ve TensorRT INT8 Optimizasyonu
+Modellerin otonom hava platformlarında veya kısıtlı donanıma sahip askeri mobil ünitelerde
+koşturulabilirliğini test etmek adına NVIDIA Jetson AGX Orin (64 GB) geliştirici kiti hedef donanım
+olarak seçilmiştir. Ağır FP32 model ağırlıkları, Ultralytics ve TensorRT kütüphaneleri kullanılarak
+donanım seviyesinde INT8 (8-bit integer) hassasiyetine kuantize edilmiştir. Jetson AGX Orin
+üzerinde yapılan testlerde, INT8 kuantizasyonu sayesinde çözünürlük aşağı doğru ölçeklendikçe
+%300'ün üzerinde bir FPS artışı (hızlanma) tetiklenmiştir. Yapılan hassasiyet analizleri sonucunda
+512 ile 640 piksel aralığı 'computational sweet spot' (hesaplamalı en verimli nokta) olarak
+belirlenmiştir. Bu aralıkta model, doğruluk kaybını minimumda tutarak 0.40 mAP50 barının
+üzerinde kalmayı başarmış, aynı zamanda kenar cihazda gerçek zamanlı operasyonel işlem yeteneği
+kazanmıştır.

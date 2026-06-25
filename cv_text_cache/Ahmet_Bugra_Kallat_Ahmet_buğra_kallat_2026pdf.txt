@@ -1,0 +1,85 @@
+
+=== PAGE 1 ===
+AHMET BUĞRA KALLAT
+MAKİNE MÜHENDİSLİĞİ ÖĞRENCİSİ
+Şişli/İstanbul | bugrakallat@gmail.com | www.linkedin.com/in/bugrakallat
+SUMMARY
+İTÜ Makine Mühendisliği lisans eğitiminde; aviyonik, otonom sistemler, İHA tasarımı ve kontrol
+algoritmaları alanlarında uzmanlaşma. İTÜ Albatros İHA Takımı'nda departman liderliği; Alp Havacılık
+ve Areka Advanced Technologies stajlarıyla Ar-Ge, üretim ve kalite kontrol tecrübesi. Analitik
+problem çözme yetkinliğiyle savunma, havacılık ve ileri teknoloji projelerine yenilikçi mühendislik
+çözümleriyle değer katma hedefi.
+İŞ VE STAJ DENEYİMİ
+Otonom Sistemler Araştırma Laboratuvarı | Araştırma Öğrencisi EKİM 2024 - Devam Ediyor
+İnsansız hava aracı tasarımı, kontrol ve güdüm-seyrüsefer algoritmaları üzerine araştırmalar
+yapılması.
+SLAM (Simultaneous Localization and Mapping) algoritmalarının görüntü işleme teknikleriyle
+entegre edilerek GPS'siz ortamda konumlandırma ve haritalandırma çalışmalarının
+yürütülmesi.
+Dinamik nesne filtreleme ve rota planlama konularında yapay zeka destekli yöntemlerin
+geliştirilmesi.
+Alp Havacılık | Zorunlu Stajyer - Kalite Kontrol AĞUSTOS 2024 - EYLÜL 2024
+Kalite kontrol süreçlerinde parça ölçümleme ve raporlama faaliyetlerinin gerçekleştirilmesi.
+Havacılık sektöründeki üretim süreçlerinin farklı departmanlarda aktif görev alınarak
+deneyimlenmesi.
+Areka Advanced Technologies | Gönüllü Stajyer Haziran 2024 - Ağustos 2024
+Nanofiber üretim cihazları ve laboratuvar makinelerinin üretim ve Ar-Ge süreçlerine destek
+verilmesi.
+Üretim ve kalite standartlarının geliştirilmesine katkı sağlanması.
+TEMAG Laboratuvarı | Araştırma Öğrencisi Şubat 2024 - Ekim 2024
+Tekstil ve kompozit malzemelerin üretimi için gerekli makinelerin tasarımı, üretimi ve kontrol
+sistemleri üzerine çalışılması.
+Malzeme teknolojileri alanında Ar-Ge süreçlerine katkıda bulunulması.
+PROJELER VE KULÜP FAALİYETLERİ
+İTÜ Albatros İHA Takımı | Aviyonik ve Otopilot Sistemleri Departmanı Kaptanı
+Eylül 2021 - 2023
+Aviyonik ve kontrol sistemlerinin geliştirilmesinin yönetilmesi; uçuş güvenliği ve görev
+başarımı için yeni algoritmaların entegrasyonu.
+15+ kişilik departmanın koordine edilerek takımın teknik hedeflerine ulaşmasının sağlanması.
+Teknofest Baykar Savaşan İHA Yarışması'nda "En İyi Tasarım" ödülünün kazanılması.
+UAS Challenge Institution of Mechanical Engineers (IMEchE) yarışmasında finalist olarak
+İTÜ'nün uluslararası platformda temsil edilmesi.
+Teknofest Uluslararası Serbest Görev İHA Yarışması'nda 3.lük derecesi elde edilmesi.
+
+=== PAGE 2 ===
+İTÜ Girişimcilik Kulübü | Üye & Etkinlik Koordinatörü Temmuz 2021 - Mayıs 2022
+"Çizginin Dışındakiler" ve "Start-up Office Gezileri" etkinliklerinin koordinatörlüğünün
+üstlenilmesi ve 500+ katılımcılı organizasyonların düzenlenmesi.
+Manisa Bilim ve Sanat Merkezi | Robotik Takım Kaptanı 2011 - 2017
+Otonom robot tasarımı, mekanik sistem tasarımı ve sensör entegrasyonu süreçlerinin
+yürütülmesi; ulusal ve uluslararası yarışmalarda dereceler elde edilmesi.
+Bireysel olarak proje yarışmalarına katılım sağlanması ve ödüller kazanılması.
+Şekil Değiştirebilen Kanatlı (Morphing-Wing) İHA Geliştirilmesi 2026 - Devam Ediyor
+Şekil değiştirebilen kanat yapısına sahip İHA'nın aerodinamik ve uçuş kararlılığı süreçleri için
+kontrol diyagramlarının tasarlanması.
+Uçuş dinamiklerinin doğrulanması ve test edilmesi amacıyla Gazebo eklentilerinin (plugins)
+geliştirilmesi.
+Hava aracının simülasyon ortamında test edilmesi, prototip üretiminin gerçekleştirilmesi ve
+gerçek uçuş testlerinin yapılması.
+GPS-Denied Kapalı Alan Otonom İHA Projesi (Otonom Sistemler Araştırma Laboratuvarı)
+2026 - Devam Ediyor
+Şekil değiştirebilen kanat yapısına sahip İHA'nın aerodinamik ve uçuş kararlılığı süreçleri için
+kontrol diyagramlarının tasarlanması.
+Uçuş dinamiklerinin doğrulanması ve test edilmesi amacıyla Gazebo eklentilerinin (plugins)
+geliştirilmesi.
+Hava aracının simülasyon ortamında test edilmesi, prototip üretiminin gerçekleştirilmesi ve
+gerçek uçuş testlerinin yapılması.
+TEKNİK BECERİLER
+Programlama ve Yazılım: Python, C, C++, MATLAB, PLC, Simulink.
+Otonom Sistemler ve Simülasyon: ROS 2 Humble, Gazebo Sim 8 (Harmonic), Adams.
+Yapay Zeka ve Derin Öğrenme: CUDA, PyTorch, YOLO.
+CAD ve Mekanik Tasarım: Autodesk Inventor, Fusion 360, SolidWorks, AutoCAD,
+Elektronik Tasarım (PCB): Eagle.
+Yabancı Dil: İngilizce - B2 (Okuma, Yazma, Konuşma).
+EĞİTİM BİLGİLERİ
+2020-Devam Ediyor
+Makine Mühendisliği Lisans
+İstanbul Teknik Üniversitesi
+ADDİTİONAL İNFORMATİON
+Yabancı Diller: İngilizce - B2 (Okuma, Yazma, Konuşma).
+Certifications: İleri Seviye ROS 2: Simülasyon ve Modelleme, Python ile Uygulamalı ROS ve
+Otonom Sistemler, Python ve OpenCV ile Görüntü İşleme / Derin Öğrenme, YOLO (v8/v9/v10)
+ile İleri Düzey Nesne Tespiti ve Görüntü İşleme
+Ödüller ve Faaliyetler: Teknofest Baykar Savaşan İHA "En İyi Tasarım" Ödülü, Teknofest
+Serbest Görev İHA Mansiyon Derecesi, UAS Challenge IMEchE Finalisti, FLL ve Ulusal
+Robotik Yarışmaları Şampiyonlukları,
