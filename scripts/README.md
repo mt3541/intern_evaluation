@@ -71,6 +71,71 @@ canonical_id = "_".join(deaccent(stem).lower().split("_")[:2])
 
 Example: `Hüseyin_Kırca_PORTFOLIO.pdf` → `huseyin_kirca`.
 
+## Stage 5 — `05_build_question_bank.py`
+
+Reads `extracted/question_bank.json` (9 groups × 10 Q+A, bilingual EN/TR)
+and (re)writes the **`QuestionBank` sheet** in the workbook. Backs up the
+xlsx to `.bak2` on first run. The row order is the contract for the
+per-student sheets — do NOT reorder questions without also rerunning
+stage 6.
+
+To edit a question or answer: open `extracted/question_bank.json`,
+modify the relevant `q_en` / `q_tr` / `a_en` / `a_tr` in place, rerun
+stage 5. Every student sheet's reference automatically picks up the new
+text (it's a live formula link to the bank).
+
+Group 7 (`company_platforms`) is intentionally placeholders — fill in
+proprietary platform questions and rerun.
+
+## Stage 6 — `06_build_student_sheets.py`
+
+Two responsibilities (run after stage 5):
+
+1. **Restructure the Scoring sheet.** Replaces the 5 fixed tech-interview
+   columns (`O Controls/GNC` … `S Communication`) with **9 columns** —
+   one per question group from the bank. The other columns shift right
+   by 4 (T → X, U → Y, V → Z, W → AA, X..AD → AB..AH). All affected
+   formulas are rewired:
+   - `Y` (Weighted Score) uses new auto-component columns AB..AF + AG.
+   - `Z` (Rank) uses sort-stable `ROW()` form, targeting Y.
+   - `AG` (Tech Composite) = `AVERAGE(O:W)` skipping blanks.
+   - `Ranking` sheet `INDEX/MATCH` formulas retargeted to Scoring!X/Y/Z.
+
+2. **Generate one `Q_<canonical_id>` sheet per candidate** (30 sheets),
+   using the same canonical_id from stage 2 so each sheet pairs with the
+   Scoring row. Each sheet has 9 group blocks; each block is a banner row
+   (with a live group average in col G) and 10 question rows whose
+   #/Group/Q-EN/Q-TR/A-EN/A-TR are formula references to the
+   QuestionBank. Cols G (Grade 1-5, yellow) and H (Notes) are interviewer
+   inputs. Blank Grade = "not asked", excluded from group average.
+
+   Top of each sheet: candidate name + live Tech Composite cell that
+   averages the 9 group banners (groups with no graded questions are
+   skipped so students asked different topics stay comparable). Row 2 is
+   a merged free-form **General Notes** cell.
+
+**Idempotent** — rerunning stage 6 drops and recreates each `Q_<id>`
+sheet but PRESERVES whatever you had typed in cols G:H plus the general
+notes cell B2. So you can iteratively edit `question_bank.json` + rerun
+stage 5 alone (content-only, doesn't touch student sheets), OR rerun
+both 5+6 (rebuilds structure; grades survive).
+
+### Updating a candidate's interview score
+
+1. Open the candidate's `Q_<id>` sheet during the interview.
+2. Type a 1-5 grade in col G next to each question you actually ask.
+   Leave un-asked rows blank — they don't count.
+3. Per-question notes go in col H; broader observations in the merged
+   `General Notes` cell at the top.
+4. The group averages, the Tech Composite, and the Scoring/Ranking
+   sheets all recalculate automatically.
+
+### Adding / removing question groups
+
+Edit `extracted/question_bank.json` (add or remove a `groups[]` entry),
+update `N_GROUPS` in `06_build_student_sheets.py`, rerun stage 5 then 6.
+Also update `update_rubric_sheet()` to add a rubric for the new group.
+
 ## Reference data
 
 The workbook's lookup sheets (`Uni_Tiers`, `Dept_Fit`, `Status_Map`,
